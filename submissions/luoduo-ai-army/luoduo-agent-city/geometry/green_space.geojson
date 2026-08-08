@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "name": "luoduo_green_space",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "G-03",
+      "properties": {
+        "id": "G-03",
+        "layer": "GREEN_SPACE",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "area_sqm_declared": 227669.411,
+        "name_zh": "中枢智轨绿廊(概念)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.345,
+              39.97
+            ],
+            [
+              116.351,
+              39.97
+            ],
+            [
+              116.351,
+              39.974
+            ],
+            [
+              116.345,
+              39.974
+            ],
+            [
+              116.345,
+              39.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "G-04",
+      "properties": {
+        "id": "G-04",
+        "layer": "GREEN_SPACE",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "area_sqm_declared": 426600.227,
+        "name_zh": "众智园科创公园(概念)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.344,
+              40.015
+            ],
+            [
+              116.353,
+              40.015
+            ],
+            [
+              116.353,
+              40.02
+            ],
+            [
+              116.344,
+              40.02
+            ],
+            [
+              116.344,
+              40.015
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "G-05",
+      "properties": {
+        "id": "G-05",
+        "layer": "GREEN_SPACE",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "area_sqm_declared": 398329.691,
+        "name_zh": "原点社区口袋公园(概念)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.344,
+              39.985
+            ],
+            [
+              116.351,
+              39.985
+            ],
+            [
+              116.351,
+              39.991
+            ],
+            [
+              116.344,
+              39.991
+            ],
+            [
+              116.344,
+              39.985
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "G-06",
+      "properties": {
+        "id": "G-06",
+        "layer": "GREEN_SPACE",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "area_sqm_declared": 379306.893,
+        "name_zh": "中段智轨绿带(概念)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.343,
+              39.996
+            ],
+            [
+              116.353,
+              39.996
+            ],
+            [
+              116.353,
+              40.0
+            ],
+            [
+              116.343,
+              40.0
+            ],
+            [
+              116.343,
+              39.996
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

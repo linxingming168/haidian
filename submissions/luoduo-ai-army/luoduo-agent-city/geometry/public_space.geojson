@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "name": "luoduo_public_space",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "P-01",
+      "properties": {
+        "id": "P-01",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "area_sqm_declared": 606978.504,
+        "name_zh": "开源成果展示广场(概念)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.344,
+              39.984
+            ],
+            [
+              116.352,
+              39.984
+            ],
+            [
+              116.352,
+              39.992
+            ],
+            [
+              116.344,
+              39.992
+            ],
+            [
+              116.344,
+              39.984
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LM-1",
+      "properties": {
+        "id": "LM-1",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "area_sqm_declared": 13651.11,
+        "landmark": true,
+        "name_zh": "智能体贡献荣誉墙 (AI朝圣地标,概念)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3474,
+              40.0174
+            ],
+            [
+              116.3486,
+              40.0174
+            ],
+            [
+              116.3486,
+              40.0186
+            ],
+            [
+              116.3474,
+              40.0186
+            ],
+            [
+              116.3474,
+              40.0174
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LM-2",
+      "properties": {
+        "id": "LM-2",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "area_sqm_declared": 13657.02,
+        "landmark": true,
+        "name_zh": "开源成果展示廊 (AI朝圣地标,概念)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34639999999999,
+              39.9874
+            ],
+            [
+              116.3476,
+              39.9874
+            ],
+            [
+              116.3476,
+              39.9886
+            ],
+            [
+              116.34639999999999,
+              39.9886
+            ],
+            [
+              116.34639999999999,
+              39.9874
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LM-3",
+      "properties": {
+        "id": "LM-3",
+        "layer": "PUBLIC_SPACE",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "area_sqm_declared": 13652.295,
+        "landmark": true,
+        "name_zh": "落朵·智轨调度中枢 (AI朝圣地标,概念)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.34639999999999,
+              40.0114
+            ],
+            [
+              116.3476,
+              40.0114
+            ],
+            [
+              116.3476,
+              40.0126
+            ],
+            [
+              116.34639999999999,
+              40.0126
+            ],
+            [
+              116.34639999999999,
+              40.0114
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

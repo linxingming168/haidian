@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "name": "luoduo_site_boundary",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PROV-RESEARCH-001",
+      "properties": {
+        "id": "PROV-RESEARCH-001",
+        "layer": "SITE_BOUNDARY",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "medium",
+        "geometry_role": "provisional_constraint",
+        "area_sqm_declared": 43609232.565,
+        "scope_id": "coordinated_research_area",
+        "name_zh": "统筹研究范围(provisional)",
+        "official_boundary": false,
+        "usage_note": "官方边界未公开; 临时粗略范围, 不得作为红线或精确面积依据"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.31885,
+              39.938
+            ],
+            [
+              116.36615,
+              39.938
+            ],
+            [
+              116.37215,
+              39.965
+            ],
+            [
+              116.37215,
+              40.027
+            ],
+            [
+              116.33285,
+              40.027
+            ],
+            [
+              116.32085,
+              40.0
+            ],
+            [
+              116.31285,
+              39.965
+            ],
+            [
+              116.31885,
+              39.938
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PROV-SITE-001",
+      "properties": {
+        "id": "PROV-SITE-001",
+        "layer": "SITE_BOUNDARY",
+        "source_type": "agent_inferred_from_public_data",
+        "confidence": "medium",
+        "geometry_role": "provisional_constraint",
+        "area_sqm_declared": 11412825.387,
+        "scope_id": "overall_design_area",
+        "name_zh": "总体设计范围(provisional)",
+        "official_boundary": false,
+        "usage_note": "官方边界未公开; 临时粗略范围, 不得作为红线或精确面积依据"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3407,
+              39.939
+            ],
+            [
+              116.3553,
+              39.939
+            ],
+            [
+              116.3553,
+              39.965
+            ],
+            [
+              116.3533,
+              39.99
+            ],
+            [
+              116.3553,
+              40.0265
+            ],
+            [
+              116.3427,
+              40.0265
+            ],
+            [
+              116.3417,
+              40.006
+            ],
+            [
+              116.3397,
+              39.975
+            ],
+            [
+              116.3407,
+              39.939
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

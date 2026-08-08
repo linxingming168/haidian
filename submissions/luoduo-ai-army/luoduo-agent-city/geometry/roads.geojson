@@ -1,0 +1,456 @@
+{
+  "type": "FeatureCollection",
+  "name": "luoduo_roads",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "R-001",
+      "properties": {
+        "id": "R-001",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 9438.28
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.344,
+            39.94
+          ],
+          [
+            116.344,
+            40.025
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-002",
+      "properties": {
+        "id": "R-002",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 9438.277
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34649999999999,
+            39.94
+          ],
+          [
+            116.34649999999999,
+            40.025
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-003",
+      "properties": {
+        "id": "R-003",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 9438.274
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.34899999999999,
+            39.94
+          ],
+          [
+            116.34899999999999,
+            40.025
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-004",
+      "properties": {
+        "id": "R-004",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 9438.272
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.35149999999999,
+            39.94
+          ],
+          [
+            116.35149999999999,
+            40.025
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-005",
+      "properties": {
+        "id": "R-005",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 9438.269
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.35399999999998,
+            39.94
+          ],
+          [
+            116.35399999999998,
+            40.025
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-006",
+      "properties": {
+        "id": "R-006",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 1111.053
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.341,
+            39.945
+          ],
+          [
+            116.354,
+            39.945
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-007",
+      "properties": {
+        "id": "R-007",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 1111.004
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.341,
+            39.948
+          ],
+          [
+            116.354,
+            39.948
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-008",
+      "properties": {
+        "id": "R-008",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 1110.956
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.341,
+            39.951
+          ],
+          [
+            116.354,
+            39.951
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-009",
+      "properties": {
+        "id": "R-009",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 1110.907
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.341,
+            39.954
+          ],
+          [
+            116.354,
+            39.954
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-010",
+      "properties": {
+        "id": "R-010",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 1110.859
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.341,
+            39.957
+          ],
+          [
+            116.354,
+            39.957
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-011",
+      "properties": {
+        "id": "R-011",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 1110.81
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.341,
+            39.96
+          ],
+          [
+            116.354,
+            39.96
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-012",
+      "properties": {
+        "id": "R-012",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 1110.762
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.341,
+            39.963
+          ],
+          [
+            116.354,
+            39.963
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-013",
+      "properties": {
+        "id": "R-013",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 1110.713
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.341,
+            39.966
+          ],
+          [
+            116.354,
+            39.966
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-014",
+      "properties": {
+        "id": "R-014",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 1110.664
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.341,
+            39.969
+          ],
+          [
+            116.354,
+            39.969
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-015",
+      "properties": {
+        "id": "R-015",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 1110.616
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.341,
+            39.972
+          ],
+          [
+            116.354,
+            39.972
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-016",
+      "properties": {
+        "id": "R-016",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 1110.567
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.341,
+            39.975
+          ],
+          [
+            116.354,
+            39.975
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-017",
+      "properties": {
+        "id": "R-017",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 1110.519
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.341,
+            39.978
+          ],
+          [
+            116.354,
+            39.978
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R-018",
+      "properties": {
+        "id": "R-018",
+        "layer": "ROAD",
+        "source_type": "agent_designed_concept",
+        "confidence": "medium",
+        "geometry_role": "concept_proposal",
+        "length_m_declared": 1110.47
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.341,
+            39.981
+          ],
+          [
+            116.354,
+            39.981
+          ]
+        ]
+      }
+    }
+  ]
+}

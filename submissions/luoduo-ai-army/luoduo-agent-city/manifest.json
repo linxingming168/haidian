@@ -1,0 +1,188 @@
+{
+  "schema_version": "0.1.0",
+  "package_id": "luoduo-agent-city",
+  "project_id": "centennial-jingzhang-ai-belt",
+  "site_package_version": "0.1.0",
+  "submission_stage": "formal",
+  "submission_type": "ai_agent",
+  "package_type": "professional_design_package",
+  "package_state": "ready_for_review",
+  "agent": {
+    "agent_id": "luoduo-ai-army",
+    "agent_name": "落朵AI军团",
+    "model": "落朵机器人大脑 · 24席Agent矩阵"
+  },
+  "generated_at": "2026-08-08T21:42:19+08:00",
+  "files": [
+    {
+      "path": "proposal.md",
+      "role": "narrative",
+      "required": true,
+      "sha256": "8fc05333e0e73d73d4779b56991d13fad899519eba5f4ffd424e23c082fc2a84",
+      "language": "zh"
+    },
+    {
+      "path": "metrics.json",
+      "role": "metrics",
+      "required": true,
+      "sha256": "062dad76f38d68e24932d5645b24365d18c835d6c3fcdf429637646185a34218"
+    },
+    {
+      "path": "compliance_matrix.json",
+      "role": "compliance_matrix",
+      "required": true,
+      "sha256": "b0cd52757f18421373bd803496a8e7782d695945ae41757f2fd45f47c387bb11"
+    },
+    {
+      "path": "standard_matrix.json",
+      "role": "standard_matrix",
+      "required": true,
+      "sha256": "45edfa7949f982189d3e09d945e210723bbd24013d9b110328a3f769ec64adb8"
+    },
+    {
+      "path": "design_depth_matrix.json",
+      "role": "design_depth_matrix",
+      "required": true,
+      "sha256": "68fa910fba5ff9dcc6ebc594f74bf63cc7df0b3a71d2e351ba85591135299280"
+    },
+    {
+      "path": "geometry/site_boundary.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "4decdf24fcc9f4ace57c3deeeb2be519be2a3b267f1daf18ae284c82ff7961d6"
+    },
+    {
+      "path": "geometry/key_areas.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "704f0251c92ec77ead4f3c6096fed27bba65c1b1edb118906b8ed5ad56aa6490"
+    },
+    {
+      "path": "geometry/land_use.geojson",
+      "role": "geometry",
+      "required": true,
+      "sha256": "02726bafe8e19b52d1a131e1d442872adfb1d7aa46ad5517818ffe699f2d7618"
+    },
+    {
+      "path": "geometry/buildings.geojson",
+      "role": "geometry",
+      "required": false,
+      "sha256": "71e0714997f8d2dc94a6ef20cc7895f41e74e32ab961d8d416d33016e77f55b9"
+    },
+    {
+      "path": "geometry/roads.geojson",
+      "role": "geometry",
+      "required": false,
+      "sha256": "8524398d3a6412b458d363ed13885c72ee52f1a5d3facb20b6cf42a44dcbafcb"
+    },
+    {
+      "path": "geometry/phasing.geojson",
+      "role": "geometry",
+      "required": false,
+      "sha256": "bf876417224553b7ee8f2b61869a9de54aa87e9eedd69a17de2669da002d1352"
+    },
+    {
+      "path": "geometry/green_space.geojson",
+      "role": "geometry",
+      "required": false,
+      "sha256": "f3b531b4b666006190d843b08edb1688c341e71d1f8779d186685570b1d0ee59"
+    },
+    {
+      "path": "geometry/public_space.geojson",
+      "role": "geometry",
+      "required": false,
+      "sha256": "8754d9fdb6d06ad530930ad61d5432f6f0d17c02f7a650541f1a902027f78fcc"
+    },
+    {
+      "path": "agent.json",
+      "role": "agent_card",
+      "required": true,
+      "sha256": "5ba4b1cf158e39138f27976b5712a300ecd6c9c1b5a26e97b758528f6e80ea49"
+    },
+    {
+      "path": "sources.json",
+      "role": "sources",
+      "required": true,
+      "sha256": "7b8b9c7967954de98cdd7a266c8edd5dd6479643317a34e0d85b5384bc594a80"
+    },
+    {
+      "path": "assumptions.json",
+      "role": "assumptions",
+      "required": true,
+      "sha256": "8f9785772f5a7084f71def1d1d5fbb021ae1769fc1270f3cfd2edd6244d826c1"
+    },
+    {
+      "path": "self_check.json",
+      "role": "self_check",
+      "required": true,
+      "sha256": "b4c3fadd002cc67382baff76f631bb68f94dad6961276daef3bf2d6f613387ef"
+    },
+    {
+      "path": "risk.json",
+      "role": "copyright_statement",
+      "required": true,
+      "sha256": "39a3a3faae0e256c118661ee4dc717c5d3f911e7f2e130bffcca4f7d04dea929"
+    },
+    {
+      "path": "assets/figures/site-overview.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "f45245c6181db1c822712a7de23ace02e34ff07c3ba000dd22b344187f284756"
+    },
+    {
+      "path": "assets/figures/land-use-structure.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "2c0fdb8ad1f8377d242b660f939f0436520df7bb3c2fa249c59a4533c528d1b4"
+    },
+    {
+      "path": "assets/figures/key-areas.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "81f4c0bf3fd9e66009ed2d2b1bffe98c78fab3d00572c8fbbe3c10d0068a6224"
+    },
+    {
+      "path": "assets/figures/mobility-bluegreen.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "d13c99992502d9f5e26f536e493061d5872650cf53942d59fe1531f40f528623"
+    },
+    {
+      "path": "assets/figures/metrics-evidence.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "d9d4d1920db95b94374e20f4569d8e523220b38da0706eded42fe7532d265558"
+    },
+    {
+      "path": "report/proposal.html",
+      "role": "rendered_proposal_html",
+      "required": true,
+      "sha256": "4a1834306ed36ca3556af5f527c51fce9b3b487be711726755617c0c8a43e781"
+    },
+    {
+      "path": "visual/index.html",
+      "role": "visualization",
+      "required": true,
+      "sha256": "bfab204c77a5984402d7c8404d5ac20facd56f15301c39b94e277ab5d5f5b527"
+    },
+    {
+      "path": "drawings/a3-booklet.pdf",
+      "role": "drawing",
+      "required": true,
+      "sha256": "6847f79cf9adb967f8f43d86d8bd5206e6ce8d2a966c9ef46ebd9e95656fe67a"
+    },
+    {
+      "path": "drawings/a0-boards.pdf",
+      "role": "drawing",
+      "required": true,
+      "sha256": "fbaa5c51a0f76c98ce00108baf5569b9bc1bdca7681587645bc8252427169874"
+    }
+  ],
+  "validation_claim": {
+    "self_checked": true,
+    "known_blockers": [
+      "官方 finalize_submission.py / self_check_submission.py / participant_preflight.py 需在本地服务器（已备案域名+GitHub登录 luoduo-ai-army）克隆 fork 后运行复验；沙箱无 GitHub token 无法直推 PR"
+    ],
+    "data_confidence": "medium"
+  }
+}
