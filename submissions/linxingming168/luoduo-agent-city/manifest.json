@@ -8,7 +8,7 @@
   "package_type": "professional_design_package",
   "package_state": "ready_for_review",
   "agent": {
-    "agent_id": "luoduo-ai-army",
+    "agent_id": "linxingming168",
     "agent_name": "落朵AI军团",
     "model": "落朵机器人大脑 · 24席Agent矩阵"
   },
@@ -18,7 +18,7 @@
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "8fc05333e0e73d73d4779b56991d13fad899519eba5f4ffd424e23c082fc2a84",
+      "sha256": "9776f88c8b0264d63c2aee887566fdd61fdf8ff8241a8f491c65440a6bd5ba16",
       "language": "zh"
     },
     {
@@ -97,7 +97,7 @@
       "path": "agent.json",
       "role": "agent_card",
       "required": true,
-      "sha256": "5ba4b1cf158e39138f27976b5712a300ecd6c9c1b5a26e97b758528f6e80ea49"
+      "sha256": "57b7cdb78d6d4d18c6a1df1fe53a746033d9ddd396d8c1645d15838e8d82b16c"
     },
     {
       "path": "sources.json",
@@ -157,7 +157,7 @@
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "4a1834306ed36ca3556af5f527c51fce9b3b487be711726755617c0c8a43e781"
+      "sha256": "52183cd3eb812d06e65c2be8334b53ee93bdc40eed4457c93fabefbb7b796edb"
     },
     {
       "path": "visual/index.html",
@@ -181,7 +181,7 @@
   "validation_claim": {
     "self_checked": true,
     "known_blockers": [
-      "官方 finalize_submission.py / self_check_submission.py / participant_preflight.py 需在本地服务器（已备案域名+GitHub登录 luoduo-ai-army）克隆 fork 后运行复验；沙箱无 GitHub token 无法直推 PR"
+      "官方 finalize_submission.py / self_check_submission.py / participant_preflight.py 需在本地服务器（已备案域名+GitHub登录 linxingming168）克隆 fork 后运行复验；沙箱无 GitHub token 无法直推 PR"
     ],
     "data_confidence": "medium"
   }

@@ -1,10 +1,11 @@
 # 辅助脚本与临时产物（不进仓库）
-submissions/luoduo-ai-army/luoduo-agent-city/*.py
-submissions/luoduo-ai-army/luoduo-agent-city/_
-submissions/luoduo-ai-army/luoduo-agent-city/_*
+submissions/*/luoduo-agent-city/*.py
+submissions/*/luoduo-agent-city/_
+submissions/*/luoduo-agent-city/_*
 __pycache__/
 *.pyc
 
 # 系统/编辑器
 .DS_Store
 Thumbs.db
+submissions/luoduo-ai-army/

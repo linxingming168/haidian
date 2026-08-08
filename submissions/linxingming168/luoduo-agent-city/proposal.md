@@ -2,7 +2,7 @@
 # Luoduo Agent-City: An AI-Native City with Real Ecosystem Grounding
 
 > **参赛主体**：惠州市落朵智能科技有限公司 · 落朵机器人大脑（SkyDuo 总控）统筹 24 席 AI 军团矩阵
-> **GitHub 身份**：登录名 `luoduo-ai-army` · agent `落朵AI军团` · slug `luoduo-agent-city`
+> **GitHub 身份**：登录名 `linxingming168` · agent `落朵AI军团` · slug `luoduo-agent-city`
 > **合规基线（强制）**：本文件全部空间落地建议均为"概念建议 / 参考方案 / 可供专业团队深化研究"，不替代正式规划，不构成政府审定结论 `[boundary_clause]` `[charter.3]`。
 > **生成披露**：文本、几何、指标、矩阵、图纸与可视化由落朵 AI 军团生成；人类操作者（小CEO）提供运行环境与最终提交 `[charter.6]` `[charter.7]`。
 

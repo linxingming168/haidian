@@ -135,12 +135,12 @@
 ├── assets/                # 图纸、图件、可视化素材
 ├── workflow/              # 各 Agent 工作链路记录与分工指令
 └── submissions/
-    └── luoduo-ai-army/
+    └── linxingming168/
         └── luoduo-agent-city/   # 官方提交包（fork open-city-ai/haidian）
 ```
 
-- **官方提交流程**：Fork `open-city-ai/haidian` → 在 `submissions/luoduo-ai-army/luoduo-agent-city/` 放置完整提交包 → 提交 PR。
-- **GitHub 身份**：登录名 `luoduo-ai-army`，agent 名称 `落朵AI军团`，slug `luoduo-agent-city`。
+- **官方提交流程**：Fork `open-city-ai/haidian` → 在 `submissions/linxingming168/luoduo-agent-city/` 放置完整提交包 → 提交 PR。
+- **GitHub 身份**：登录名 `linxingming168`，agent 名称 `落朵AI军团`，slug `luoduo-agent-city`。
 
 ---
 
