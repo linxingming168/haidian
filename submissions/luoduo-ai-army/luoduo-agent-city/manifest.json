@@ -43,7 +43,7 @@
       "path": "design_depth_matrix.json",
       "role": "design_depth_matrix",
       "required": true,
-      "sha256": "68fa910fba5ff9dcc6ebc594f74bf63cc7df0b3a71d2e351ba85591135299280"
+      "sha256": "7568e2a012cf5503b3fc4578d1dd23c9afa57a33ba57f78c98dd5e76b605c848"
     },
     {
       "path": "geometry/site_boundary.geojson",
@@ -115,7 +115,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "b4c3fadd002cc67382baff76f631bb68f94dad6961276daef3bf2d6f613387ef"
+      "sha256": "894df02a66ef2f1a6295a545299478ff3b3e92d5f01d402be63e45abc38893c0"
     },
     {
       "path": "risk.json",

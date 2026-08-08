@@ -101,10 +101,59 @@
     },
     {
       "check_id": "SCHEMA_MANIFEST",
-      "result": "not_applicable",
+      "result": "pass",
       "severity": "info",
       "target": "manifest.json",
-      "message": "manifest.json 由运维总管生成，finalize 阶段 self_check_submission.py 复验。"
+      "message": "manifest.json 已由运维总管生成并通过结构校验（27 文件、package_state=ready_for_review、SHA-256 一致）。"
+    },
+    {
+      "check_id": "FIGURES_PRESENT",
+      "result": "pass",
+      "severity": "major",
+      "target": "assets/figures/*.png（5 张）",
+      "message": "5 张 PNG 均存在且合法（>20KB，PNG 签名校验通过）：site-overview 181KB / land-use-structure 129KB / key-areas 151KB / mobility-bluegreen 108KB / metrics-evidence 193KB。"
+    },
+    {
+      "check_id": "PROPOSAL_FIGURE_EMBEDS",
+      "result": "pass",
+      "severity": "major",
+      "target": "proposal.md",
+      "message": "proposal.md 含 5 个图片 embed（![...](assets/figures/...)），路径与 5 张 figures 一一对应。"
+    },
+    {
+      "check_id": "REPORT_HTML_OFFLINE",
+      "result": "pass",
+      "severity": "major",
+      "target": "report/proposal.html",
+      "message": "report/proposal.html 离线，零 http/https 外链，经 ../assets/figures/ 引用全部 5 图（site-overview / land-use-structure / key-areas / mobility-bluegreen / metrics-evidence）。"
+    },
+    {
+      "check_id": "VISUAL_OFFLINE_MATCH",
+      "result": "pass",
+      "severity": "major",
+      "target": "visual/index.html",
+      "message": "visual/index.html 离线无外链，含 27 个 data-metric，抽查 site_area_sqm / total_floor_area_sqm / green_space_ratio 与 metrics.json 零误差。"
+    },
+    {
+      "check_id": "DRAWINGS_PRESENT",
+      "result": "pass",
+      "severity": "minor",
+      "target": "drawings/*.pdf",
+      "message": "drawings/a3-booklet.pdf（852KB）与 drawings/a0-boards.pdf（483KB）均存在且为有效 PDF。"
+    },
+    {
+      "check_id": "DEPTH_MATRIX_COMPLETE",
+      "result": "pass",
+      "severity": "minor",
+      "target": "design_depth_matrix.json",
+      "message": "design_depth_matrix.json 全部 required 项 status=complete（14/14）。"
+    },
+    {
+      "check_id": "PACKAGE_STATE_REVIEW",
+      "result": "pass",
+      "severity": "info",
+      "target": "manifest.package_state",
+      "message": "manifest.package_state=ready_for_review；已知 blocker 仅剩“本地服务器跑官方 finalize/push”（需 GitHub token + 备案域名），与 manifest.validation_claim.known_blockers 一致。"
     }
   ]
 }
