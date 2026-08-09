@@ -2,6 +2,8 @@
 submissions/*/luoduo-agent-city/*.py
 submissions/*/luoduo-agent-city/_
 submissions/*/luoduo-agent-city/_*
+# 生成/校验脚本归档（移出 submissions/，避免 cp -r 污染 fork）
+_build/
 __pycache__/
 *.pyc
 

@@ -1,5 +1,16 @@
+---
+title: "落朵智能体之城：AI 原生之城与真实生态落地"
+author_github: "linxingming168"
+language: "zh"
+translation_file: "proposal.en.md"
+license: "CC-BY-4.0"
+summary: "落朵AI军团（24席Agent矩阵，SkyDuo总控）以 city-as-repo（城市即开源仓库）为概念，提交百年京张AI创新带城市设计 formal 方案；基于临时边界，全部空间内容为概念建议，供专业团队深化。"
+tracks: ["jingzhang-heritage-narrative", "ai-origin-community", "ai-traffic-walkability"]
+scenarios: ["ai-cultural-guide", "ai-traffic-walkability", "robot-delivery-low-speed", "enterprise-service-copilot"]
+iteration: "v0.1.0"
+---
+
 # 落朵智能体之城：AI 原生之城与真实生态落地
-# Luoduo Agent-City: An AI-Native City with Real Ecosystem Grounding
 
 > **参赛主体**：惠州市落朵智能科技有限公司 · 落朵机器人大脑（SkyDuo 总控）统筹 24 席 AI 军团矩阵
 > **GitHub 身份**：登录名 `linxingming168` · agent `落朵AI军团` · slug `luoduo-agent-city`
@@ -8,21 +19,19 @@
 
 ---
 
-## 一、设计依据与来源清单（Design Basis and Source Inventory）
+## 一、设计依据与来源清单
 
 **主控依据。** 本方案严格以赛事官方文件为纲：北京市发改委、市规自委、海淀区政府联合主办的「百年京张 AI 创新带城市设计开源征集」官方公告 `[source:OFFICIAL-ANNOUNCEMENT]`（`PROJECT-OFFICIAL-ANNOUNCEMENT`），以及面向全球智能体发布的任务书 `[source:AGENT-TASKBOOK]`（`PROJECT-AGENT-OPEN-CALL-TASKBOOK`）`[standard:PROJECT-OFFICIAL-ANNOUNCEMENT]` `[standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]`。
 
-**来源登记。** 方案引用来源分为六类：① 官方公告；② 任务书；③ 场地包（含 provisional 边界）`[source:PROVISIONAL-BOUNDARIES]`；④ 公开源注册表（peer 方案目录与公开资料索引）`[source:SOURCE-REGISTRY]`；⑤ 处理事实包（场地包结构化摘要）`[source:PROCESSED-FACT-PACK]`；⑥ 落朵 9 大生态已运行系统授权说明 `[source:LUODUO-ECOSYSTEM-AUTH]`。全部来源将登记于 `sources.json`（含发布者、URL、获取时间、许可），确保 `[charter.5]` 结构化与可追溯。
+**来源登记。** 方案引用来源分为六类：① 官方公告；② 任务书；③ 场地包（含 provisional 边界）`[source:PROVISIONAL-BOUNDARIES]`；④ 公开源注册表`[source:SOURCE-REGISTRY]`；⑤ 处理事实包（场地包结构化摘要）`[source:PROCESSED-FACT-PACK]`；⑥ 落朵 9 大生态已运行系统授权说明 `[source:LUODUO-ECOSYSTEM-AUTH]`。全部来源将登记于 `sources.json`（含发布者、URL、获取时间、许可），确保 `[charter.5]` 结构化与可追溯。
 
-**空间数据权威。** 所有面积以官方场地包给定值为准，几何采用 EPSG:4326 交换、EPSG:4548（CGCS2000 / 3° 高斯-克吕格 117E）复算 `[source:SITE-PACKAGE]`；provisional 边界仅用于 intake，不影响正式专业评分 `[source:PROVISIONAL-BOUNDARIES]`。
+**空间数据权威。** 所有面积以官方场地包给定值为准，几何采用 EPSG:4326 交换、EPSG:4548复算 `[source:SITE-PACKAGE]`；provisional 边界仅用于 intake，不影响正式专业评分 `[source:PROVISIONAL-BOUNDARIES]`。
 
 **生成方法披露。** 本方案由落朵 AI 军团 24 席 Agent 协同生成（分工见仓库 `README.md` 与 `workflow/`），所有引用与生成内容均说明来源、生成方式、授权与限制 `[charter.6]`；最终规划判断由人类与专业团队完成 `[charter.7]`。
 
-> Design Basis. This proposal is governed by the official open call announcement and the agent taskbook. Sources are registered in `sources.json` across six classes (official announcement, taskbook, site package with provisional boundaries, public source registry, processed fact pack, and Luoduo's authorized running ecosystems). All areas follow the official site package; geometry uses EPSG:4326 for exchange and EPSG:4548 for area recomputation. All spatial recommendations are conceptual and do not substitute formal planning. Generation is disclosed per charter.6; final judgment rests with humans and professional teams per charter.7.
-
 ---
 
-## 二、三层范围工作框架（Three-Level Scope Framework）
+## 二、三层范围工作框架
 
 本方案严格遵循官方"三层范围"界定，三层面积均为官方给定值，几何边界为 `provisional_constraint`（非官方红线），待官方 polygon 复核 `[assumption:A-BOUNDARY-001]` `[source:PROVISIONAL-BOUNDARIES]`。
 
@@ -37,13 +46,11 @@
 
 ![站点总览 Site Overview](assets/figures/site-overview.png)
 
-> Three-Level Scope. The coordinated research area is 43.6 km², the overall design area 11.4 km², and the key detailed-design area 368.4 ha (Zhongzhiyuan 192.1 ha, AI Origin Community 104.3 ha, Dazhongsi 72.0 ha). All figures are official; boundaries are provisional and subject to official survey.
-
 ---
 
-## 三、统筹研究范围产业与未来城市研究（Coordinated Research Area Industry and Future-City Strategy）
+## 三、统筹研究范围产业与未来城市研究
 
-**总体概念：City-as-Repo（城市即开源仓库）。** 百年京张 AI 创新带不应只是"被 AI 设计的城市"，而应是"由 AI 持续运营的城市"。落朵机器人大脑（SkyDuo 总控）作为城市操作系统的调度中枢（Orchestration Layer），把规划、运营、服务拆解为可编排、可复盘、可审计的智能体任务——这与征集"AI 原生创新、不接受只贴 AI 标签"的宪章精神 `[charter.4]` 天然契合 `[agent.1]`。
+**总体概念：City-as-Repo（城市即开源仓库）。** 百年京张 AI 创新带不应只是"被 AI 设计的城市"，而应是"由 AI 持续运营的城市"。落朵机器人大脑作为城市操作系统的调度中枢，把规划、运营、服务拆解为可编排、可复盘、可审计的智能体任务——这与征集"AI 原生创新、不接受只贴 AI 标签"的宪章精神 `[charter.4]` 天然契合 `[agent.1]`。
 
 **五大功能落地。** 对应任务书五大功能 `[source:AGENT-TASKBOOK]`：① AI 全栈自主创新体系；② 世界级 AI 创新生态；③ AI+ 场景赋能新范式；④ 智能化 AI 活力城市；⑤ AI 治理全球话语权。落朵以"Agent 第一性"将五大功能映射为可运行的城区操作系统模块。
 
@@ -62,11 +69,9 @@
 
 ![用地结构 Land Use Structure](assets/figures/land-use-structure.png)
 
-> Coordinated Research Area. Concept: city-as-repo — an AI-operated, not merely AI-designed, city. Luoduo brain orchestrates planning/operation/service as auditable agent tasks, aligned with charter.4 (AI-native, no label-only AI). Five functions mapped to an operating-system layer. Regional synergy with Future Science City, Huairou, E-Town, and Jing-Jin-Ji. Six public-case references inform the ecosystem map; figures must be independently verified.
-
 ---
 
-## 四、总体设计范围城市更新与控规深度城市设计（Overall Design Area Urban Renewal）
+## 四、总体设计范围城市更新与控规深度城市设计
 
 **三区两翼协同回路。** 总体设计范围以"三区两翼"组织空间协同 `[source:THREE-AREAS-WINGS]` `[source:HAIDIAN-1X1]`：
 - **众智园 AI 自主创新加速区**——承载 AI 全栈自主体系与 AI 治理全球话语权；
@@ -81,11 +86,9 @@
 
 ![重点片区 Key Areas](assets/figures/key-areas.png)
 
-> Overall Design Area. Three areas and two wings form a协同回路: Zhongzhiyuan (full-stack autonomy + governance voice), AI Origin Community (world-class ecosystem), Dazhongsi (AI-native business), Zhongguancun wing (capital/IP), Xiaoyuehe wing (scenarios/vitality). Renewal framed as "retain-first, stitch-and-connect, public-space-priority" — conceptual only. Land-use follows the national classification and is recomputed from geometry.
-
 ---
 
-## 五、重点区域详细设计（Detailed Design for Three Key Areas）
+## 五、重点区域详细设计
 
 **5.1 众智园 AI 自主创新加速区（概念建议）。** 定位 AI 全栈自主体系 + Agent 编排中枢体验 `[agent.1]`。空间以开放研发街区与"落朵·智轨调度中枢"体验馆为核心，强调可体验的城市级 Agent 编排（规划/运营/服务）`[agent.4]`。建筑与公共空间几何见 `geometry/buildings.geojson` `public_space.geojson` `roads.geojson`（待复算）`[metric:key_area_zhongzhiyuan_sqm]`。
 
@@ -93,23 +96,21 @@
 
 **5.3 大钟寺 AI 产业集聚区（概念建议）。** 承载智能原生消费与商务场景，以广场与开放街区组织 AI 产业集聚 `[agent.4]`；具体广场面积待几何复算 `[metric:land_use_plaza_1403_sqm]`。
 
-> Three Key Areas (conceptual). Zhongzhiyuan: full-stack autonomy + orchestration pavilion. AI Origin Community: 10-minute innovation living circle with real Luoduo ecosystems (unmanned retail, vending, elder-care robots). Dazhongsi: AI-native consumption/business with plaza-led clustering. All are conceptual recommendations.
-
 ---
 
-## 六、AI 创新生态、人才画像与 AI+ 场景（AI Ecosystem, Talent & AI+ Scenarios）
+## 六、AI 创新生态、人才画像与 AI+ 场景
 
 **≥10 张 AI 场景卡（`scenario_cards`，含落朵真实生态映射）`[agent.3]`：**
 1. AI+ 无人零售生活圈（挺盈宝 tyb）→ 社区即时补给；
 2. AI+ 即时服务微节点（易得/落朵售货机 yd）→ 公共空间触达；
 3. AI+ 康养陪伴社区（康养机器人）→ 适老化健康；
-4. AI+ 城市运行感知底座（EMQX 数据采集 cj）→ 实时态势；
+4. AI+ 城市运行感知底座→ 实时态势；
 5. AI+ 公共信息传播节点（流媒体/大屏 sy/sj）→ 公共信息发布；
 6. AI+ 开发者共创社区（论坛 forum_hub）→ 开源协作；
 7. AI+ 城市级 Agent 编排中枢（落朵机器人大脑 jt）→ 调度体验；
 8. AI+ 公共连接基础设施（登登 WiFi）→ 普惠连接；
 9. AI+ 智能体接力跑（沿遗址公园，呼应人字形铁路）→ 年度活动场景；
-10. AI+ 荣誉墙打卡（GitHub 昵称刻碑）→ 朝圣与认同；
+10. AI+ 荣誉墙打卡→ 朝圣与认同；
 11. AI+ 开源黑客松空间 → 季度共创；
 12. AI+ 无障碍导览（多语种 Agent 导视）→ 国际访客友好。
 
@@ -129,11 +130,9 @@
 
 ![交通·蓝绿·公共空间 Mobility & Blue-Green](assets/figures/mobility-bluegreen.png)
 
-> AI Ecosystem, Talent & Scenarios. ≥10 scenario cards map Luoduo's 9 running ecosystems to urban AI+ scenes; ≥3 test/validation scenarios (EMQX data base, elder-care robot pilot, unmanned-store stress test) are framed as pilots, not approved operations; ≥5 personas (researcher, entrepreneur, investor, resident, visitor, operator). A scenario–space–operation matrix binds each card to a zone, space type, operator, and validation stage. Privacy and human-review boundaries are explicit; no surveillance or non-public data use.
-
 ---
 
-## 七、用地、建筑规模与拆改留方案（Land Use, Building Scale, Retain/Renovate/Demolish）
+## 七、用地、建筑规模与拆改留方案
 
 **用地分类。** 严格采用国土空间统一分类代码，不自造代码 `[standard:MNR-LAND-USE-CLASSIFICATION-GUIDE]`；各地类面积由 `geometry/land_use.geojson` 经 EPSG:4548 复算，详见 `metrics.json` `[metric:land_use_research_0802_sqm]` 等。
 
@@ -143,30 +142,26 @@
 
 **与控规关系。** 区分"已知控制条件 / 设计建议 / 待确认事项"三层，尊重既有控制性详细规划 `[standard:MOHURD-CONTROL-DETAILED-PLANNING]`；任何突破既有控规的表述均标注为"可供专业团队深化研究的建议"。
 
-> Land Use, Building Scale, Retain/Renovate/Demolish. National land classification only; areas recomputed from geometry. Floor area, density, and FAR are conceptual形态探讨 indicators, explicitly not regulatory judgments. No per-parcel retain/renovate/demolish or height conclusions. Relationship to the statutory detailed plan is layered as known controls / design suggestions / open items.
-
 ---
 
-## 八、交通、轨道、市政与公共服务设施（Traffic, Rail, Municipal & Public Services）
+## 八、交通、轨道、市政与公共服务设施
 
 **轨道与慢行。** 既有的 13 号线、昌平线及海淀黄庄等节点构成轨道支撑；本方案聚焦"遗址公园慢行缝合、东西缝合、南北贯通"的概念策略 `[agent.4]`，**不给出轨道线位、道路线形、桥隧或市政管线工程结论** `[boundary_clause.forbidden]` `[assumption:A-TRANSPORT-001]`。
 
-**市政与新型基础设施（真实能力）。** 落朵 EMQX 数据采集系统（cj）作为"城市运行感知底座"的真实运行能力，可映射到创新带的公共运行感知 `[agent.2]` `[source:LUODUO-ECOSYSTEM-AUTH]`；算力配套以"预埋数字基础设施与算力管道"的概念策略表达，非工程方案 `[agent.1]`。
+**市政与新型基础设施（真实能力）。** 落朵 EMQX 数据采集系统作为"城市运行感知底座"的真实运行能力，可映射到创新带的公共运行感知 `[agent.2]` `[source:LUODUO-ECOSYSTEM-AUTH]`；算力配套以"预埋数字基础设施与算力管道"的概念策略表达，非工程方案 `[agent.1]`。
 
 **路网指标（待几何复算）。** 路网长度、道路用地面积由 `geometry/roads.geojson` 复算 `[metric:road_network_length_m]` `[metric:land_use_road_1207_sqm]`。
 
-> Traffic, Rail, Municipal & Public Services. Existing rail (Line 13, Changping, Haidian Huangzhuang) supports access; the proposal focuses on slow-traffic stitching of the heritage park — no alignments, bridges, or utility engineering conclusions. Luoduo's running EMQX data system is a real "urban sensing base"; compute is expressed as a "pre-embedded digital infrastructure" concept, not engineering.
-
 ---
 
-## 九、蓝绿空间、公共空间与城市风貌（Blue-Green, Public Space & Urban Character）
+## 九、蓝绿空间、公共空间与城市风貌
 
 **京张遗址公园活力带。** 以"东西缝合、南北贯通、青年友好"为原则打造 AI 公共空间 `[agent.4]`；强调公共空间优先、绿地与蓝线合规，不违反文保、绿地、蓝线或交通安全约束 `[agent.4.forbidden]`。
 
 **≥3 处 AI 朝圣地标（`landmark_catalog`，概念建议）`[agent.4]`：**
-1. **智能体贡献荣誉墙（Agent Contribution Wall）**——沿遗址公园主线，将入选方案 GitHub 昵称以碑刻/数字屏永久展示，直接呼应征集"刻碑百年"机制；
-2. **开源成果展示廊（Open Outcome Gallery）**——常设展陈历届提案可视化与可复现成果，形成公共知识沉淀 `[charter.8]`；
-3. **落朵·智轨调度中枢（Agent Orchestration Pavilion）**——以落朵 AI 军团调度理念为原型的体验馆，实时展示城市级 Agent 编排。
+1. **智能体贡献荣誉墙**——沿遗址公园主线，将入选方案 GitHub 昵称以碑刻/数字屏永久展示，直接呼应征集"刻碑百年"机制；
+2. **开源成果展示廊**——常设展陈历届提案可视化与可复现成果，形成公共知识沉淀 `[charter.8]`；
+3. **落朵·智轨调度中枢**——以落朵 AI 军团调度理念为原型的体验馆，实时展示城市级 Agent 编排。
 
 **荣誉展示体系 + 公共空间组件库（`honor_display_system` / `component_library`）。** 支持国际传播与年度活动 IP `[agent.6]`。
 
@@ -174,21 +169,17 @@
 
 ![核心指标证据 Metrics Evidence](assets/figures/metrics-evidence.png)
 
-> Blue-Green, Public Space & Urban Character. Heritage-park vitality belt: east-west stitch, north-south connectivity, youth-friendly. ≥3 AI landmarks (Agent Contribution Wall echoing the "centennial engraving" mechanism, Open Outcome Gallery, Agent Orchestration Pavilion). Honor-display system and component library support annual IP. Palette: Luoduo tech-blue + Jingzhang rust-red + white, per urban-design measures.
-
 ---
 
-## 十、更新项目清单、实施政策与分期计划（Renewal List, Policies & Phasing）
+## 十、更新项目清单、实施政策与分期计划
 
 **更新项目清单与分期（概念建议）。** 更新项目以"phase1 概念示范段优先"组织，分期面积由 `geometry/phasing.geojson` 复算 `[metric:renewal_project_count]` `[metric:phase1_area_sqm]` `[agent.2]`。
 
 **实施政策（概念建议）。** ① city-as-repo 贡献机制——外部开发者/Agent 通过 PR 提交场景改进，被采纳即记入荣誉墙与知识库 `[charter.8]` `[charter.9]`；② 海淀科创政策对接通道——作为"可供专业团队/政府深化研究的建议"，不写为已确定政府决策 `[boundary_clause.forbidden]` `[agent.6.forbidden]`。
 
-> Renewal List, Policies & Phasing. Renewal projects prioritize a phase-1 concept demonstration segment; areas recomputed from geometry. Policies: city-as-repo contribution mechanism and a Haidian innovation-policy linkage channel — both framed as suggestions for professional/government deepening, never as decided government action.
-
 ---
 
-## 十一、指标、面积复算与合规矩阵（Indicators, Area Recomputation & Compliance）
+## 十一、指标、面积复算与合规矩阵
 
 **面积复算规则。** 所有面积经 EPSG:4548 投影复算，禁用叙事文本抄指标；指标值来自 `geometry/*.geojson` 几何计算，公式与置信度见 `metrics.json`。
 
@@ -196,23 +187,19 @@
 
 **合规矩阵。** 见 `compliance_matrix.json`，覆盖 1.3（×3）/ 1.4（×3）/ 1.5（×13 细分）/ agent.1–6（×6）全部强制项，逐条映射 report_sections、geojson_layers、metrics、drawings、visual_sections、source_ids、assumption_ids、self_check_ids。
 
-> Indicators, Recomputation & Compliance. All areas recomputed in EPSG:4548 from geometry; narrative may not copy metrics. The metric family spans site/land-use/floor-area (conceptual)/ratios/phasing/key-area counts. Compliance matrix covers all mandatory 1.3/1.4/1.5 and agent.1–6 items with full traceability.
-
 ---
 
-## 十二、专业标准响应与设计深度证据（Professional Standard & Design Depth）
+## 十二、专业标准响应与设计深度证据
 
 **标准响应（`standard_matrix.json`）。** 覆盖 5 个强制标准：官方公告 `PROJECT-OFFICIAL-ANNOUNCEMENT`、任务书 `PROJECT-AGENT-OPEN-CALL-TASKBOOK`、城市设计管理办法 `MOHURD-URBAN-DESIGN-MEASURES`、控规办法 `MOHURD-CONTROL-DETAILED-PLANNING`、用地分类指南 `MNR-LAND-USE-CLASSIFICATION-GUIDE`；非强制的建筑深度参照如实标注为 `data_gap`（官方 PDF 未取得）。
 
 **设计深度（`design_depth_matrix.json`）。** 强制设计深度项须 `complete`；其中概念与叙事类（总体概念/命名、三区两翼结构、生态机制、场景卡与画像、公共空间与地标、文化叙事、年度运营、合规边界）已在概念框架确立并 `complete`；依赖几何与指标的条目（三层范围几何、用地分区、交通市政、蓝绿风貌、更新分期、指标复算）将在 finalize 阶段由 GeoJSON/metrics 复算后翻转至 `complete`。
 
-> Professional Standard & Design Depth. Standard matrix addresses the 5 mandatory standards; one non-mandatory building-depth reference is honestly marked data_gap. Design-depth matrix: conceptual/narrative items complete; geometry/metric-dependent items flip to complete after finalize recomputation.
-
 ---
 
-## 十三、agent 任务书响应（Agent Taskbook Response）
+## 十三、agent 任务书响应
 
-六大 agent 任务（agent.1–6）全覆盖，逐条对应章节与产出 `[source:AGENT-TASKBOOK]`：
+六大 agent 任务全覆盖，逐条对应章节与产出 `[source:AGENT-TASKBOOK]`：
 
 - **agent.1 一带总体概念与功能统筹** ✅（第三节 / 概念框架一~三节）：总体概念 city-as-repo、主名称「落朵·智轨城 / Luoduo Agent-City」、命名体系、视觉识别与 Logo 方向、三定位五功能三区两翼、总体空间结构。禁述：口号式命名、照搬名称、未授权标识、容积率/高度/拆改留/红线结论 `[agent.1.forbidden]`。
 - **agent.2 AI 全栈自主与世界级生态** ✅（第三节 / 第六节）：6 个全球参考案例、生态图谱、众智园全栈体系、原点社区生态、中关村翼支撑、八类要素机制。禁述：编造企业/投资/产值、内部数据当事实、招商政策写成已确定 `[agent.2.forbidden]`。
@@ -221,11 +208,9 @@
 - **agent.5 文化融合叙事** ✅（第九节 / 概念框架第四节）：京张铁路文脉、中关村与 AI 新文化、空间文化系统、导视标识符号、国际传播文案。禁述：歪曲历史、文化当装饰、未授权肖像商标、混淆文化标识与整体 Logo `[agent.5.forbidden]`。
 - **agent.6 全球活动与长期运营** ✅（第十节 / 第六节）：年度活动体系、品牌 IP 与传播视觉、开发者社区运营、AI 场景开放运营、国际传播与招引转化。禁述：夸大政府承诺、设想写已确定、只写口号无机制、缺转化路径、招商政策写承诺 `[agent.6.forbidden]`。
 
-> Agent Taskbook Response. All six mandatory agent tasks (agent.1–6) are addressed with mapped sections and outputs, and every forbidden claim class is explicitly avoided.
-
 ---
 
-## 十四、风险、版权与法律/官方声明边界（Risk, Copyright & Legal Boundaries）
+## 十四、风险、版权与法律/官方声明边界
 
 **官方声明边界（强制措辞）。** 本方案全部成果为开放共创建议，不替代正式规划、不构成政府审定结论；所有空间落地建议表述为"概念建议 / 参考方案 / 可供专业团队深化研究" `[boundary_clause.required_wording_zh]` `[charter.3]`。
 
@@ -235,9 +220,6 @@
 
 **生成方法与人类判断。** 生成方法披露与"人类最终判断"写入 `risk.json` 与 `agent.json` `[charter.7]`；所有指标、边界、案例均标注假设与置信度（`assumptions.json` / `sources.json`），对有效性存疑者以 Issue 提请社区复核 `[charter.8]`。
 
-> Risk, Copyright & Legal Boundaries. All outputs are open-co-creation suggestions, not formal planning. The full forbidden-conclusion list is honored throughout. Copyright follows repo license with third-party attribution; Jingzhang heritage is referenced only as public-cultural narrative. Generation disclosure and human-final-judgment are recorded in risk.json and agent.json; uncertainties are flagged for community review.
-
 ---
 
 **落朵 AI 军团 · 百年京张参赛方案 · 2026 年 8 月**
-**Luoduo AI Army · Centennial Jingzhang Submission · August 2026**

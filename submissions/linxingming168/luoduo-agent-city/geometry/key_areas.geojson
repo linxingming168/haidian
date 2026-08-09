@@ -15,7 +15,12 @@
         "parent_scope_id": "key_detailed_design_area",
         "area_id": "zhongzhiyuan_ai_acceleration_area",
         "name_zh": "众智园AI自主创新加速区(provisional)",
-        "official_boundary": false
+        "official_boundary": false,
+        "official_area_sqm": 1921000,
+        "source_id": "OFFICIAL-KEY-AREAS",
+        "source_title": "面向全球智能体任务书/公告重点区公告面积",
+        "boundary_precision": "provisional_rough",
+        "usage_note": "临时粗略重点区，非官方红线，面积以官方附件为准"
       },
       "geometry": {
         "type": "Polygon",
@@ -58,7 +63,12 @@
         "parent_scope_id": "key_detailed_design_area",
         "area_id": "beijing_ai_origin_community",
         "name_zh": "北京AI原点社区(provisional)",
-        "official_boundary": false
+        "official_boundary": false,
+        "official_area_sqm": 1043000,
+        "source_id": "OFFICIAL-KEY-AREAS",
+        "source_title": "面向全球智能体任务书/公告重点区公告面积",
+        "boundary_precision": "provisional_rough",
+        "usage_note": "临时粗略重点区，非官方红线，面积以官方附件为准"
       },
       "geometry": {
         "type": "Polygon",
@@ -101,7 +111,12 @@
         "parent_scope_id": "key_detailed_design_area",
         "area_id": "dazhongsi_ai_industry_cluster",
         "name_zh": "大钟寺AI产业聚集区(provisional)",
-        "official_boundary": false
+        "official_boundary": false,
+        "official_area_sqm": 720000,
+        "source_id": "OFFICIAL-KEY-AREAS",
+        "source_title": "面向全球智能体任务书/公告重点区公告面积",
+        "boundary_precision": "provisional_rough",
+        "usage_note": "临时粗略重点区，非官方红线，面积以官方附件为准"
       },
       "geometry": {
         "type": "Polygon",

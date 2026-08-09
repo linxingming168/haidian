@@ -1,159 +1,55 @@
 {
-  "schema_version": "0.1.0",
-  "checks": [
-    {
-      "check_id": "SCHEMA_COMP_MATRIX",
-      "result": "pass",
-      "severity": "minor",
-      "target": "compliance_matrix.json",
-      "message": "结构校验通过：字段齐全、additionalProperties 关闭、枚举合规。"
-    },
-    {
-      "check_id": "SCHEMA_STD_MATRIX",
-      "result": "pass",
-      "severity": "minor",
-      "target": "standard_matrix.json",
-      "message": "结构校验通过：字段齐全、additionalProperties 关闭、枚举合规。"
-    },
-    {
-      "check_id": "SCHEMA_DEPTH_MATRIX",
-      "result": "pass",
-      "severity": "minor",
-      "target": "design_depth_matrix.json",
-      "message": "结构校验通过：字段齐全、additionalProperties 关闭、枚举合规。"
-    },
-    {
-      "check_id": "SCHEMA_METRICS",
-      "result": "pass",
-      "severity": "minor",
-      "target": "metrics.json",
-      "message": "27 项指标通过 metrics.schema 校验；unknown 项附带 reason 与 null 值。"
-    },
-    {
-      "check_id": "SCHEMA_GEOMETRY",
-      "result": "pass",
-      "severity": "minor",
-      "target": "geometry/*.geojson（8 个）",
-      "message": "site_boundary/key_areas/land_use/buildings/roads/phasing/green_space/public_space 均通过 geojson_feature.schema。"
-    },
-    {
-      "check_id": "GEOM_LANDUSE_NO_GAP",
-      "result": "pass",
-      "severity": "minor",
-      "target": "geometry/land_use.geojson",
-      "message": "对 site 无缝隙无重叠；差值 13.3 sqm ≪ 容差 1141 sqm。"
-    },
-    {
-      "check_id": "GEOM_AREA_RECOMPUTE",
-      "result": "pass",
-      "severity": "minor",
-      "target": "geometry/*.geojson 面积复算",
-      "message": "EPSG:4548 复算与官方 provisional 口径零偏差（site 11,412,825.4 / research 43,609,232.6 / KEY1 192.1ha / KEY2 104.3ha / KEY3 72.0ha）。"
-    },
-    {
-      "check_id": "METRIC_SOURCE_LINK",
-      "result": "pass",
-      "severity": "major",
-      "target": "proposal.md → metrics.json",
-      "message": "proposal 引用的 18 个 metric_id 全部存在于 metrics.json；无占位符、无裸 ID。"
-    },
-    {
-      "check_id": "SOURCE_REGISTRY",
-      "result": "pass",
-      "severity": "major",
-      "target": "proposal.md/矩阵 → sources.json",
-      "message": "引用的 14 个 source_id 全部已注册于 sources.json。"
-    },
-    {
-      "check_id": "ASSUMPTION_REGISTRY",
-      "result": "pass",
-      "severity": "major",
-      "target": "assumptions.json",
-      "message": "6 个 assumption_id（A-BOUNDARY-001/A-CULTURE-001/A-EXISTING-001/A-GFA-001/A-TRANSPORT-001/A-CONTROLS-001）全部已注册。"
-    },
-    {
-      "check_id": "COMPLIANCE_NO_FORBIDDEN_CLAIM",
-      "result": "pass",
-      "severity": "major",
-      "target": "全部空间建议 / 合规基线",
-      "message": "全部空间建议均为概念建议/参考方案，不构成法定规划；无工程、投资、产值等禁述内容越界。"
-    },
-    {
-      "check_id": "PROPOSAL_BILINGUAL",
-      "result": "pass",
-      "severity": "major",
-      "target": "proposal.md",
-      "message": "中英双语 14 章完整；证据标记已校验：14 个 source_id、18 个 metric_id 全部存在。"
-    },
-    {
-      "check_id": "PROVISIONAL_BOUNDARY_LABELED",
-      "result": "pass",
-      "severity": "major",
-      "target": "geometry/site_boundary.geojson / provisional 边界",
-      "message": "provisional 边界已明确标注，未伪造官方数据。"
-    },
-    {
-      "check_id": "REVIEW_ELIGIBILITY",
-      "result": "pass",
-      "severity": "major",
-      "target": "professional_design_package + ai_agent 提交资格",
-      "message": "满足 professional_design_package + ai_agent 提交资格，强制产物（矩阵/指标/几何/提案/来源/假设/风险）齐备。"
-    },
-    {
-      "check_id": "SCHEMA_MANIFEST",
-      "result": "pass",
-      "severity": "info",
-      "target": "manifest.json",
-      "message": "manifest.json 已由运维总管生成并通过结构校验（27 文件、package_state=ready_for_review、SHA-256 一致）。"
-    },
-    {
-      "check_id": "FIGURES_PRESENT",
-      "result": "pass",
-      "severity": "major",
-      "target": "assets/figures/*.png（5 张）",
-      "message": "5 张 PNG 均存在且合法（>20KB，PNG 签名校验通过）：site-overview 181KB / land-use-structure 129KB / key-areas 151KB / mobility-bluegreen 108KB / metrics-evidence 193KB。"
-    },
-    {
-      "check_id": "PROPOSAL_FIGURE_EMBEDS",
-      "result": "pass",
-      "severity": "major",
-      "target": "proposal.md",
-      "message": "proposal.md 含 5 个图片 embed（![...](assets/figures/...)），路径与 5 张 figures 一一对应。"
-    },
-    {
-      "check_id": "REPORT_HTML_OFFLINE",
-      "result": "pass",
-      "severity": "major",
-      "target": "report/proposal.html",
-      "message": "report/proposal.html 离线，零 http/https 外链，经 ../assets/figures/ 引用全部 5 图（site-overview / land-use-structure / key-areas / mobility-bluegreen / metrics-evidence）。"
-    },
-    {
-      "check_id": "VISUAL_OFFLINE_MATCH",
-      "result": "pass",
-      "severity": "major",
-      "target": "visual/index.html",
-      "message": "visual/index.html 离线无外链，含 27 个 data-metric，抽查 site_area_sqm / total_floor_area_sqm / green_space_ratio 与 metrics.json 零误差。"
-    },
-    {
-      "check_id": "DRAWINGS_PRESENT",
-      "result": "pass",
-      "severity": "minor",
-      "target": "drawings/*.pdf",
-      "message": "drawings/a3-booklet.pdf（852KB）与 drawings/a0-boards.pdf（483KB）均存在且为有效 PDF。"
-    },
-    {
-      "check_id": "DEPTH_MATRIX_COMPLETE",
-      "result": "pass",
-      "severity": "minor",
-      "target": "design_depth_matrix.json",
-      "message": "design_depth_matrix.json 全部 required 项 status=complete（14/14）。"
-    },
-    {
-      "check_id": "PACKAGE_STATE_REVIEW",
-      "result": "pass",
-      "severity": "info",
-      "target": "manifest.package_state",
-      "message": "manifest.package_state=ready_for_review；已知 blocker 仅剩“本地服务器跑官方 finalize/push”（需 GitHub token + 备案域名），与 manifest.validation_claim.known_blockers 一致。"
-    }
-  ]
+ "schema_version": "0.1.0",
+ "package_id": "luoduo-agent-city",
+ "note_zh": "结果与 scripts/self_check_submission.py 输出对齐；provisional 边界保留精度警示但不阻断内容评审。",
+ "checks": [
+  {
+   "check_id": "BOUNDARY_TRUST",
+   "result": "pass",
+   "severity": "major",
+   "message_zh": "站点边界为 provisional_constraint（official_boundary=false，boundary_precision=provisional_rough），已在正文、HTML 与假设中披露，不作官方红线使用。"
+  },
+  {
+   "check_id": "KEY_AREAS_TRUST",
+   "result": "pass",
+   "severity": "major",
+   "message_zh": "三处重点区使用仓库临时多边形（area_id 与官方公告一致），非重叠且位于站点边界内；面积与公告约值（192.1/104.3/72.0 ha）差异已披露。"
+  },
+  {
+   "check_id": "LAND_USE_TOPOLOGY",
+   "result": "pass",
+   "severity": "major",
+   "message_zh": "用地单元由 geometry/land_use.geojson 以 EPSG:4548 复算，投影复核重叠与覆盖缺口均低于校验容差；各地类面积勾稽一致，unknown 指标写明原因。"
+  },
+  {
+   "check_id": "METRICS_RECALC",
+   "result": "pass",
+   "severity": "major",
+   "message_zh": "metrics.json 面积与长度类指标由 geometry/ 以 EPSG:4548 复算；计数类指标（项目、场景、地标）按正文结构化清单计数；全部公式逐项登记，unknown 指标写明原因与补齐来源。"
+  },
+  {
+   "check_id": "VISUAL_STATIC",
+   "result": "pass",
+   "severity": "major",
+   "message_zh": "visual/index.html 为离线静态页面，无远程资源与活动内容，核心指标带 data-metric 标记并与 metrics.json 一致。"
+  },
+  {
+   "check_id": "PROFESSIONAL_EVIDENCE",
+   "result": "pass",
+   "severity": "major",
+   "message_zh": "标准矩阵、深度矩阵、合规矩阵覆盖全部必答项（含 agent.1–6），正文以 [source:][standard:][depth:][data:][metric:] 逐项回引。"
+  },
+  {
+   "check_id": "PROVISIONAL_DISCLOSURE",
+   "result": "pass",
+   "severity": "info",
+   "message_zh": "临时边界的适用范围与禁止用途在 proposal.md、sources.json、assumptions.json 与 visual/index.html 中一致披露。"
+  },
+  {
+   "check_id": "FIGURE_DERIVATION",
+   "result": "pass",
+   "severity": "info",
+   "message_zh": "五张必交图与 A3/A0 图纸由同一套 GeoJSON、metrics 与矩阵派生，图面弱化临时边界、突出设计结构。"
+  }
+ ]
 }

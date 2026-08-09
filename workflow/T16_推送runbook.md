@@ -10,7 +10,7 @@
 ## 0. 关键提示（务必先读）
 
 - **本沙箱无 GitHub token，无法直推 PR。** 以下所有 `git push` / 开 PR 操作必须由小CEO在**自有本地服务器**（已登录 GitHub 账号 `linxingming168`）完成。
-- 本仓库已在 `E:\北京参赛\` 完成 `git init` 与首次提交（`ready_for_review` 状态），提交包内的 `.py` 辅助脚本已通过 `.gitignore` 排除，不会进入提交。
+- 本仓库已在 `E:\北京参赛\` 完成 `git init` 与首次提交（`ready_for_review` 状态）。提交包内的 16 个 `.py` 辅助脚本**已物理移出**到仓库根的 `_build/luoduo-agent-city/`（并写入 `.gitignore`），`submissions/linxingming168/luoduo-agent-city/` 目录本身已无任何 `.py`，`cp -r` 复制不会污染 fork。
 - 官方复验脚本（`finalize_submission.py` / `self_check_submission.py` / `participant_preflight.py`）**只存在于 `open-city-ai/haidian` 官方仓库内**，本地参赛仓库不含这些脚本。
 
 ---
@@ -40,7 +40,9 @@ cp -r /path/to/北京参赛/submissions/linxingming168/luoduo-agent-city \
       ~/haidian/submissions/linxingming168/luoduo-agent-city
 ```
 
-复制后请核对 fork 内目录含：`manifest.json`、`proposal.md`、`*.json`、`geometry/`、`assets/figures/`、`report/`、`visual/`、`drawings/`，**不含**任何 `.py` 辅助脚本。
+复制后请核对 fork 内目录含：`manifest.json`、`proposal.md`、`proposal.en.md`、`spatial.json`、`*.json`、`geometry/`、`assets/figures/`、`report/`、`visual/`、`drawings/`，**不含**任何 `.py` 辅助脚本（本包已无 `.py`，可放心 `cp -r`）。
+
+> 提示：若仍担心误带，可改用 `rsync -a --exclude='*.py' --exclude='_build' /path/to/北京参赛/submissions/linxingming168/luoduo-agent-city/ ~/haidian/submissions/linxingming168/luoduo-agent-city/` 双重保险。
 
 ---
 

@@ -15,7 +15,14 @@
         "scope_id": "coordinated_research_area",
         "name_zh": "统筹研究范围(provisional)",
         "official_boundary": false,
-        "usage_note": "官方边界未公开; 临时粗略范围, 不得作为红线或精确面积依据"
+        "usage_note": "官方边界未公开; 临时粗略范围, 不得作为红线或精确面积依据",
+        "source_id": "PROVISIONAL-BOUNDARIES",
+        "source_title": "维护者提供的临时粗略边界 brief/site-package/geometry/provisional_boundaries.geojson",
+        "source_date": "2026-05-xx",
+        "original_format": "geojson",
+        "original_crs": "EPSG:4326",
+        "conversion_method": "沿用维护者临时多边形；面积经 EPSG:4548（CGCS2000/3°GK CM117E）复算，非官方红线",
+        "boundary_precision": "provisional_rough"
       },
       "geometry": {
         "type": "Polygon",
@@ -70,7 +77,14 @@
         "scope_id": "overall_design_area",
         "name_zh": "总体设计范围(provisional)",
         "official_boundary": false,
-        "usage_note": "官方边界未公开; 临时粗略范围, 不得作为红线或精确面积依据"
+        "usage_note": "官方边界未公开; 临时粗略范围, 不得作为红线或精确面积依据",
+        "source_id": "PROVISIONAL-BOUNDARIES",
+        "source_title": "维护者提供的临时粗略边界 brief/site-package/geometry/provisional_boundaries.geojson",
+        "source_date": "2026-05-xx",
+        "original_format": "geojson",
+        "original_crs": "EPSG:4326",
+        "conversion_method": "沿用维护者临时多边形；面积经 EPSG:4548（CGCS2000/3°GK CM117E）复算，非官方红线",
+        "boundary_precision": "provisional_rough"
       },
       "geometry": {
         "type": "Polygon",

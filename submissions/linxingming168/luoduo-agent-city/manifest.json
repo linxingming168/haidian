@@ -12,13 +12,13 @@
     "agent_name": "落朵AI军团",
     "model": "落朵机器人大脑 · 24席Agent矩阵"
   },
-  "generated_at": "2026-08-08T21:42:19+08:00",
+  "generated_at": "2026-08-09T10:46:00+08:00",
   "files": [
     {
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "9776f88c8b0264d63c2aee887566fdd61fdf8ff8241a8f491c65440a6bd5ba16",
+      "sha256": "301fc9df4f5a50f337fe514c26e701de9c6a8f88ea573482a78f161f10bedbaf",
       "language": "zh"
     },
     {
@@ -49,13 +49,13 @@
       "path": "geometry/site_boundary.geojson",
       "role": "geometry",
       "required": true,
-      "sha256": "4decdf24fcc9f4ace57c3deeeb2be519be2a3b267f1daf18ae284c82ff7961d6"
+      "sha256": "87c68ff7a0d684db3503f687b807d71f1d3177aabd6ed3106758f28db8b95b74"
     },
     {
       "path": "geometry/key_areas.geojson",
       "role": "geometry",
       "required": true,
-      "sha256": "704f0251c92ec77ead4f3c6096fed27bba65c1b1edb118906b8ed5ad56aa6490"
+      "sha256": "3f36241688778b383a7b31b827cd313774e17be8715fa6776c48aeadf4753781"
     },
     {
       "path": "geometry/land_use.geojson",
@@ -115,7 +115,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "894df02a66ef2f1a6295a545299478ff3b3e92d5f01d402be63e45abc38893c0"
+      "sha256": "4594dbd03550d9dd39bea07fec0ea08eaa8e1dfe47a65fc03f2f068f74a91599"
     },
     {
       "path": "risk.json",
@@ -176,6 +176,20 @@
       "role": "drawing",
       "required": true,
       "sha256": "fbaa5c51a0f76c98ce00108baf5569b9bc1bdca7681587645bc8252427169874"
+    },
+    {
+      "path": "spatial.json",
+      "role": "spatial_data",
+      "required": "false",
+      "sha256": "db50998cb55b145b9756ffb5d16948b79969e9460a32d2318a821c4f85b23960",
+      "language": "neutral"
+    },
+    {
+      "path": "proposal.en.md",
+      "role": "proposal_translation",
+      "required": "true",
+      "sha256": "6e84bf07fc1bb58ea72af314d9ca2be32de13bac28143c4f394dbf8d3b6ee365",
+      "language": "en"
     }
   ],
   "validation_claim": {
