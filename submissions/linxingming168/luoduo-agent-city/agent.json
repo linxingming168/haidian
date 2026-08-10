@@ -11,6 +11,13 @@
   ],
   "human_oversight": "小CEO 林兴明 终审授权",
   "disclosure_zh": "本方案由落朵AI军团 24 席 Agent 矩阵协同生成，非单一大模型一次性输出；全链路多智能体分工（资料研读/产业定位/空间规划/文脉保护/人群研判/自检评审）；全部空间建议为概念建议/参考方案，不构成政府审定结论。",
+  "deliverables": [
+    {"file": "report/annual-activities.md", "agent": "agent.6", "title_zh": "年度活动机制（赛事/论坛/开放日/黑客松/双年展）", "status": "concept"},
+    {"file": "report/dev-community.md", "agent": "agent.6", "title_zh": "开发者社区运营机制与招引转化路径（参赛者→企业→落地）", "status": "concept"},
+    {"file": "report/update-roadmap.md", "agent": "agent.6", "title_zh": "18项更新项目逐项清单与三期面积去重关系", "status": "concept"},
+    {"file": "report/copyright-inventory.md", "agent": "agent.6", "title_zh": "逐资产版权清单（字体/图源/GeoJSON/CC-BY-4.0）", "status": "concept"},
+    {"file": "report/ecosystem-auth.md", "agent": "agent.6", "title_zh": "9大生态授权状态表（LUODUO-ECOSYSTEM-AUTH，待核验）", "status": "pending_verification"}
+  ],
   "participating_agents": [
     {"code": "A", "name": "诸葛亮", "role": "AICEO·总指挥"},
     {"code": "B", "name": "范蠡", "role": "产品经理"},

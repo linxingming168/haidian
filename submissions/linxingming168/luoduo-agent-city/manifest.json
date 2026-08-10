@@ -12,13 +12,13 @@
     "agent_name": "落朵AI军团",
     "model": "落朵机器人大脑 · 24席Agent矩阵"
   },
-  "generated_at": "2026-08-09T10:46:00+08:00",
+  "generated_at": "2026-08-10T08:17:45+08:00",
   "files": [
     {
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "301fc9df4f5a50f337fe514c26e701de9c6a8f88ea573482a78f161f10bedbaf",
+      "sha256": "456e2537cb4eebfb7d556989b8415a0e1c6b13ae447512fed3d34a887d14a3e0",
       "language": "zh"
     },
     {
@@ -31,7 +31,7 @@
       "path": "compliance_matrix.json",
       "role": "compliance_matrix",
       "required": true,
-      "sha256": "b0cd52757f18421373bd803496a8e7782d695945ae41757f2fd45f47c387bb11"
+      "sha256": "155b58de7a8781bd75b10a98aaec914bc42508f5e45295c033bb3364644f61c5"
     },
     {
       "path": "standard_matrix.json",
@@ -97,7 +97,7 @@
       "path": "agent.json",
       "role": "agent_card",
       "required": true,
-      "sha256": "57b7cdb78d6d4d18c6a1df1fe53a746033d9ddd396d8c1645d15838e8d82b16c"
+      "sha256": "acbca5659612c2cb536b63ecc1fc676abb05311dc2ba59f6a2642823b00336b0"
     },
     {
       "path": "sources.json",
@@ -127,55 +127,55 @@
       "path": "assets/figures/site-overview.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "f45245c6181db1c822712a7de23ace02e34ff07c3ba000dd22b344187f284756"
+      "sha256": "fccc1857ab01184685f37a07527645e49a6e722511472688b13005271577a5df"
     },
     {
       "path": "assets/figures/land-use-structure.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "2c0fdb8ad1f8377d242b660f939f0436520df7bb3c2fa249c59a4533c528d1b4"
+      "sha256": "9ff55fb9346b9c29721cf793ba22f3b7373f259481b6c8322a02267331054890"
     },
     {
       "path": "assets/figures/key-areas.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "81f4c0bf3fd9e66009ed2d2b1bffe98c78fab3d00572c8fbbe3c10d0068a6224"
+      "sha256": "a67cc665cadff613f6477d7386c39ecc12d02ed9448b13ddc93cbd7e6049a3a1"
     },
     {
       "path": "assets/figures/mobility-bluegreen.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "d13c99992502d9f5e26f536e493061d5872650cf53942d59fe1531f40f528623"
+      "sha256": "2ad8ba4d4af5053743e9ee7f7e7f3519927d99c97ba8859fbee7747f800e6502"
     },
     {
       "path": "assets/figures/metrics-evidence.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "d9d4d1920db95b94374e20f4569d8e523220b38da0706eded42fe7532d265558"
+      "sha256": "a8c067d79241689c81fe1f338a20ac8ad67a70aea7ce475623f16add63b3aa0a"
     },
     {
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "52183cd3eb812d06e65c2be8334b53ee93bdc40eed4457c93fabefbb7b796edb"
+      "sha256": "c1e0aa4f09862b6bc0d037f9dad2ef3ad65d1d604766c9988bee5edd403c3255"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
-      "sha256": "bfab204c77a5984402d7c8404d5ac20facd56f15301c39b94e277ab5d5f5b527"
+      "sha256": "f106daa82312a67a517740d66e9409de34b39f1c539d11f14c4159d829f60510"
     },
     {
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "6847f79cf9adb967f8f43d86d8bd5206e6ce8d2a966c9ef46ebd9e95656fe67a"
+      "sha256": "e1141676e7d369a6337b369b8bf17cd4737d2085ccb00991d8eada5bf4fb16db"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "fbaa5c51a0f76c98ce00108baf5569b9bc1bdca7681587645bc8252427169874"
+      "sha256": "e63f8b45ba570b65f938adc0b21980966bfbc89b95924253dd8191f67eeae213"
     },
     {
       "path": "spatial.json",
@@ -190,6 +190,111 @@
       "required": "true",
       "sha256": "6e84bf07fc1bb58ea72af314d9ca2be32de13bac28143c4f394dbf8d3b6ee365",
       "language": "en"
+    },
+    {
+      "path": "changelog.md",
+      "role": "supplementary",
+      "required": false,
+      "sha256": "073b1a73c8da3784a35725c4e4f089445631cd0f50a3f2582ec28e2ecb63d08b",
+      "language": "zh"
+    },
+    {
+      "path": "report/annual-activities.md",
+      "role": "agent6_deliverable",
+      "required": true,
+      "sha256": "d1ecb906266191b8a298c96e22662b7345f13728ef940f6e7aea5007bb3c2346",
+      "language": "zh"
+    },
+    {
+      "path": "report/brand-vi.md",
+      "role": "agent5_deliverable",
+      "required": true,
+      "sha256": "e0c5c5ae97c6e40b8107d1cc1a043b05788805f2711fd54c390ea9d9afd8216f",
+      "language": "zh"
+    },
+    {
+      "path": "report/copyright-inventory.md",
+      "role": "agent6_deliverable",
+      "required": true,
+      "sha256": "4c483414d1925b2302d8ff06364b5d4c495ef32b71cd34c487795dd7f1e509e0",
+      "language": "zh"
+    },
+    {
+      "path": "report/cultural-heritage.md",
+      "role": "agent5_deliverable",
+      "required": true,
+      "sha256": "84e3c8ded29293829595a0b7c55c7469ff5cdfdb4433eb1a38c514e832a512be",
+      "language": "zh"
+    },
+    {
+      "path": "report/design-details.md",
+      "role": "agent4_deliverable",
+      "required": true,
+      "sha256": "b06adadab4feccc9b550b31d9fbe9a732432554c15abd830d51e6e6d565af568",
+      "language": "zh"
+    },
+    {
+      "path": "report/dev-community.md",
+      "role": "agent6_deliverable",
+      "required": true,
+      "sha256": "b6866f3c0b4051cb2f80dc9be573e41abf9f3752e1988210275d7070b966f542",
+      "language": "zh"
+    },
+    {
+      "path": "report/ecosystem-auth.md",
+      "role": "agent6_deliverable",
+      "required": true,
+      "sha256": "c6bcd8648b87d178f9361cfc816fb20a0bc9776741058a914bb5eb7c43747cdb",
+      "language": "zh"
+    },
+    {
+      "path": "report/ecosystem-map.md",
+      "role": "agent2_deliverable",
+      "required": true,
+      "sha256": "e0e611ff46961eb98d0b1ed5a8ec63ece1af4a28e793ad33f34ec9ad8c0aa19f",
+      "language": "zh"
+    },
+    {
+      "path": "report/global-cases.md",
+      "role": "agent2_deliverable",
+      "required": true,
+      "sha256": "c0703f92e0dce62f369bb176db3e4a72c365eb4564fcbd6a7f3d21dbcf936619",
+      "language": "zh"
+    },
+    {
+      "path": "report/scenario-cards.md",
+      "role": "agent3_deliverable",
+      "required": true,
+      "sha256": "1b98be05b58da1834f4730129bf30782ccbdaeaa1aeeb49649ea8af9eab59d34",
+      "language": "zh"
+    },
+    {
+      "path": "report/scenario-space-operation-matrix.md",
+      "role": "agent3_deliverable",
+      "required": true,
+      "sha256": "bf31db06b2e5a53c08c90dd206b77fc6c0d06a24e176ce9efea0bf531086a6b2",
+      "language": "zh"
+    },
+    {
+      "path": "report/update-roadmap.md",
+      "role": "agent6_deliverable",
+      "required": true,
+      "sha256": "8baf1a1cb7eba44288722ccdd2c5f38eedc3fb83e919de4a4caee235784bdc75",
+      "language": "zh"
+    },
+    {
+      "path": "report/user-personas.md",
+      "role": "agent3_deliverable",
+      "required": true,
+      "sha256": "623529e9770b63d3ea6ba3466781f5b07c707c73079fb037c3d4af4f31fe51e4",
+      "language": "zh"
+    },
+    {
+      "path": "report/validation-scenarios.md",
+      "role": "agent3_deliverable",
+      "required": true,
+      "sha256": "65579675b0e65f6f1d438bfa98f485ebc85f39364f60a321b0e93d73e20525a2",
+      "language": "zh"
     }
   ],
   "validation_claim": {

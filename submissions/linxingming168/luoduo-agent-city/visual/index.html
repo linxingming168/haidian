@@ -3,419 +3,91 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>落朵·智轨城可视化仪表盘 | Luoduo Agent-City Dashboard</title>
+<title>落朵智能体之城 · 可视化总览</title>
 <style>
-:root{ --blue:#1f6feb; --rust:#9b3a2e; --bg:#f4f5f7; --ink:#2b2f36; --gray:#7c828c; --green:#3f9d5a; }
-* { box-sizing:border-box; }
-body { margin:0; font-family:"Microsoft YaHei","SimHei","PingFang SC",sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; }
-header { background:#fff; border-bottom:3px solid var(--blue); padding:18px 24px; position:sticky; top:0; z-index:10; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; }
-header h1 { margin:0; font-size:1.4rem; color:var(--blue); }
-header .subtitle { color:var(--gray); font-size:0.85rem; }
-nav { display:flex; gap:10px; flex-wrap:wrap; margin-top:8px; }
-nav a { font-size:0.78rem; color:var(--ink); text-decoration:none; padding:4px 8px; border:1px solid #e4e6eb; border-radius:4px; background:#fff; }
-nav a:hover { background:var(--blue); color:#fff; }
-.container { max-width:1200px; margin:0 auto; padding:20px; }
-.section { background:#fff; border-radius:8px; padding:22px; margin-bottom:18px; box-shadow:0 1px 4px rgba(0,0,0,0.04); }
-.section h2 { margin-top:0; font-size:1.2rem; color:var(--blue); border-bottom:2px solid #eef0f4; padding-bottom:8px; }
-.card-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(170px,1fr)); gap:14px; margin:14px 0; }
-.card-grid.three { grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); }
-.card { background:#fafbfc; border-left:4px solid var(--blue); padding:14px; border-radius:6px; }
-.card-label { font-size:0.8rem; color:var(--gray); }
-.card-num { font-size:1.7rem; font-weight:bold; color:var(--ink); }
-.card-unit { font-size:0.8rem; color:var(--gray); }
-.card-note { font-size:0.75rem; color:var(--rust); margin-top:4px; }
-.ka-card { border-left-color:var(--rust); }
-.dashboard-figure { margin:16px 0; text-align:center; }
-.dashboard-figure img { max-width:100%; height:auto; border:1px solid #e4e6eb; border-radius:6px; }
-.dashboard-figure figcaption { font-size:0.85rem; color:var(--gray); margin-top:6px; }
-.dashboard-figure.small img { max-height:360px; }
-.note { font-size:0.8rem; color:var(--gray); background:#f9fafb; padding:8px 12px; border-left:3px solid var(--rust); margin:12px 0; }
-.lu-legend { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
-.lu-chip { display:inline-flex; align-items:center; gap:6px; background:#fff; border:1px solid #e4e6eb; padding:5px 10px; border-radius:20px; font-size:0.82rem; }
-.lu-chip::before { content:""; width:12px; height:12px; border-radius:50%; background:var(--c); }
-.eco-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(150px,1fr)); gap:10px; }
-.eco-card { background:#fff; border:1px solid #e4e6eb; border-radius:6px; padding:12px; text-align:center; }
-.eco-card b { display:block; color:var(--blue); font-size:1.1rem; }
-.eco-card span { display:block; font-size:0.85rem; margin-top:4px; }
-.eco-card small { display:block; font-size:0.7rem; color:var(--gray); margin-top:4px; }
-.metric-tabs { margin-bottom:12px; }
-.metric-tabs button { margin-right:6px; padding:5px 12px; border:1px solid var(--blue); background:#fff; color:var(--blue); border-radius:4px; cursor:pointer; }
-.metric-tabs button:hover { background:var(--blue); color:#fff; }
-.metric-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(140px,1fr)); gap:10px; }
-.metric-card { background:#fff; border:1px solid #e4e6eb; border-radius:6px; padding:12px; cursor:pointer; transition:box-shadow .15s; }
-.metric-card:hover { box-shadow:0 2px 8px rgba(0,0,0,0.08); }
-.metric-card.metric-known { border-top:3px solid var(--blue); }
-.metric-card.metric-unknown { border-top:3px solid var(--rust); background:#fff7f3; }
-.metric-name { font-size:0.78rem; color:var(--gray); }
-.metric-val { font-size:1.3rem; font-weight:bold; color:var(--ink); margin:4px 0; }
-.metric-unit { font-size:0.72rem; color:var(--gray); }
-.metric-status { font-size:0.7rem; color:var(--green); margin-top:4px; }
-.metric-unknown .metric-status { color:var(--rust); }
-.metric-card .metric-id { display:none; font-size:0.65rem; color:#999; word-break:break-all; }
-.metric-card.open .metric-id { display:block; margin-top:4px; }
-.check-list, .plain-list { padding-left:1.2em; }
-.check-list li, .plain-list li { margin:6px 0; font-size:0.86rem; }
-.badge { display:inline-block; padding:1px 6px; border-radius:4px; font-size:0.7rem; color:#fff; margin-right:4px; }
-.badge.pass { background:var(--green); }
-.badge.fail { background:var(--rust); }
-.badge.warn { background:#d4a017; }
-.meta { color:var(--gray); font-size:0.75rem; }
-footer { text-align:center; padding:24px; font-size:0.8rem; color:var(--gray); }
+:root{--bg:#f7f9fb;--card:#ffffff;--accent:#1b4f72;--red:#c0392b;--green:#1a9850;--text:#2c3e50;}
+* { box-sizing: border-box; }
+body { margin:0; padding:0; font-family: "SimHei","Microsoft YaHei",sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+.container { max-width:1100px; margin:0 auto; padding:20px; }
+header { text-align:center; padding:30px 0; border-bottom:3px solid var(--accent); margin-bottom:24px; }
+header h1 { margin:0; font-size:2rem; color:var(--accent); }
+header p { margin:6px 0 0; color:#555; }
+.card { background:var(--card); border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,.08); padding:20px; margin-bottom:24px; }
+.card h2 { margin-top:0; color:var(--accent); font-size:1.25rem; border-left:4px solid var(--accent); padding-left:10px; }
+.card img { display:block; max-width:100%; height:auto; margin:12px auto; border:1px solid #ddd; border-radius:4px; }
+.metrics { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; margin:18px 0; }
+.metric { background:#eaf2f8; border:1px solid #2980b9; border-radius:6px; padding:16px; text-align:center; }
+.metric .label { font-size:.95rem; color:#1b4f72; }
+.metric .value { font-size:1.8rem; font-weight:bold; color:var(--red); margin:6px 0; }
+.metric .sub { font-size:.85rem; color:#555; }
+.grid { display:grid; grid-template-columns:1fr; gap:24px; }
+@media (min-width:860px){ .grid { grid-template-columns:1fr 1fr; } }
+.caption { text-align:center; color:#555; font-size:.9rem; margin-top:4px; }
+.disclaimer { background:#fff3e0; border-left:4px solid #e67e22; padding:14px; font-size:.9rem; color:#6e4b1f; }
+footer { text-align:center; color:#777; font-size:.85rem; padding:24px 0; }
 </style>
 </head>
 <body>
-<header>
-  <div>
-    <h1>落朵·智轨城 Luoduo Agent-City</h1>
-    <div class="subtitle">百年京张 AI 创新带城市设计开源征集 · 离线可视化仪表盘</div>
-  </div>
-  <nav>
-    <a href="#overview">总览</a><a href="#scope">范围</a><a href="#keyareas">重点片区</a><a href="#landuse">用地</a>
-    <a href="#mobility">交通</a><a href="#bluegreen">蓝绿</a><a href="#phasing">分期</a><a href="#eco">生态</a>
-    <a href="#metrics">指标</a><a href="#compliance">合规</a><a href="#selfcheck">自检</a><a href="#sources">来源</a>
-  </nav>
-</header>
 <div class="container">
-<section class="section" id="overview">
-  <h2>① 总览地图</h2>
-  <figure class="dashboard-figure">
-<img src="../assets/figures/site-overview.png" alt="站点总览">
-<figcaption>站点总览 · Site Overview — 三层范围、三区两翼与 AI 场景节点（provisional boundary 虚线表达）</figcaption>
-</figure>
-<p class="note">本图边界为 geometry_role=provisional_constraint（非官方红线），仅作空间叙事示意，不得作为法定用地依据。</p>
-</section>
-<section class="section" id="scope">
-  <h2>② 三层范围</h2>
-  <div class="card-grid three"><div class="card"><div class="card-label">统筹研究范围</div><div class="card-num">4360.9</div><div class="card-unit">ha</div><div class="card-note">43.6 km² 临时范围</div></div>
-<div class="card"><div class="card-label">总体设计范围</div><div class="card-num">1141.3</div><div class="card-unit">ha</div><div class="card-note">11.4 km² 设计范围</div></div>
-<div class="card"><div class="card-label">重点片区合计</div><div class="card-num">369.3</div><div class="card-unit">ha</div><div class="card-note">三区详细设计范围</div></div></div>
-</section>
-<section class="section" id="keyareas">
-  <h2>③ 重点片区</h2>
-  <div class="card-grid three"><div class="card ka-card"><div class="card-label">众智园</div><div class="card-num">192.9</div><div class="card-unit">ha</div><div class="card-note">AI开源共创 / 智能体训练场</div></div>
-<div class="card ka-card"><div class="card-label">原点社区</div><div class="card-num">104.3</div><div class="card-unit">ha</div><div class="card-note">智能生活样板 / 人居实验</div></div>
-<div class="card ka-card"><div class="card-label">大钟寺</div><div class="card-num">72.0</div><div class="card-unit">ha</div><div class="card-note">数字文化 / AI产业集群</div></div></div><figure class="dashboard-figure small"><img src="../assets/figures/key-areas.png" alt="重点片区"><figcaption>重点片区 AI 场景落点</figcaption></figure>
-</section>
-<section class="section" id="landuse">
-  <h2>④ 用地结构</h2>
-  <div class="lu-legend"><span class="lu-chip" style="--c:#5b8def">07 居住用地</span>
-<span class="lu-chip" style="--c:#1f6feb">0802 科研用地</span>
-<span class="lu-chip" style="--c:#3fa7a0">0804 教育用地</span>
-<span class="lu-chip" style="--c:#f0a93b">05 商业服务业用地</span>
-<span class="lu-chip" style="--c:#9b3a2e">1403 广场用地</span>
-<span class="lu-chip" style="--c:#c9ccd1">1207 城镇道路用地</span></div><figure class="dashboard-figure small"><img src="../assets/figures/land-use-structure.png" alt="用地结构"></figure>
-</section>
-<section class="section" id="mobility">
-  <h2>⑤ 交通 / 步行</h2>
-  <div class="card-grid three"><div class="card"><div class="card-label">路网总长</div><div class="card-num">61.6</div><div class="card-unit">km</div></div>
-<div class="card"><div class="card-label">绿地面积</div><div class="card-num">143.2</div><div class="card-unit">ha</div></div>
-<div class="card"><div class="card-label">公共空间</div><div class="card-num">64.8</div><div class="card-unit">ha</div></div></div><figure class="dashboard-figure small"><img src="../assets/figures/mobility-bluegreen.png" alt="交通蓝绿公共空间"></figure>
-</section>
-<section class="section" id="bluegreen">
-  <h2>⑥ 蓝绿 / 公共空间</h2>
-  <div class="card-grid three"><div class="card"><div class="card-label">绿地率</div><div class="card-num">12.55</div><div class="card-unit">%</div></div><div class="card"><div class="card-label">公共空间率</div><div class="card-num">5.68</div><div class="card-unit">%</div></div><div class="card"><div class="card-label">AI 地标</div><div class="card-num">3</div><div class="card-unit">个</div></div></div>
-</section>
-<section class="section" id="phasing">
-  <h2>⑦ 建筑 / 更新分期</h2>
-  <div class="card-grid three"><div class="card"><div class="card-label">总建面(概念)</div><div class="card-num">2237</div><div class="card-unit">万㎡</div></div>
-<div class="card"><div class="card-label">建筑占地</div><div class="card-num">280</div><div class="card-unit">万㎡</div></div>
-<div class="card"><div class="card-label">首期面积</div><div class="card-num">412.5</div><div class="card-unit">ha</div></div></div><p class="note">建筑规模与容积率为概念性形态探讨，非法定规划指标；拆改留以“保留为主、织补连通、公共空间优先”为原则。</p>
-</section>
-<section class="section" id="eco">
-  <h2>⑧ AI 场景节点 — 落朵 9 大生态映射</h2>
-  <div class="eco-grid"><div class="eco-card"><b>tyb</b><span>挺盈宝商店</span><small>无人零售生活圈</small></div>
-<div class="eco-card"><b>yd</b><span>易得售货机</span><small>即时服务微节点</small></div>
-<div class="eco-card"><b>jt</b><span>机器人大脑</span><small>城市级 Agent 编排</small></div>
-<div class="eco-card"><b>cj</b><span>城市运行感知底座</span><small>EMQX 数据采集</small></div>
-<div class="eco-card"><b>sj</b><span>数据中枢</span><small>公共信息传播</small></div>
-<div class="eco-card"><b>forum</b><span>开源论坛</span><small>开发者共创社区</small></div>
-<div class="eco-card"><b>wifi</b><span>智联网</span><small>公共连接基础设施</small></div>
-<div class="eco-card"><b>care</b><span>康养机器人</span><small>AI+ 康养陪伴</small></div>
-<div class="eco-card"><b>brain</b><span>落朵总控大脑</span><small>SkyDuo 调度中枢</small></div></div>
-</section>
-<section class="section" id="metrics">
-  <h2>⑨ 核心指标</h2>
-  <div class="metric-tabs">
-<button onclick="filterMetrics('all')">全部</button>
-<button onclick="filterMetrics('known')">已知</button>
-<button onclick="filterMetrics('unknown')">待官方核定</button>
-</div>
-<div class="metric-grid">
-<div class="metric-card metric-known" data-metric="site_area_sqm" data-value="11412825.387" onclick="this.classList.toggle('open')">
-  <div class="metric-name">方案面积</div>
-  <div class="metric-val">1141.3</div>
-  <div class="metric-unit">ha</div>
-  <div class="metric-status">known</div>
-</div>
+  <header>
+    <h1>落朵智能体之城 · 百年京张 AI 创新带</h1>
+    <p>城市即开源仓库 (City-as-Repo) · 落朵 AI 军团 24 席 Agent 矩阵 · 概念方案</p>
+  </header>
 
-<div class="metric-card metric-known" data-metric="coordinated_research_area_sqm" data-value="43609232.565" onclick="this.classList.toggle('open')">
-  <div class="metric-name">统筹研究范围</div>
-  <div class="metric-val">4360.9</div>
-  <div class="metric-unit">ha</div>
-  <div class="metric-status">known</div>
-</div>
+  <div class="card">
+    <h2>核心指标</h2>
+    <div class="metrics">
+      <div class="metric" data-metric="site_area_sqm" data-value="11412825.387">
+        <div class="label">总体设计范围</div>
+        <div class="value">11.41</div>
+        <div class="sub">km2</div>
+      </div>
+      <div class="metric" data-metric="green_ratio" data-value="0.125465">
+        <div class="label">绿地率 green_ratio</div>
+        <div class="value">12.5%</div>
+        <div class="sub">绿地面积约 1.43 km2</div>
+      </div>
+      <div class="metric" data-metric="public_space_ratio" data-value="0.056773">
+        <div class="label">公共空间率 public_space_ratio</div>
+        <div class="value">5.7%</div>
+        <div class="sub">公共空间面积约 0.65 km2</div>
+      </div>
+    </div>
+  </div>
 
-<div class="metric-card metric-known" data-metric="key_area_count" data-value="3" onclick="this.classList.toggle('open')">
-  <div class="metric-name">重点片区数</div>
-  <div class="metric-val">3</div>
-  <div class="metric-unit">个</div>
-  <div class="metric-status">known</div>
-</div>
+  <div class="card">
+    <h2>站点总览</h2>
+    <img src="../assets/figures/site-overview.png" alt="站点总览">
+    <p class="caption">图：统筹研究范围、总体设计范围、三重点区域、绿地与道路网概念示意</p>
+  </div>
 
-<div class="metric-card metric-known" data-metric="key_area_zhongzhiyuan_sqm" data-value="1929201.878" onclick="this.classList.toggle('open')">
-  <div class="metric-name">众智园面积</div>
-  <div class="metric-val">192.9</div>
-  <div class="metric-unit">ha</div>
-  <div class="metric-status">known</div>
-</div>
+  <div class="grid">
+    <div class="card">
+      <h2>用地结构</h2>
+      <img src="../assets/figures/land-use-structure.png" alt="用地结构">
+      <p class="caption">9 类用地 / 覆被分类</p>
+    </div>
+    <div class="card">
+      <h2>核心指标证据</h2>
+      <img src="../assets/figures/metrics-evidence.png" alt="核心指标证据">
+      <p class="caption">面积、比率与配套规模</p>
+    </div>
+    <div class="card">
+      <h2>慢行与蓝绿网络</h2>
+      <img src="../assets/figures/mobility-bluegreen.png" alt="慢行与蓝绿网络">
+      <p class="caption">慢行缝合、蓝绿公共空间与重点区节点</p>
+    </div>
+    <div class="card">
+      <h2>三重点区域</h2>
+      <img src="../assets/figures/key-areas.png" alt="三重点区域">
+      <p class="caption">官方公告面积与 provisional 几何</p>
+    </div>
+  </div>
 
-<div class="metric-card metric-known" data-metric="key_area_origin_community_sqm" data-value="1043236.909" onclick="this.classList.toggle('open')">
-  <div class="metric-name">原点社区面积</div>
-  <div class="metric-val">104.3</div>
-  <div class="metric-unit">ha</div>
-  <div class="metric-status">known</div>
+  <div class="card disclaimer">
+    声明：本方案全部空间落地建议均为“概念建议 / 参考方案 / 可供专业团队深化研究”，不替代正式规划，不构成政府审定结论。几何边界为 provisional_constraint，面积以官方红线为准。
+  </div>
+  <footer>落朵 AI 军团 · 2026 年 8 月</footer>
 </div>
-
-<div class="metric-card metric-known" data-metric="land_use_residential_07_sqm" data-value="2050925.809" onclick="this.classList.toggle('open')">
-  <div class="metric-name">居住用地</div>
-  <div class="metric-val">205.1</div>
-  <div class="metric-unit">ha</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-known" data-metric="land_use_research_0802_sqm" data-value="2088406.145" onclick="this.classList.toggle('open')">
-  <div class="metric-name">科研用地</div>
-  <div class="metric-val">208.8</div>
-  <div class="metric-unit">ha</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-known" data-metric="land_use_education_0804_sqm" data-value="2020841.079" onclick="this.classList.toggle('open')">
-  <div class="metric-name">教育用地</div>
-  <div class="metric-val">202.1</div>
-  <div class="metric-unit">ha</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-known" data-metric="land_use_commercial_05_sqm" data-value="1771253.536" onclick="this.classList.toggle('open')">
-  <div class="metric-name">商业服务业用地</div>
-  <div class="metric-val">177.1</div>
-  <div class="metric-unit">ha</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-known" data-metric="land_use_plaza_1403_sqm" data-value="1731727.68" onclick="this.classList.toggle('open')">
-  <div class="metric-name">广场用地</div>
-  <div class="metric-val">173.2</div>
-  <div class="metric-unit">ha</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-known" data-metric="land_use_road_1207_sqm" data-value="1749684.474" onclick="this.classList.toggle('open')">
-  <div class="metric-name">城镇道路用地</div>
-  <div class="metric-val">175.0</div>
-  <div class="metric-unit">ha</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-known" data-metric="building_footprint_area_sqm" data-value="2796561.724" onclick="this.classList.toggle('open')">
-  <div class="metric-name">建筑占地</div>
-  <div class="metric-val">279.7</div>
-  <div class="metric-unit">万㎡</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-known" data-metric="building_footprint_ratio" data-value="0.245037" onclick="this.classList.toggle('open')">
-  <div class="metric-name">建筑占地率</div>
-  <div class="metric-val">0.245</div>
-  <div class="metric-unit">ratio</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-known" data-metric="proposed_total_floor_area_sqm" data-value="22372493.792" onclick="this.classList.toggle('open')">
-  <div class="metric-name">总建面(概念)</div>
-  <div class="metric-val">2237.2</div>
-  <div class="metric-unit">万㎡</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-known" data-metric="road_network_length_m" data-value="61631.272" onclick="this.classList.toggle('open')">
-  <div class="metric-name">路网总长</div>
-  <div class="metric-val">61.6</div>
-  <div class="metric-unit">km</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-known" data-metric="phase1_area_sqm" data-value="4124934.63" onclick="this.classList.toggle('open')">
-  <div class="metric-name">首期面积</div>
-  <div class="metric-val">412.5</div>
-  <div class="metric-unit">ha</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-known" data-metric="green_space_area_sqm" data-value="1431906.222" onclick="this.classList.toggle('open')">
-  <div class="metric-name">绿地面积</div>
-  <div class="metric-val">143.2</div>
-  <div class="metric-unit">ha</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-known" data-metric="green_ratio" data-value="0.125465" onclick="this.classList.toggle('open')">
-  <div class="metric-name">绿地率</div>
-  <div class="metric-val">12.55%</div>
-  <div class="metric-unit">percent</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-known" data-metric="public_space_area_sqm" data-value="647938.929" onclick="this.classList.toggle('open')">
-  <div class="metric-name">公共空间面积</div>
-  <div class="metric-val">64.8</div>
-  <div class="metric-unit">ha</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-known" data-metric="public_space_ratio" data-value="0.056773" onclick="this.classList.toggle('open')">
-  <div class="metric-name">公共空间率</div>
-  <div class="metric-val">5.68%</div>
-  <div class="metric-unit">percent</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-known" data-metric="ai_landmark_count" data-value="3" onclick="this.classList.toggle('open')">
-  <div class="metric-name">AI 地标数</div>
-  <div class="metric-val">3</div>
-  <div class="metric-unit">个</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-known" data-metric="renewal_project_count" data-value="12" onclick="this.classList.toggle('open')">
-  <div class="metric-name">更新项目数</div>
-  <div class="metric-val">12</div>
-  <div class="metric-unit">个</div>
-  <div class="metric-status">known</div>
-</div>
-
-<div class="metric-card metric-unknown" data-metric="official_floor_area_ratio_control" data-value="待官方核定" onclick="this.classList.toggle('open')">
-  <div class="metric-name">官方容积率管控</div>
-  <div class="metric-val">待官方核定</div>
-  <div class="metric-unit">—</div>
-  <div class="metric-status">unknown</div>
-</div>
-
-<div class="metric-card metric-unknown" data-metric="official_building_height_control_m" data-value="待官方核定" onclick="this.classList.toggle('open')">
-  <div class="metric-name">官方建筑高度管控</div>
-  <div class="metric-val">待官方核定</div>
-  <div class="metric-unit">—</div>
-  <div class="metric-status">unknown</div>
-</div>
-
-<div class="metric-card metric-unknown" data-metric="official_building_density_control" data-value="待官方核定" onclick="this.classList.toggle('open')">
-  <div class="metric-name">官方建筑密度管控</div>
-  <div class="metric-val">待官方核定</div>
-  <div class="metric-unit">—</div>
-  <div class="metric-status">unknown</div>
-</div>
-
-<div class="metric-card metric-unknown" data-metric="official_green_ratio_control" data-value="待官方核定" onclick="this.classList.toggle('open')">
-  <div class="metric-name">官方绿地率管控</div>
-  <div class="metric-val">待官方核定</div>
-  <div class="metric-unit">—</div>
-  <div class="metric-status">unknown</div>
-</div>
-
-<div class="metric-card metric-unknown" data-metric="official_setback_m" data-value="待官方核定" onclick="this.classList.toggle('open')">
-  <div class="metric-name">官方退线管控</div>
-  <div class="metric-val">待官方核定</div>
-  <div class="metric-unit">—</div>
-  <div class="metric-status">unknown</div>
-</div></div>
-</section>
-<section class="section" id="compliance">
-  <h2>⑩ 合规覆盖</h2>
-  <ul class="check-list"><li><b>1.3.1</b> 构建世界级AI创新生态体系 (强制)</li>
-<li><b>1.3.2</b> 建设适配AI新质生产力的新型城市形态 (强制)</li>
-<li><b>1.3.3</b> 打造全球AI创新人才向往的高品质城区 (强制)</li>
-<li><b>1.4.1</b> 统筹研究范围 (强制)</li>
-<li><b>1.4.2</b> 总体设计范围 (强制)</li>
-<li><b>1.4.3</b> 重点区域范围 (强制)</li>
-<li><b>1.5.1.1</b> 统筹研究范围：AI创新生态体系 (强制)</li>
-<li><b>1.5.1.2</b> 统筹研究范围：适配人工智能的未来城市形态 (强制)</li>
-<li><b>1.5.2.1</b> 总体设计范围：产业目标与功能布局 (强制)</li>
-<li><b>1.5.2.2</b> 总体设计范围：城市更新总体框架 (强制)</li>
-<li><b>1.5.2.3</b> 总体设计范围：交通轨道市政配套设施 (强制)</li>
-<li><b>1.5.2.4</b> 总体设计范围：京张遗址公园活力带 (强制)</li>
-<li><b>1.5.2.5</b> 总体设计范围：城市风貌 (强制)</li>
-<li><b>1.5.3.required</b> 重点区域详细设计必选项 (强制)</li>
-<li><b>1.5.3.1</b> 众智园AI自主创新加速区 (强制)</li>
-<li><b>1.5.3.2</b> 北京AI原点社区 (强制)</li>
-<li><b>1.5.3.3</b> 大钟寺AI产业聚集区 (强制)</li>
-<li><b>agent.1</b> 一带总体概念与功能统筹方案设计 (强制)</li>
-<li><b>agent.2</b> AI全栈自主创新体系与世界级AI创新生态设计 (强制)</li>
-<li><b>agent.3</b> AI+场景赋能新范式与智能化AI活力城市设计 (强制)</li>
-<li><b>agent.4</b> AI公共空间、智能原生新业态与朝圣地标设计 (强制)</li>
-<li><b>agent.5</b> 百年京张文化、中关村文化与AI新文化融合叙事设计 (强制)</li>
-<li><b>agent.6</b> 一带全球AI创新活动体系与长期运营设计 (强制)</li></ul><p class="note">compliance_matrix.json 共 23 项要求。</p>
-</section>
-<section class="section" id="selfcheck">
-  <h2>⑪ self-check 状态</h2>
-  <ul class="check-list"><li><span class="badge pass">pass</span> <b>SCHEMA_COMP_MATRIX</b> 结构校验通过：字段齐全、additionalProperties 关闭、枚举合规。</li>
-<li><span class="badge pass">pass</span> <b>SCHEMA_STD_MATRIX</b> 结构校验通过：字段齐全、additionalProperties 关闭、枚举合规。</li>
-<li><span class="badge pass">pass</span> <b>SCHEMA_DEPTH_MATRIX</b> 结构校验通过：字段齐全、additionalProperties 关闭、枚举合规。</li>
-<li><span class="badge pass">pass</span> <b>SCHEMA_METRICS</b> 27 项指标通过 metrics.schema 校验；unknown 项附带 reason 与 null 值。</li>
-<li><span class="badge pass">pass</span> <b>SCHEMA_GEOMETRY</b> site_boundary/key_areas/land_use/buildings/roads/phasing/green_space/public_space 均通过 geojson_feature.schema。</li>
-<li><span class="badge pass">pass</span> <b>GEOM_LANDUSE_NO_GAP</b> 对 site 无缝隙无重叠；差值 13.3 sqm ≪ 容差 1141 sqm。</li>
-<li><span class="badge pass">pass</span> <b>GEOM_AREA_RECOMPUTE</b> EPSG:4548 复算与官方 provisional 口径零偏差（site 11,412,825.4 / research 43,609,232.6 / KEY1 192.1ha / KEY2 104.3ha / KEY3 72.0ha）。</li>
-<li><span class="badge pass">pass</span> <b>METRIC_SOURCE_LINK</b> proposal 引用的 18 个 metric_id 全部存在于 metrics.json；无占位符、无裸 ID。</li>
-<li><span class="badge pass">pass</span> <b>SOURCE_REGISTRY</b> 引用的 14 个 source_id 全部已注册于 sources.json。</li>
-<li><span class="badge pass">pass</span> <b>ASSUMPTION_REGISTRY</b> 6 个 assumption_id（A-BOUNDARY-001/A-CULTURE-001/A-EXISTING-001/A-GFA-001/A-TRANSPORT-001/A-CONTROLS-001）全部已注册。</li>
-<li><span class="badge pass">pass</span> <b>COMPLIANCE_NO_FORBIDDEN_CLAIM</b> 全部空间建议均为概念建议/参考方案，不构成法定规划；无工程、投资、产值等禁述内容越界。</li>
-<li><span class="badge pass">pass</span> <b>PROPOSAL_BILINGUAL</b> 中英双语 14 章完整；证据标记已校验：14 个 source_id、18 个 metric_id 全部存在。</li>
-<li><span class="badge pass">pass</span> <b>PROVISIONAL_BOUNDARY_LABELED</b> provisional 边界已明确标注，未伪造官方数据。</li>
-<li><span class="badge pass">pass</span> <b>REVIEW_ELIGIBILITY</b> 满足 professional_design_package + ai_agent 提交资格，强制产物（矩阵/指标/几何/提案/来源/假设/风险）齐备。</li>
-<li><span class="badge not_applicable">not_applicable</span> <b>SCHEMA_MANIFEST</b> manifest.json 由运维总管生成，finalize 阶段 self_check_submission.py 复验。</li></ul>
-</section>
-<section class="section" id="sources">
-  <h2>⑫ sources</h2>
-  <ul class="plain-list"><li><b>OFFICIAL-ANNOUNCEMENT</b> 百年京张AI创新带城市设计开源征集官方公告 <span class="meta">[official]</span></li>
-<li><b>AGENT-TASKBOOK</b> 官方 Agent 开源征集任务书 <span class="meta">[official]</span></li>
-<li><b>SITE-PACKAGE</b> 官方站点资料包 <span class="meta">[official]</span></li>
-<li><b>SOURCE-REGISTRY</b> 官方来源注册表 <span class="meta">[official]</span></li>
-<li><b>PROCESSED-FACT-PACK</b> 落朵AI军团研读提炼的事实包 <span class="meta">[agent_generated]</span></li>
-<li><b>PROVISIONAL-BOUNDARIES</b> 官方 provisional 边界几何 <span class="meta">[provisional_geometry]</span></li>
-<li><b>LUODUO-ECOSYSTEM-AUTH</b> 落朵9大真实生态授权说明 <span class="meta">[ecosystem_auth]</span></li>
-<li><b>THREE-AREAS-WINGS</b> 官方「三区两翼」空间结构定义 <span class="meta">[official]</span></li>
-<li><b>HAIDIAN-1X1</b> 海淀区 1×1km 网格研究单元 <span class="meta">[official]</span></li>
-<li><b>geometry/site_boundary.geojson#PROV-SITE-001</b> 总体设计范围 provisional 边界要素 <span class="meta">[provisional_geometry]</span></li>
-<li><b>geometry/site_boundary.geojson#PROV-RESEARCH-001</b> 研究范围 provisional 边界要素 <span class="meta">[provisional_geometry]</span></li>
-<li><b>geometry/key_areas.geojson#PROV-KEY-001</b> 重点片区1（众智园）provisional 边界要素 <span class="meta">[provisional_geometry]</span></li>
-<li><b>geometry/key_areas.geojson#PROV-KEY-002</b> 重点片区2（原点社区）provisional 边界要素 <span class="meta">[provisional_geometry]</span></li>
-<li><b>geometry/key_areas.geojson#PROV-KEY-003</b> 重点片区3（大钟寺）provisional 边界要素 <span class="meta">[provisional_geometry]</span></li>
-<li><b>MOHURD-URBAN-DESIGN-MEASURES</b> 住房城乡建设部《城市设计管理办法》 <span class="meta">[official]</span></li>
-<li><b>MOHURD-CONTROL-DETAILED-PLANNING</b> 住房城乡建设部《控制性详细规划编制办法》 <span class="meta">[official]</span></li>
-<li><b>MNR-LAND-USE-CLASSIFICATION</b> 自然资源部《国土空间用地分类指南》 <span class="meta">[official]</span></li></ul><p class="note">来源清单见 sources.json；URL 未在离线版渲染。</p>
-</section>
-<section class="section" id="assumptions">
-  <h2>⑬ assumptions</h2>
-  <ul class="plain-list"><li><b>A-BOUNDARY-001</b> 规划范围边界为 provisional <span class="meta">[stated]</span></li>
-<li><b>A-GFA-001</b> 总建筑面积按概念容积率推算 <span class="meta">[stated]</span></li>
-<li><b>A-TRANSPORT-001</b> 交通网络为概念方案 <span class="meta">[stated]</span></li>
-<li><b>A-CONTROLS-001</b> 控制指标为概念建议 <span class="meta">[stated]</span></li>
-<li><b>A-CULTURE-001</b> 文化叙事为价值导向假设 <span class="meta">[stated]</span></li>
-<li><b>A-EXISTING-001</b> 现状存量为概念性标注 <span class="meta">[stated]</span></li>
-<li><b>A-ECOSYSTEM-001</b> 落朵真实生态作为已落地证据 <span class="meta">[stated]</span></li></ul>
-</section>
-</div>
-<footer>
-  <p>本成果为概念建议 / 参考方案，不替代正式规划。provisional boundary 不得作为红线依据。</p>
-  <p>落朵 AI 军团 · T15 交付产物（阿前） · 2026 年 8 月</p>
-</footer>
-<script>
-function filterMetrics(kind){
-  document.querySelectorAll('.metric-card').forEach(c=>{
-    var show = (kind==='all') || c.classList.contains('metric-'+kind);
-    c.style.display = show ? 'block' : 'none';
-  });
-}
-</script>
 </body>
 </html>

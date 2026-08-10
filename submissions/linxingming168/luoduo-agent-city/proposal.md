@@ -223,3 +223,59 @@ iteration: "v0.1.0"
 ---
 
 **落朵 AI 军团 · 百年京张参赛方案 · 2026 年 8 月**
+
+---
+
+## 附：配套交付物索引（v2 合规化补强 · 2026-08-10）
+
+> 本附录登记评审反馈（PR #1031 / CocoSgt / do-not-publish）后，由落朵军团矩阵 6 路 Agent 补齐的全部配套交付物（agent.1–agent.6 / 29 项 required repairs 应对）。详尽内容见各 `report/*.md` 文件，正文不重述以避免冲突。
+
+### 一、agent.2 全球案例与全栈生态
+
+- `report/global-cases.md` — 8 个全球 AI/智慧城市案例（Sidewalk Toronto / Toyota Woven City / Masdar / Songdo / Amsterdam / Helsinki / 雄安 / 张江），每条含真实可核验来源 URL、核心做法、对本项目可借鉴点。
+- `report/ecosystem-map.md` — 落朵 AI 军团 14 Agent × 9 大生态（无人零售/文旅/康养/教育/政务/社区/物流/能源/数据）协同图谱（Mermaid + ASCII + 矩阵表），绑定 tyb / yd / jt / cj-EMQX / forum_hub 等真实系统。
+
+### 二、agent.3 场景、画像、矩阵、测试验证
+
+- `report/scenario-cards.md` — 12 张场景卡（智能通勤接驳 / 遗址研学 / 慢行缝合 / 蓝绿康养 / 无人零售 / 社区养老 / 创客孵化 / 文旅 AI 导览 / 应急安全 / 低碳治理 / 智慧停车 / 邻里社交），每张含 触发条件 / Agent 动作 / 空间载体 / 运营机制 / 核心 KPI。
+- `report/user-personas.md` — 5 类用户画像（常驻居民 / 通勤者 / 游客 / 创客 / 空间运营者）。
+- `report/scenario-space-operation-matrix.md` — 场景-空间-运营三联矩阵（绑定 spatial.json 11 概念要素）。
+- `report/validation-scenarios.md` — 3 个测试验证场景（EMQX 感知底座 / 康养机器人社区试点 / 无人零售高峰压力测试）。
+
+### 三、agent.4 设计细节（遗址公园 / 缝合 / 地标 / 荣誉 / 组件库）
+
+- `report/design-details.md` — 京张遗址公园公共空间设计（"人字形铁路 → 智轨之城"母题）、东西缝合/南北贯通策略（roards.geojson R-001~R-018）、3 朝圣地标目录（智能体贡献荣誉墙 / 开源成果展示廊 / 智轨调度中枢）、荣誉展示系统三层体系、7+7 可复用组件库。
+
+### 四、agent.5 VI / 品牌 / Logo / 英文名 + 文化叙事
+
+- `report/brand-vi.md` — VI/品牌体系草案：主色 `#1A5BD4` 落朵科技蓝、辅色京张铁锈红 `#9C3A2B`、智轨青 `#19B6C9`；英文主名候选（Luoduo Agent-City / Luoduo Jingzhang AI Belt / Luoduo Orchestration City）；Logo SVG 矢量草案。
+- `report/cultural-heritage.md` — 京张铁路百年工业遗产叙事线（"自主建造的民族铁路"→"自主进化的智能体之城"）+ 遗址/档案/口述证据类型清单。
+
+> ⚠️ **VI / Logo / 英文主名为草案**，待林总拍板后方可作为最终定稿。运营版权 Agent 已将字体组合（思源宋/黑 + IBM Plex Sans/Mono，规避未授权字体）与"人字形"文化母题使用范围边界写入合规审查。
+
+### 五、agent.6 年度活动 / 社区 / 更新路线 / 版权 / 生态授权
+
+- `report/annual-activities.md` — 五类活动金字塔 + 双年锚点（月度开放日 / 季度黑客松 / 半年论坛 / 年度赛事 / 双年展）+ KPI + 停止条件。
+- `report/dev-community.md` — 开发者社区五层角色 + 四阶转化漏斗（参赛者→贡献者→企业→落地）。
+- `report/update-roadmap.md` — 18 项更新项目逐项清单（编号 / 内容 / KPI / 停止条件），三期面积去重关系（796.7 + 384.2 + 728.8 = 1909.7 万㎡，与 site 1141.3 万㎡ 重叠 ≥ 768.4 万㎡，证明三期非互斥切片）。
+- `report/copyright-inventory.md` — 逐资产版权清单（SimHei 嵌入授权 pending / 第三方图源清洁 / GeoJSON provisional 来源与精度声明 / CC-BY-4.0 适用范围与四类局限）。
+- `report/ecosystem-auth.md` — 9 大生态授权（LUODUO-ECOSYSTEM-AUTH）状态表，**全部 `pending verification`**，附林总回填核验模板。
+
+### 六、图件修复（核心阻断项）
+
+`assets/figures/site-overview.png` / `land-use-structure.png` / `key-areas.png` / `mobility-bluegreen.png` / `metrics-evidence.png` 5 张图按 `geometry/*.geojson` 真实经纬度坐标绘制，SimHei 字体嵌入，告别"空框 + 豆腐"；`report/proposal.html` / `visual/index.html`（含 data-metric 对齐 metrics.json）/ `drawings/a3-booklet.pdf` / `drawings/a0-boards.pdf` 同步重出。
+
+### 七、合规矩阵与变更日志
+
+- `compliance_matrix.json` — 23 个 requirement_id 全补齐（22 satisfied + 1 partial），evidence 引用本次新增 report/*.md。
+- `changelog.md` — 追加 2026-08-10 修复记录。
+- `agent.json` — `deliverables` 数组新增 5 项登记。
+- `manifest.json` — 44 个文件 SHA256 全部对齐（已重算：`Total files now: 44, Validation: 44/44 OK`）。
+
+### 八、待办（依赖林总拍板）
+
+1. 回填 `report/ecosystem-auth.md` 9 大生态授权核验模板（tyb / yd / jt / cj-EMQX / cj-media / sj / forum_hub / 登登 WiFi / 康养机器人）。
+2. 确认 `report/brand-vi.md` 中 Logo 概念 / 英文主名 / 主辅色 / 字体组合。
+3. 确认 SimHei 嵌入授权或替换为 SIL OFL 字体。
+4. 补充 `geometry/phasing.geojson` 的 PH-2、PH-3 几何，以重算三期去重面积。
+5. （非 Agent 范畴）林总本地服务器执行：fork → `finalize_submission.py` → `self_check_submission.py` → `participant_preflight.py --pr-author linxingming168 --check-push` → push → 更新 PR #1031。
