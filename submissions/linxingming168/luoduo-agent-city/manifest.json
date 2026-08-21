@@ -24,7 +24,7 @@
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "68d56d47c2ecf21144a46b6fec6d62c0159af17d8d4daa6b60f3496779581ed4",
+      "sha256": "1aaa40db73bd883f49de1a7e448445ac9bfa420c797b064df444f58f5ae62b72",
       "language": "zh"
     },
     {
@@ -33,7 +33,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "442a8664ae9b50b3e801c53bcab768ff73a5e5bd6f208eff23a242dbece2f7e6"
+      "sha256": "12d0453d392eb95e5dcfa41a0ad968014fc32eb5fbb1813d41f449cdf26623e2"
     },
     {
       "path": "agent.json",
@@ -94,27 +94,27 @@
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "b22cb0fa59db6c11f4167ef881df10c747e4b01c9101abb5baf85d9f78e8c21c"
+      "sha256": "b3d579332d19ac4ed87de41fe729b5f00d6fb74b04be15f717d3d8e8b0a13e2d"
     },
     {
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "355aca8522aebbd278cc8d885c0ffbbf71b3d1d1063aeac9d0332a579d0a552a",
+      "sha256": "5553c6e11904a82e328f4a69602cd387ff889b94058b06b0447f8438d2097d48",
       "language": "zh"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "ca395825b40edf3be160546ff6c2a7b70419d01d3d09121d299d823e2dc3543e",
+      "sha256": "84754c78a96817c6c550c83684d55bcfb951310a8bb091f5badb530a543c4fc6",
       "language": "zh"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
-      "sha256": "180077367ae3baaf9689be0c748253abd87e4f85af2732cb83beb2ebd4e62f86",
+      "sha256": "512df301e315b258f730bdff8a71753fd53a7fd52e4d023f0413de15f06e4a97",
       "language": "zh"
     },
     {
@@ -232,7 +232,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
-      "sha256": "ab3d40b3b4f7d5cb776534cfd6b8401613f20c8806bef102bc97238871c0488a"
+      "sha256": "04475800861fe4d16206f181cb1aa32efb9a215cd0379f52c5318b83653e6c2b"
     },
     {
       "path": "drawings/a0-boards.en.pdf",
@@ -240,7 +240,7 @@
       "required": true,
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
-      "sha256": "8af6a2d4e9e02cf65233431db8acd3f26eccacf5fec983ca978097df14a8325d"
+      "sha256": "6c97d859c9491225ef0fa269f8fd4d99706669e487f5b05ca06e215077c79b55"
     },
     {
       "path": "visual/index.en.html",
@@ -249,6 +249,51 @@
       "language": "en",
       "translation_of": "visual/index.html",
       "sha256": "1216dad3f8da106b8a4f63dc63bb67da1dbaeaff57c9cbb0f4853371d28e40ab"
+    },
+    {
+      "path": "assets/figures/luoduo-logo-horizontal.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "5cc675a513fd255338c4b986cd35fbd4481d3d1940bb93369fa02dc20c14724f",
+      "language": "zh"
+    },
+    {
+      "path": "assets/figures/luoduo-logo-horizontal.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "5cc675a513fd255338c4b986cd35fbd4481d3d1940bb93369fa02dc20c14724f",
+      "language": "en",
+      "translation_of": "assets/figures/luoduo-logo-horizontal.png"
+    },
+    {
+      "path": "assets/figures/luoduo-logo-vertical.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "be424f54f80e42d1c00c774284c690d07e62a71530c24df33c467c7ff210d505",
+      "language": "zh"
+    },
+    {
+      "path": "assets/figures/luoduo-logo-vertical.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "be424f54f80e42d1c00c774284c690d07e62a71530c24df33c467c7ff210d505",
+      "language": "en",
+      "translation_of": "assets/figures/luoduo-logo-vertical.png"
+    },
+    {
+      "path": "assets/figures/luoduo-mark-square.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "686b0d4d04a4d28c95a82e529b8d147cf96f11e68ada75140fbaebc2357f79e8",
+      "language": "zh"
+    },
+    {
+      "path": "assets/figures/luoduo-mark-square.en.png",
+      "role": "proposal_figure",
+      "required": true,
+      "sha256": "686b0d4d04a4d28c95a82e529b8d147cf96f11e68ada75140fbaebc2357f79e8",
+      "language": "en",
+      "translation_of": "assets/figures/luoduo-mark-square.png"
     }
   ],
   "validation_claim": {

@@ -7,8 +7,16 @@ summary: 以落朵AI军团9大真实生态为底座，提出百年京张AI创新
 proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_file: proposal.en.md
-iteration: v1.0
+iteration: v1.1
+brand_logo: assets/figures/luoduo-logo-horizontal.png
+brand_mark: assets/figures/luoduo-mark-square.png
+trademark_zh: 落朵（惠州市落朵智能科技有限公司已注册商标）
+trademark_brand_color: 深蓝 #0000E5 / 浅蓝 #29ABE2
 ---
+
+![落朵官方商标 LOGO（横版：图+名）](assets/figures/luoduo-logo-horizontal.png)
+
+> **品牌 VI 定稿（2026-08-21）**：方案主体品牌**「落朵」中文名**与**蓝紫八瓣花图形 LOGO**均采用惠州市落朵智能科技有限公司已注册商标，授权用于本次百年京张AI创新带城市设计开源征集（open-city-ai/haidian）投稿及成果展示；方形纯图形 MARK（仅花型）见 `assets/figures/luoduo-mark-square.png`。颜色骨架：落朵科技蓝 #0000E5（深）与 #29ABE2（浅） [agent.1] [agent.5] [source:LUODUO-ECOSYSTEM-AUTH]。
 
 ## 设计依据与资料清单
 
@@ -136,11 +144,24 @@ iteration: v1.0
 
 **组件库**：7+7 组件（7 空间组件 + 7 运营组件）供专业团队深化，见 design-details 详述 [agent.4]。
 
-### 四、品牌与文化叙事（agent.5）
+### 四、品牌与文化叙事（agent.5 · 2026-08-21 VI 定稿）
 
-**品牌 VI 草案（待林总确认）**：中文主名「落朵·智轨城 / Luoduo Agent-City」候选、色彩骨架「落朵科技蓝 + 京张铁锈红 + 净白底」（A-CULTURE-001）、Logo 方向草案——均为比选选项，未定稿 [agent.5] [agent.1]。
+**官方品牌 LOGO（惠州市落朵智能科技已注册商标，授权本次征集使用）**：
 
-**文化叙事**：京张工业遗产 → 中关村科创 → AI 新文化，三层叙事贯通遗址公园主轴 [agent.5]。
+| 变体 | 文件 | 用途 |
+|------|------|------|
+| 横版（图形+中文） | `assets/figures/luoduo-logo-horizontal.png` | A3/A0 封面、visual 页眉、proposal 头图 |
+| 竖版（图形+中文） | `assets/figures/luoduo-logo-vertical.png` | 方形场景、社交媒体 |
+| 方版（纯图形 MARK） | `assets/figures/luoduo-mark-square.png` | 顶栏图标、印章、视觉钉点 |
+
+- **中文主名**：「落朵」（篆体美术字，已注册）
+- **英文副名候选**：「Luoduo Agent-City」（与落朵智能体之城直译对齐）
+- **色彩骨架**：落朵科技蓝 #0000E5（深）+ #29ABE2（浅），净白底
+- **字体规范（建议）**：标题/正文 中文 SimHei / 思源黑体；英文 Inter / Source Sans Pro
+
+**文化叙事（已定稿）**：京张工业遗产（人字形铁路/老车站）→ 中关村科创（创新引擎）→ AI 新文化（落朵 9 大生态城市级编排），三层叙事贯通京张遗址公园主轴，对应 9 大生态与三区两翼空间载体 [agent.5]。
+
+**全栈生态 LOGO 套件**（供品牌延伸使用）：21 张 JPG + 15 张 PNG + 1 份 AI 矢量源文件，存档于 `D:\落朵资料\LD 落朵\`，登记为落朵品牌资产 [source:LUODUO-ECOSYSTEM-AUTH]。
 
 ### 五、运营、活动与社区（agent.6）
 

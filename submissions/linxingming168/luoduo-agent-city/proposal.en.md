@@ -8,8 +8,16 @@ proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_file: proposal.md
 translation_of: proposal.md
-iteration: v1.0
+iteration: v1.1
+brand_logo: assets/figures/luoduo-logo-horizontal.png
+brand_mark: assets/figures/luoduo-mark-square.png
+trademark_en: Luoduo (registered trademark of Huizhou Luoduo Intelligent Technology Co., Ltd.)
+trademark_brand_color: Deep blue #0000E5 / Light blue #29ABE2
 ---
+
+![Luoduo Official Trademark LOGO (horizontal: mark+name)](assets/figures/luoduo-logo-horizontal.png)
+
+> **Brand VI Finalized (2026-08-21)**: The proposal's primary brand name **"落朵 / Luoduo"** and **blue-purple eight-petal mark** use Huizhou Luoduo Intelligent Technology Co., Ltd.'s registered trademarks, authorized for this Centennial Jingzhang AI Belt open design competition (open-city-ai/haidian) submission and result display. Square mark-only version in `assets/figures/luoduo-mark-square.png`. Color spine: Luoduo tech-blue #0000E5 (deep) + #29ABE2 (light) [agent.1] [agent.5] [source:LUODUO-ECOSYSTEM-AUTH].
 
 ## Design Basis and Source List
 
