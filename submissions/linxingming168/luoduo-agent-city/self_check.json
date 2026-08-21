@@ -1,55 +1,49 @@
 {
- "schema_version": "0.1.0",
- "package_id": "luoduo-agent-city",
- "note_zh": "结果与 scripts/self_check_submission.py 输出对齐；provisional 边界保留精度警示但不阻断内容评审。",
- "checks": [
-  {
-   "check_id": "BOUNDARY_TRUST",
-   "result": "pass",
-   "severity": "major",
-   "message_zh": "站点边界为 provisional_constraint（official_boundary=false，boundary_precision=provisional_rough），已在正文、HTML 与假设中披露，不作官方红线使用。"
-  },
-  {
-   "check_id": "KEY_AREAS_TRUST",
-   "result": "pass",
-   "severity": "major",
-   "message_zh": "三处重点区使用仓库临时多边形（area_id 与官方公告一致），非重叠且位于站点边界内；面积与公告约值（192.1/104.3/72.0 ha）差异已披露。"
-  },
-  {
-   "check_id": "LAND_USE_TOPOLOGY",
-   "result": "pass",
-   "severity": "major",
-   "message_zh": "用地单元由 geometry/land_use.geojson 以 EPSG:4548 复算，投影复核重叠与覆盖缺口均低于校验容差；各地类面积勾稽一致，unknown 指标写明原因。"
-  },
-  {
-   "check_id": "METRICS_RECALC",
-   "result": "pass",
-   "severity": "major",
-   "message_zh": "metrics.json 面积与长度类指标由 geometry/ 以 EPSG:4548 复算；计数类指标（项目、场景、地标）按正文结构化清单计数；全部公式逐项登记，unknown 指标写明原因与补齐来源。"
-  },
-  {
-   "check_id": "VISUAL_STATIC",
-   "result": "pass",
-   "severity": "major",
-   "message_zh": "visual/index.html 为离线静态页面，无远程资源与活动内容，核心指标带 data-metric 标记并与 metrics.json 一致。"
-  },
-  {
-   "check_id": "PROFESSIONAL_EVIDENCE",
-   "result": "pass",
-   "severity": "major",
-   "message_zh": "标准矩阵、深度矩阵、合规矩阵覆盖全部必答项（含 agent.1–6），正文以 [source:][standard:][depth:][data:][metric:] 逐项回引。"
-  },
-  {
-   "check_id": "PROVISIONAL_DISCLOSURE",
-   "result": "pass",
-   "severity": "info",
-   "message_zh": "临时边界的适用范围与禁止用途在 proposal.md、sources.json、assumptions.json 与 visual/index.html 中一致披露。"
-  },
-  {
-   "check_id": "FIGURE_DERIVATION",
-   "result": "pass",
-   "severity": "info",
-   "message_zh": "五张必交图与 A3/A0 图纸由同一套 GeoJSON、metrics 与矩阵派生，图面弱化临时边界、突出设计结构。"
-  }
- ]
+  "schema_version": "0.2.0",
+  "package_id": "luoduo-agent-city",
+  "self_checked_at": "2026-08-09T18:40:00Z",
+  "tool": "self_check_submission.py",
+  "checks": [
+    {
+      "check_id": "DETERMINISTIC_VALIDATION",
+      "result": "pass",
+      "severity": "blocking",
+      "note": "文件范围/双语契约/manifest哈希/proposal结构/PII 全过"
+    },
+    {
+      "check_id": "SPATIAL_REVIEW",
+      "result": "pass",
+      "severity": "blocking",
+      "note": "GeoJSON拓扑/坐标系/面积覆盖/指标复算 全过"
+    },
+    {
+      "check_id": "VISUAL_PACKAGING",
+      "result": "pass",
+      "severity": "blocking",
+      "note": "visual/index.html 离线约束/data-metric匹配 全过"
+    },
+    {
+      "check_id": "PROFESSIONAL_EVIDENCE",
+      "result": "pass",
+      "severity": "blocking",
+      "note": "standard/design_depth/compliance 矩阵+source覆盖 全过"
+    },
+    {
+      "check_id": "BILINGUAL_CONTRACT",
+      "result": "pass",
+      "severity": "info",
+      "note_zh": "严格双语契约满足：proposal.en.md + 4 个展示文件 .en 副本齐备，manifest 标 language/translation_of。"
+    },
+    {
+      "check_id": "MANIFEST_HASHES",
+      "result": "pass",
+      "severity": "info",
+      "note_zh": "manifest 列出全部 23 个 REQUIRED_AI_PACKAGE_FILES，各文件 sha256 一致（manifest 自身不携带自我 sha）。"
+    }
+  ],
+  "open_items": [
+    "官方精确红线与三处重点区域 polygon 到位后，须整体重算全部面积指标与 geometry。"
+  ],
+  "ok": true,
+  "can_enter_formal_review": true
 }

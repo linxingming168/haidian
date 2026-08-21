@@ -1,456 +1,383 @@
 {
-  "type": "FeatureCollection",
-  "name": "luoduo_roads",
-  "features": [
-    {
-      "type": "Feature",
-      "id": "R-001",
-      "properties": {
-        "id": "R-001",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 9438.28
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.344,
-            39.94
-          ],
-          [
-            116.344,
-            40.025
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-002",
-      "properties": {
-        "id": "R-002",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 9438.277
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.34649999999999,
-            39.94
-          ],
-          [
-            116.34649999999999,
-            40.025
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-003",
-      "properties": {
-        "id": "R-003",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 9438.274
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.34899999999999,
-            39.94
-          ],
-          [
-            116.34899999999999,
-            40.025
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-004",
-      "properties": {
-        "id": "R-004",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 9438.272
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.35149999999999,
-            39.94
-          ],
-          [
-            116.35149999999999,
-            40.025
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-005",
-      "properties": {
-        "id": "R-005",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 9438.269
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.35399999999998,
-            39.94
-          ],
-          [
-            116.35399999999998,
-            40.025
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-006",
-      "properties": {
-        "id": "R-006",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 1111.053
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.341,
-            39.945
-          ],
-          [
-            116.354,
-            39.945
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-007",
-      "properties": {
-        "id": "R-007",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 1111.004
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.341,
-            39.948
-          ],
-          [
-            116.354,
-            39.948
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-008",
-      "properties": {
-        "id": "R-008",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 1110.956
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.341,
-            39.951
-          ],
-          [
-            116.354,
-            39.951
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-009",
-      "properties": {
-        "id": "R-009",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 1110.907
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.341,
-            39.954
-          ],
-          [
-            116.354,
-            39.954
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-010",
-      "properties": {
-        "id": "R-010",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 1110.859
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.341,
-            39.957
-          ],
-          [
-            116.354,
-            39.957
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-011",
-      "properties": {
-        "id": "R-011",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 1110.81
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.341,
-            39.96
-          ],
-          [
-            116.354,
-            39.96
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-012",
-      "properties": {
-        "id": "R-012",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 1110.762
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.341,
-            39.963
-          ],
-          [
-            116.354,
-            39.963
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-013",
-      "properties": {
-        "id": "R-013",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 1110.713
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.341,
-            39.966
-          ],
-          [
-            116.354,
-            39.966
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-014",
-      "properties": {
-        "id": "R-014",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 1110.664
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.341,
-            39.969
-          ],
-          [
-            116.354,
-            39.969
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-015",
-      "properties": {
-        "id": "R-015",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 1110.616
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.341,
-            39.972
-          ],
-          [
-            116.354,
-            39.972
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-016",
-      "properties": {
-        "id": "R-016",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 1110.567
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.341,
-            39.975
-          ],
-          [
-            116.354,
-            39.975
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-017",
-      "properties": {
-        "id": "R-017",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 1110.519
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.341,
-            39.978
-          ],
-          [
-            116.354,
-            39.978
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "R-018",
-      "properties": {
-        "id": "R-018",
-        "layer": "ROAD",
-        "source_type": "agent_designed_concept",
-        "confidence": "medium",
-        "geometry_role": "concept_proposal",
-        "length_m_declared": 1110.47
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            116.341,
-            39.981
-          ],
-          [
-            116.354,
-            39.981
-          ]
-        ]
-      }
-    }
-  ]
+ "type": "FeatureCollection",
+ "name": "luoduo-agent-city",
+ "metadata": {
+  "crs": "EPSG:4326",
+  "area_crs": "EPSG:4548",
+  "boundary_status": "provisional_constraint"
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "id": "RD-002",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "落朵 AI 军团生成的概念设计图层，非法定规划结论，待专业团队深化。",
+    "id": "RD-002",
+    "layer": "ROAD_CENTERLINE",
+    "road_class": "secondary",
+    "name_zh": "东西向道路2"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3415,
+      39.939
+     ],
+     [
+      116.3415,
+      40.00289999999991
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-003",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "落朵 AI 军团生成的概念设计图层，非法定规划结论，待专业团队深化。",
+    "id": "RD-003",
+    "layer": "ROAD_CENTERLINE",
+    "road_class": "secondary",
+    "name_zh": "东西向道路3"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3435,
+      39.939
+     ],
+     [
+      116.3435,
+      40.0265
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-004",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "落朵 AI 军团生成的概念设计图层，非法定规划结论，待专业团队深化。",
+    "id": "RD-004",
+    "layer": "ROAD_CENTERLINE",
+    "road_class": "secondary",
+    "name_zh": "东西向道路4"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3455,
+      39.939
+     ],
+     [
+      116.3455,
+      40.0265
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-005",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "落朵 AI 军团生成的概念设计图层，非法定规划结论，待专业团队深化。",
+    "id": "RD-005",
+    "layer": "ROAD_CENTERLINE",
+    "road_class": "secondary",
+    "name_zh": "东西向道路5"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3475,
+      39.939
+     ],
+     [
+      116.3475,
+      40.0265
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-006",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "落朵 AI 军团生成的概念设计图层，非法定规划结论，待专业团队深化。",
+    "id": "RD-006",
+    "layer": "ROAD_CENTERLINE",
+    "road_class": "secondary",
+    "name_zh": "东西向道路6"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3495,
+      39.939
+     ],
+     [
+      116.3495,
+      40.0265
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-007",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "落朵 AI 军团生成的概念设计图层，非法定规划结论，待专业团队深化。",
+    "id": "RD-007",
+    "layer": "ROAD_CENTERLINE",
+    "road_class": "secondary",
+    "name_zh": "东西向道路7"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3515,
+      39.939
+     ],
+     [
+      116.3515,
+      40.0265
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-008",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "落朵 AI 军团生成的概念设计图层，非法定规划结论，待专业团队深化。",
+    "id": "RD-008",
+    "layer": "ROAD_CENTERLINE",
+    "road_class": "secondary",
+    "name_zh": "东西向道路8"
+   },
+   "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+     [
+      [
+       116.35350000000001,
+       39.939
+      ],
+      [
+       116.35350000000001,
+       39.98749999999991
+      ]
+     ],
+     [
+      [
+       116.35350000000001,
+       39.99365000000013
+      ],
+      [
+       116.35350000000001,
+       40.0265
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-011",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "落朵 AI 军团生成的概念设计图层，非法定规划结论，待专业团队深化。",
+    "id": "RD-011",
+    "layer": "ROAD_CENTERLINE",
+    "road_class": "secondary",
+    "name_zh": "南北向道路11"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.34030416666667,
+      39.95325
+     ],
+     [
+      116.3553,
+      39.95325
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-012",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "落朵 AI 军团生成的概念设计图层，非法定规划结论，待专业团队深化。",
+    "id": "RD-012",
+    "layer": "ROAD_CENTERLINE",
+    "road_class": "secondary",
+    "name_zh": "南北向道路12"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.33989444444444,
+      39.967999999999996
+     ],
+     [
+      116.35506,
+      39.967999999999996
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-013",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "落朵 AI 军团生成的概念设计图层，非法定规划结论，待专业团队深化。",
+    "id": "RD-013",
+    "layer": "ROAD_CENTERLINE",
+    "road_class": "secondary",
+    "name_zh": "南北向道路13"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3402,
+      39.982749999999996
+     ],
+     [
+      116.35388,
+      39.982749999999996
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-014",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "落朵 AI 军团生成的概念设计图层，非法定规划结论，待专业团队深化。",
+    "id": "RD-014",
+    "layer": "ROAD_CENTERLINE",
+    "road_class": "secondary",
+    "name_zh": "南北向道路14"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.34115161290323,
+      39.9975
+     ],
+     [
+      116.35371095890412,
+      39.9975
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RD-015",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "落朵 AI 军团生成的概念设计图层，非法定规划结论，待专业团队深化。",
+    "id": "RD-015",
+    "layer": "ROAD_CENTERLINE",
+    "road_class": "secondary",
+    "name_zh": "南北向道路15"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.34200487804878,
+      40.01225
+     ],
+     [
+      116.3545191780822,
+      40.01225
+     ]
+    ]
+   }
+  }
+ ]
 }

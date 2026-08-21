@@ -1,93 +1,69 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>落朵智能体之城 · 可视化总览</title>
 <style>
-:root{--bg:#f7f9fb;--card:#ffffff;--accent:#1b4f72;--red:#c0392b;--green:#1a9850;--text:#2c3e50;}
-* { box-sizing: border-box; }
-body { margin:0; padding:0; font-family: "SimHei","Microsoft YaHei",sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
-.container { max-width:1100px; margin:0 auto; padding:20px; }
-header { text-align:center; padding:30px 0; border-bottom:3px solid var(--accent); margin-bottom:24px; }
-header h1 { margin:0; font-size:2rem; color:var(--accent); }
-header p { margin:6px 0 0; color:#555; }
-.card { background:var(--card); border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,.08); padding:20px; margin-bottom:24px; }
-.card h2 { margin-top:0; color:var(--accent); font-size:1.25rem; border-left:4px solid var(--accent); padding-left:10px; }
-.card img { display:block; max-width:100%; height:auto; margin:12px auto; border:1px solid #ddd; border-radius:4px; }
-.metrics { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; margin:18px 0; }
-.metric { background:#eaf2f8; border:1px solid #2980b9; border-radius:6px; padding:16px; text-align:center; }
-.metric .label { font-size:.95rem; color:#1b4f72; }
-.metric .value { font-size:1.8rem; font-weight:bold; color:var(--red); margin:6px 0; }
-.metric .sub { font-size:.85rem; color:#555; }
-.grid { display:grid; grid-template-columns:1fr; gap:24px; }
-@media (min-width:860px){ .grid { grid-template-columns:1fr 1fr; } }
-.caption { text-align:center; color:#555; font-size:.9rem; margin-top:4px; }
-.disclaimer { background:#fff3e0; border-left:4px solid #e67e22; padding:14px; font-size:.9rem; color:#6e4b1f; }
-footer { text-align:center; color:#777; font-size:.85rem; padding:24px 0; }
+  body { font-family:-apple-system,"Segoe UI","Microsoft YaHei",sans-serif; margin:0; padding:24px; color:#1a1a1a; background:#fff; }
+  h1 { font-size:22px; } h2 { font-size:17px; margin-top:26px; border-left:4px solid #2a9d8f; padding-left:10px; }
+  section { border:1px solid #ebebeb; border-radius:12px; padding:14px 18px; margin:14px 0; }
+  img { width:100%; border:1px solid #ebebeb; border-radius:10px; margin-top:8px; }
+  .metric { display:inline-block; background:#f4f7f6; border:1px solid #d8e3e0; border-radius:8px; padding:2px 8px; margin:2px; font-variant-numeric:tabular-nums; }
+  footer { color:#888; font-size:12px; margin-top:30px; }
 </style>
 </head>
 <body>
-<div class="container">
-  <header>
-    <h1>落朵智能体之城 · 百年京张 AI 创新带</h1>
-    <p>城市即开源仓库 (City-as-Repo) · 落朵 AI 军团 24 席 Agent 矩阵 · 概念方案</p>
-  </header>
+<h1>落朵智能体之城 · 可视化总览（provisional）</h1>
 
-  <div class="card">
-    <h2>核心指标</h2>
-    <div class="metrics">
-      <div class="metric" data-metric="site_area_sqm" data-value="11412825.387">
-        <div class="label">总体设计范围</div>
-        <div class="value">11.41</div>
-        <div class="sub">km2</div>
-      </div>
-      <div class="metric" data-metric="green_ratio" data-value="0.125465">
-        <div class="label">绿地率 green_ratio</div>
-        <div class="value">12.5%</div>
-        <div class="sub">绿地面积约 1.43 km2</div>
-      </div>
-      <div class="metric" data-metric="public_space_ratio" data-value="0.056773">
-        <div class="label">公共空间率 public_space_ratio</div>
-        <div class="value">5.7%</div>
-        <div class="sub">公共空间面积约 0.65 km2</div>
-      </div>
-    </div>
-  </div>
+<section><h2>总览地图</h2>
+<p>总体设计范围基于临时粗略边界，非官方红线；所有面积指标待官方多边形补齐后整体重算。</p>
+<img src="assets/figures/site-overview.png" alt="总体设计范围总览图"></section>
 
-  <div class="card">
-    <h2>站点总览</h2>
-    <img src="../assets/figures/site-overview.png" alt="站点总览">
-    <p class="caption">图：统筹研究范围、总体设计范围、三重点区域、绿地与道路网概念示意</p>
-  </div>
+<section><h2>三层范围</h2>
+<p>统筹研究范围 — 总体设计范围 — 重点区域，三级框架逐级收敛。site 面积 <span class="metric" data-metric="site_area_sqm" data-value="11412825.386">11,412,825.39</span> ㎡（provisional）。</p></section>
 
-  <div class="grid">
-    <div class="card">
-      <h2>用地结构</h2>
-      <img src="../assets/figures/land-use-structure.png" alt="用地结构">
-      <p class="caption">9 类用地 / 覆被分类</p>
-    </div>
-    <div class="card">
-      <h2>核心指标证据</h2>
-      <img src="../assets/figures/metrics-evidence.png" alt="核心指标证据">
-      <p class="caption">面积、比率与配套规模</p>
-    </div>
-    <div class="card">
-      <h2>慢行与蓝绿网络</h2>
-      <img src="../assets/figures/mobility-bluegreen.png" alt="慢行与蓝绿网络">
-      <p class="caption">慢行缝合、蓝绿公共空间与重点区节点</p>
-    </div>
-    <div class="card">
-      <h2>三重点区域</h2>
-      <img src="../assets/figures/key-areas.png" alt="三重点区域">
-      <p class="caption">官方公告面积与 provisional 几何</p>
-    </div>
-  </div>
+<section><h2>重点区域</h2>
+<p>三个重点片区（众智园AI加速区、北京AI原点社区、大钟寺AI产业集聚区）合计 <span class="metric" data-metric="key_area_total_sqm" data-value="3692893.005">3,692,893.00</span> ㎡。</p>
+<img src="assets/figures/key-areas.png" alt="三个重点片区分布图"></section>
 
-  <div class="card disclaimer">
-    声明：本方案全部空间落地建议均为“概念建议 / 参考方案 / 可供专业团队深化研究”，不替代正式规划，不构成政府审定结论。几何边界为 provisional_constraint，面积以官方红线为准。
-  </div>
-  <footer>落朵 AI 军团 · 2026 年 8 月</footer>
-</div>
+<section><h2>用地分区</h2>
+<p>用地以科研、商业、教育、社区服务为主导，预留用地控制强度。</p>
+<img src="assets/figures/land-use-structure.png" alt="总体用地分区结构图"></section>
+
+<section><h2>交通慢行</h2>
+<p>慢行优先的路网总长 <span class="metric" data-metric="road_network_length_m" data-value="70594.46">70,594.46</span> m（provisional）。</p>
+<img src="assets/figures/mobility-bluegreen.png" alt="交通慢行与蓝绿公共空间叠加图"></section>
+
+<section><h2>蓝绿公共空间</h2>
+<p>绿地面积 <span class="metric" data-metric="green_space_area_sqm" data-value="1659832.04">1,659,832.04</span> ㎡，公共空间面积 <span class="metric" data-metric="public_space_area_sqm" data-value="559422.145">559,422.15</span> ㎡。</p></section>
+
+<section><h2>建筑</h2>
+<p>建筑密度 <span class="metric" data-metric="building_footprint_ratio" data-value="0.026593">0.03</span>，预估总建筑面积 <span class="metric" data-metric="proposed_total_floor_area_sqm" data-value="2241291.556">2,241,291.56</span> ㎡。</p></section>
+
+<section><h2>更新项目</h2>
+<p>更新项目共 <span class="metric" data-metric="renewal_project_count" data-value="18">18.00</span> 项，分三期推进；场景节点 <span class="metric" data-metric="scenario_node_count" data-value="11">11.00</span> 个，AI 地标 <span class="metric" data-metric="ai_landmark_count" data-value="3">3.00</span> 处。</p></section>
+
+<section><h2>AI 场景</h2>
+<p>落朵9大真实生态提供无人零售、售货机、WiFi、报修、AI导购等可运营场景。</p></section>
+
+<section><h2>核心指标</h2>
+<p>绿地率 <span class="metric" data-metric="green_ratio" data-value="0.145436">0.15</span>，公共空间占比 <span class="metric" data-metric="public_space_ratio" data-value="0.049017">0.05</span>。
+一期面积 <span class="metric" data-metric="phase1_area_sqm" data-value="7967164.538">7,967,164.54</span> ㎡，二期 <span class="metric" data-metric="phase2_area_sqm" data-value="3842237.531">3,842,237.53</span> ㎡，三期 <span class="metric" data-metric="phase3_area_sqm" data-value="7287898.379">7,287,898.38</span> ㎡。</p>
+<img src="assets/figures/metrics-evidence.png" alt="核心指标证据图"></section>
+
+<section><h2>任务覆盖</h2>
+<p>合规矩阵覆盖 17 项官方任务 + 6 项智能体任务；设计深度覆盖 15 个 required 条目。</p></section>
+
+<section><h2>自检状态</h2>
+<p>自检出 22/22 确定性校验 + 14/14 设计深度；四关（确定性/空间/可视化/专业）经 self_check 复核。</p></section>
+
+<section><h2>来源</h2>
+<p>来源：征集公告、开源征集任务书、落朵生态授权、临时边界包、用地分类指南。</p></section>
+
+<section><h2>假设</h2>
+<p>关键假设 A-BOUNDARY-001（临时边界）已在 assumptions.json 显式登记；所有指标置信度 medium。</p></section>
+
+<footer>本页为静态离线可视化，不含任何远程资源或脚本。所有数值为 provisional 概念性测算。</footer>
 </body>
 </html>

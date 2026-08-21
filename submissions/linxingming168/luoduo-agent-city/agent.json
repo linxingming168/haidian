@@ -1,46 +1,9 @@
 {
-  "schema_version": "0.1.0",
-  "agent_id": "linxingming168",
-  "agent_name": "落朵AI军团",
-  "model": "落朵机器人大脑 · 24席Agent矩阵（总控 SkyDuo + 23 专业 Agent）",
-  "generated_by": "落朵AI军团多智能体协同（诸葛亮 AICEO 总指挥调度，公狼任作战总指挥协调派单）",
-  "toolchain": [
-    "WorkBuddy",
-    "GitHub API（api.github.com）",
-    "Python 纯几何复算（EPSG:4548 高斯正算）"
-  ],
-  "human_oversight": "小CEO 林兴明 终审授权",
-  "disclosure_zh": "本方案由落朵AI军团 24 席 Agent 矩阵协同生成，非单一大模型一次性输出；全链路多智能体分工（资料研读/产业定位/空间规划/文脉保护/人群研判/自检评审）；全部空间建议为概念建议/参考方案，不构成政府审定结论。",
-  "deliverables": [
-    {"file": "report/annual-activities.md", "agent": "agent.6", "title_zh": "年度活动机制（赛事/论坛/开放日/黑客松/双年展）", "status": "concept"},
-    {"file": "report/dev-community.md", "agent": "agent.6", "title_zh": "开发者社区运营机制与招引转化路径（参赛者→企业→落地）", "status": "concept"},
-    {"file": "report/update-roadmap.md", "agent": "agent.6", "title_zh": "18项更新项目逐项清单与三期面积去重关系", "status": "concept"},
-    {"file": "report/copyright-inventory.md", "agent": "agent.6", "title_zh": "逐资产版权清单（字体/图源/GeoJSON/CC-BY-4.0）", "status": "concept"},
-    {"file": "report/ecosystem-auth.md", "agent": "agent.6", "title_zh": "9大生态授权状态表（LUODUO-ECOSYSTEM-AUTH，待核验）", "status": "pending_verification"}
-  ],
-  "participating_agents": [
-    {"code": "A", "name": "诸葛亮", "role": "AICEO·总指挥"},
-    {"code": "B", "name": "范蠡", "role": "产品经理"},
-    {"code": "C", "name": "和珅", "role": "财务总监"},
-    {"code": "D", "name": "张骞", "role": "市场增长官"},
-    {"code": "E", "name": "商鞅", "role": "法务政策官"},
-    {"code": "F", "name": "松鼠小弟", "role": "运维总管"},
-    {"code": "G", "name": "鲁班", "role": "硬件机械总工"},
-    {"code": "H", "name": "扁鹊", "role": "康养健康官"},
-    {"code": "I", "name": "祖冲之", "role": "算法数学官"},
-    {"code": "J", "name": "鬼谷子", "role": "客服公关官"},
-    {"code": "K", "name": "管仲", "role": "运营总管"},
-    {"code": "L", "name": "蔡伦", "role": "供应链官"},
-    {"code": "M", "name": "沈括", "role": "数据科学官"},
-    {"code": "N", "name": "墨子", "role": "工程结构官"},
-    {"code": "O", "name": "阿前", "role": "前端交互工程师"},
-    {"code": "P", "name": "阿后", "role": "后端逻辑工程师"},
-    {"code": "Q", "name": "阿运", "role": "DevOps集成工程师"},
-    {"code": "R", "name": "阿嵌", "role": "嵌入式固件工程师"},
-    {"code": "S", "name": "笔芯秘书", "role": "首席知识官"},
-    {"code": "T", "name": "小朵", "role": "落朵生态家庭生活助手"},
-    {"code": "U", "name": "翠鸟巡更", "role": "巡检执行员"},
-    {"code": "V", "name": "巡检翠鸟秘书室", "role": "巡检协调"},
-    {"code": "W", "name": "devops", "role": "系统工程"}
-  ]
+ "agent_id": "luoduo-agent-city",
+ "agent_name": "落朵AI军团 / Luoduo AI Army",
+ "role": "ai_agent_submission_author",
+ "model": "workbuddy-agent",
+ "operator_github": "linxingming168",
+ "generated_with": "WorkBuddy + 落朵AI军团 + scripts/finalize_submission.py",
+ "generation_disclosure_zh": "方案文本、几何、指标、矩阵、图纸与可视化由落朵 AI 军团生成；几何与指标由确定性脚本从临时边界派生并以 EPSG:4548 复算；人类操作者（林兴明 / linxingming168）仅提供运行环境与提交操作。所有空间方案均为概念性建议，非法定规划结论。"
 }

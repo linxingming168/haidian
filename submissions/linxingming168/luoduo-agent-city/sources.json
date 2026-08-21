@@ -1,141 +1,75 @@
 {
-  "schema_version": "0.1.0",
-  "sources": [
-    {
-      "source_id": "OFFICIAL-ANNOUNCEMENT",
-      "title_zh": "百年京张AI创新带城市设计开源征集官方公告",
-      "type": "official",
-      "url": "https://haidian.open-city.ai",
-      "access_date": "2026-08-08",
-      "description_zh": "由北京市发改委、市规自委、海淀区政府联合主办的「百年京张AI创新带城市设计开源征集」官方公告，发布征集范围、报名方式与提交要求。"
-    },
-    {
-      "source_id": "AGENT-TASKBOOK",
-      "title_zh": "官方 Agent 开源征集任务书",
-      "type": "official",
-      "url": "https://haidian.open-city.ai",
-      "access_date": "2026-08-08",
-      "description_zh": "官方发布的 Agent 开源征集任务书（agent_taskbook.json），定义参赛 Agent 的派单规则、交付物结构与元数据登记要求。"
-    },
-    {
-      "source_id": "SITE-PACKAGE",
-      "title_zh": "官方站点资料包",
-      "type": "official",
-      "url": "https://haidian.open-city.ai",
-      "access_date": "2026-08-08",
-      "description_zh": "官方提供的站点资料包（design_brief / schemas / geometry 等），包含任务背景、空间结构定义与配套几何数据。"
-    },
-    {
-      "source_id": "SOURCE-REGISTRY",
-      "title_zh": "官方来源注册表",
-      "type": "official",
-      "url": "https://haidian.open-city.ai",
-      "access_date": "2026-08-08",
-      "description_zh": "官方维护的来源注册表，用于登记征集过程中引用的公开资料与数据出处。"
-    },
-    {
-      "source_id": "PROCESSED-FACT-PACK",
-      "title_zh": "落朵AI军团研读提炼的事实包",
-      "type": "agent_generated",
-      "url": null,
-      "access_date": "2026-08-08",
-      "description_zh": "落朵AI军团对官方公告、任务书与站点资料包进行协同研读后提炼的结构化事实包，作为本方案空间建议的事实基础。"
-    },
-    {
-      "source_id": "PROVISIONAL-BOUNDARIES",
-      "title_zh": "官方 provisional 边界几何",
-      "type": "provisional_geometry",
-      "url": null,
-      "access_date": "2026-08-08",
-      "description_zh": "官方提供的 provisional_boundaries.geojson，包含总体设计范围与研究范围的 provisional 边界几何（非最终法定边界）。"
-    },
-    {
-      "source_id": "LUODUO-ECOSYSTEM-AUTH",
-      "title_zh": "落朵9大真实生态授权说明",
-      "type": "ecosystem_auth",
-      "url": null,
-      "access_date": "2026-08-08",
-      "description_zh": "落朵9大真实生态（tyb 无人商店 / yd 售货机 / jt 机器人大脑 / cj EMQX / cj 流媒体 / sj 大屏 / forum_hub / 登登WiFi / 康养机器人）的授权说明。重要：授权范围待小CEO林兴明确认，此处如实标注为「待确认授权范围」，未编制已授权细节，相关生态落地建议仅作概念参考。"
-    },
-    {
-      "source_id": "THREE-AREAS-WINGS",
-      "title_zh": "官方「三区两翼」空间结构定义",
-      "type": "official",
-      "url": null,
-      "access_date": "2026-08-08",
-      "description_zh": "官方 design_brief 中定义的「三区两翼」空间结构，明确创新带的总体功能分区与两翼联动关系。"
-    },
-    {
-      "source_id": "HAIDIAN-1X1",
-      "title_zh": "海淀区 1×1km 网格研究单元",
-      "type": "official",
-      "url": null,
-      "access_date": "2026-08-08",
-      "description_zh": "官方 design_brief 采用的海淀区 1×1km 网格研究单元口径，作为本方案密度与功能测算的参考网格。"
-    },
-    {
-      "source_id": "geometry/site_boundary.geojson#PROV-SITE-001",
-      "title_zh": "总体设计范围 provisional 边界要素",
-      "type": "provisional_geometry",
-      "url": null,
-      "access_date": "2026-08-08",
-      "description_zh": "见对应 geojson（geometry/site_boundary.geojson）中该 PROV 要素；总体设计范围的 provisional 边界要素。"
-    },
-    {
-      "source_id": "geometry/site_boundary.geojson#PROV-RESEARCH-001",
-      "title_zh": "研究范围 provisional 边界要素",
-      "type": "provisional_geometry",
-      "url": null,
-      "access_date": "2026-08-08",
-      "description_zh": "见对应 geojson（geometry/site_boundary.geojson）中该 PROV 要素；研究范围的 provisional 边界要素。"
-    },
-    {
-      "source_id": "geometry/key_areas.geojson#PROV-KEY-001",
-      "title_zh": "重点片区1（众智园）provisional 边界要素",
-      "type": "provisional_geometry",
-      "url": null,
-      "access_date": "2026-08-08",
-      "description_zh": "见对应 geojson（geometry/key_areas.geojson）中该 PROV 要素；重点片区1（众智园）的 provisional 边界要素。"
-    },
-    {
-      "source_id": "geometry/key_areas.geojson#PROV-KEY-002",
-      "title_zh": "重点片区2（原点社区）provisional 边界要素",
-      "type": "provisional_geometry",
-      "url": null,
-      "access_date": "2026-08-08",
-      "description_zh": "见对应 geojson（geometry/key_areas.geojson）中该 PROV 要素；重点片区2（原点社区）的 provisional 边界要素。"
-    },
-    {
-      "source_id": "geometry/key_areas.geojson#PROV-KEY-003",
-      "title_zh": "重点片区3（大钟寺）provisional 边界要素",
-      "type": "provisional_geometry",
-      "url": null,
-      "access_date": "2026-08-08",
-      "description_zh": "见对应 geojson（geometry/key_areas.geojson）中该 PROV 要素；重点片区3（大钟寺）的 provisional 边界要素。"
-    },
-    {
-      "source_id": "MOHURD-URBAN-DESIGN-MEASURES",
-      "title_zh": "住房城乡建设部《城市设计管理办法》",
-      "type": "official",
-      "url": "",
-      "access_date": "2026-08-08",
-      "description_zh": "住建部城市设计管理规章，作为空间形态/城市设计深度要求的合规性依据（standard_matrix 引用）。"
-    },
-    {
-      "source_id": "MOHURD-CONTROL-DETAILED-PLANNING",
-      "title_zh": "住房城乡建设部《控制性详细规划编制办法》",
-      "type": "official",
-      "url": "",
-      "access_date": "2026-08-08",
-      "description_zh": "住建部控规编制办法，作为用地/强度控制要求的合规性依据（standard_matrix 引用）。"
-    },
-    {
-      "source_id": "MNR-LAND-USE-CLASSIFICATION",
-      "title_zh": "自然资源部《国土空间用地分类指南》",
-      "type": "official",
-      "url": "",
-      "access_date": "2026-08-08",
-      "description_zh": "自然资源部用地分类指南，作为 land_use 国土空间分类代码（07/0802/0804/05/1403/1207）的依据（standard_matrix 引用）。"
-    }
-  ]
+ "schema_version": "0.1.0",
+ "sources": [
+  {
+   "source_id": "OFFICIAL-ANNOUNCEMENT",
+   "title_zh": "百年京张AI创新带城市设计国际方案征集公告",
+   "publisher": "北京市发改委/市规自委/海淀区政府",
+   "publish_date": "2026-05-09",
+   "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+   "license": "公开",
+   "source_type": "official_public",
+   "format": "html"
+  },
+  {
+   "source_id": "OFFICIAL-DESIGN-BOUNDARY",
+   "title_zh": "征集资格预审文件与任务书附件（待获取）",
+   "publisher": "北京科技园拍卖招标有限公司",
+   "publish_date": "2026-05",
+   "url": "http://www.bkpmzb.com/bidding/display.php?oid=257&pid=2894",
+   "license": "需密码清权",
+   "source_type": "user_provided_cleared",
+   "format": "pdf"
+  },
+  {
+   "source_id": "DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509",
+   "title_zh": "官方公告数据源登记",
+   "publisher": "主办单位",
+   "publish_date": "2026-05-09",
+   "url": "https://ghzrzyw.beijing.gov.cn/",
+   "license": "公开",
+   "source_type": "official_public",
+   "format": "html"
+  },
+  {
+   "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+   "title_zh": "仓库临时粗略边界包",
+   "publisher": "open-city-ai/haidian 维护者",
+   "publish_date": "2026-06-05",
+   "url": "brief/site-package/geometry/provisional_boundaries.geojson",
+   "license": "仓库许可",
+   "source_type": "official_open_data",
+   "format": "geojson"
+  },
+  {
+   "source_id": "SITE-PACKAGE",
+   "title_zh": "场地包（任务书/边界/数据源/schemas）",
+   "publisher": "open-city-ai/haidian",
+   "publish_date": "2026-06-05",
+   "url": "brief/site-package/",
+   "license": "仓库许可",
+   "source_type": "official_open_data",
+   "format": "json"
+  },
+  {
+   "source_id": "AGENT-OPEN-CALL-TASKBOOK",
+   "title_zh": "面向智能体开源征集任务书",
+   "publisher": "open-city-ai/haidian",
+   "publish_date": "2026-06-05",
+   "url": "brief/site-package/agent_taskbook.json",
+   "license": "仓库许可",
+   "source_type": "official_open_data",
+   "format": "json"
+  },
+  {
+   "source_id": "LUODUO-ECOSYSTEM-AUTH",
+   "title_zh": "落朵9大真实生态运行授权说明",
+   "publisher": "落朵AI军团",
+   "publish_date": "2026-08-08",
+   "url": "https://luoduoai.com",
+   "license": "自有系统/已运行",
+   "source_type": "user_provided_cleared",
+   "format": "md"
+  }
+ ]
 }

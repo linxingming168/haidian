@@ -1,3555 +1,1040 @@
 {
-  "type": "FeatureCollection",
-  "name": "luoduo_buildings",
-  "features": [
-    {
-      "type": "Feature",
-      "id": "B-001",
-      "properties": {
-        "id": "B-001",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30747.362
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3411,
-              39.9441
-            ],
-            [
-              116.3429,
-              39.9441
-            ],
-            [
-              116.3429,
-              39.9459
-            ],
-            [
-              116.3411,
-              39.9459
-            ],
-            [
-              116.3411,
-              39.9441
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-002",
-      "properties": {
-        "id": "B-002",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30747.339
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.9441
-            ],
-            [
-              116.3461,
-              39.9441
-            ],
-            [
-              116.3461,
-              39.9459
-            ],
-            [
-              116.3443,
-              39.9459
-            ],
-            [
-              116.3443,
-              39.9441
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-003",
-      "properties": {
-        "id": "B-003",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30747.316
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.9441
-            ],
-            [
-              116.34930000000001,
-              39.9441
-            ],
-            [
-              116.34930000000001,
-              39.9459
-            ],
-            [
-              116.34750000000001,
-              39.9459
-            ],
-            [
-              116.34750000000001,
-              39.9441
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-004",
-      "properties": {
-        "id": "B-004",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30747.293
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.9441
-            ],
-            [
-              116.35250000000002,
-              39.9441
-            ],
-            [
-              116.35250000000002,
-              39.9459
-            ],
-            [
-              116.35070000000002,
-              39.9459
-            ],
-            [
-              116.35070000000002,
-              39.9441
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-005",
-      "properties": {
-        "id": "B-005",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30745.946
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3411,
-              39.9473
-            ],
-            [
-              116.3429,
-              39.9473
-            ],
-            [
-              116.3429,
-              39.9491
-            ],
-            [
-              116.3411,
-              39.9491
-            ],
-            [
-              116.3411,
-              39.9473
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-006",
-      "properties": {
-        "id": "B-006",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30745.923
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.9473
-            ],
-            [
-              116.3461,
-              39.9473
-            ],
-            [
-              116.3461,
-              39.9491
-            ],
-            [
-              116.3443,
-              39.9491
-            ],
-            [
-              116.3443,
-              39.9473
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-007",
-      "properties": {
-        "id": "B-007",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30745.9
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.9473
-            ],
-            [
-              116.34930000000001,
-              39.9473
-            ],
-            [
-              116.34930000000001,
-              39.9491
-            ],
-            [
-              116.34750000000001,
-              39.9491
-            ],
-            [
-              116.34750000000001,
-              39.9473
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-008",
-      "properties": {
-        "id": "B-008",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30745.877
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.9473
-            ],
-            [
-              116.35250000000002,
-              39.9473
-            ],
-            [
-              116.35250000000002,
-              39.9491
-            ],
-            [
-              116.35070000000002,
-              39.9491
-            ],
-            [
-              116.35070000000002,
-              39.9473
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-009",
-      "properties": {
-        "id": "B-009",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30744.531
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3411,
-              39.9505
-            ],
-            [
-              116.3429,
-              39.9505
-            ],
-            [
-              116.3429,
-              39.9523
-            ],
-            [
-              116.3411,
-              39.9523
-            ],
-            [
-              116.3411,
-              39.9505
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-010",
-      "properties": {
-        "id": "B-010",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30744.507
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.9505
-            ],
-            [
-              116.3461,
-              39.9505
-            ],
-            [
-              116.3461,
-              39.9523
-            ],
-            [
-              116.3443,
-              39.9523
-            ],
-            [
-              116.3443,
-              39.9505
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-011",
-      "properties": {
-        "id": "B-011",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30744.484
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.9505
-            ],
-            [
-              116.34930000000001,
-              39.9505
-            ],
-            [
-              116.34930000000001,
-              39.9523
-            ],
-            [
-              116.34750000000001,
-              39.9523
-            ],
-            [
-              116.34750000000001,
-              39.9505
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-012",
-      "properties": {
-        "id": "B-012",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30744.461
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.9505
-            ],
-            [
-              116.35250000000002,
-              39.9505
-            ],
-            [
-              116.35250000000002,
-              39.9523
-            ],
-            [
-              116.35070000000002,
-              39.9523
-            ],
-            [
-              116.35070000000002,
-              39.9505
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-013",
-      "properties": {
-        "id": "B-013",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30743.115
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3411,
-              39.9537
-            ],
-            [
-              116.3429,
-              39.9537
-            ],
-            [
-              116.3429,
-              39.9555
-            ],
-            [
-              116.3411,
-              39.9555
-            ],
-            [
-              116.3411,
-              39.9537
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-014",
-      "properties": {
-        "id": "B-014",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30743.091
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.9537
-            ],
-            [
-              116.3461,
-              39.9537
-            ],
-            [
-              116.3461,
-              39.9555
-            ],
-            [
-              116.3443,
-              39.9555
-            ],
-            [
-              116.3443,
-              39.9537
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-015",
-      "properties": {
-        "id": "B-015",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30743.068
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.9537
-            ],
-            [
-              116.34930000000001,
-              39.9537
-            ],
-            [
-              116.34930000000001,
-              39.9555
-            ],
-            [
-              116.34750000000001,
-              39.9555
-            ],
-            [
-              116.34750000000001,
-              39.9537
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-016",
-      "properties": {
-        "id": "B-016",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30743.045
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.9537
-            ],
-            [
-              116.35250000000002,
-              39.9537
-            ],
-            [
-              116.35250000000002,
-              39.9555
-            ],
-            [
-              116.35070000000002,
-              39.9555
-            ],
-            [
-              116.35070000000002,
-              39.9537
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-017",
-      "properties": {
-        "id": "B-017",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30741.699
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3411,
-              39.9569
-            ],
-            [
-              116.3429,
-              39.9569
-            ],
-            [
-              116.3429,
-              39.9587
-            ],
-            [
-              116.3411,
-              39.9587
-            ],
-            [
-              116.3411,
-              39.9569
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-018",
-      "properties": {
-        "id": "B-018",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30741.675
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.9569
-            ],
-            [
-              116.3461,
-              39.9569
-            ],
-            [
-              116.3461,
-              39.9587
-            ],
-            [
-              116.3443,
-              39.9587
-            ],
-            [
-              116.3443,
-              39.9569
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-019",
-      "properties": {
-        "id": "B-019",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30741.652
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.9569
-            ],
-            [
-              116.34930000000001,
-              39.9569
-            ],
-            [
-              116.34930000000001,
-              39.9587
-            ],
-            [
-              116.34750000000001,
-              39.9587
-            ],
-            [
-              116.34750000000001,
-              39.9569
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-020",
-      "properties": {
-        "id": "B-020",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30741.629
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.9569
-            ],
-            [
-              116.35250000000002,
-              39.9569
-            ],
-            [
-              116.35250000000002,
-              39.9587
-            ],
-            [
-              116.35070000000002,
-              39.9587
-            ],
-            [
-              116.35070000000002,
-              39.9569
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-021",
-      "properties": {
-        "id": "B-021",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30740.282
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3411,
-              39.9601
-            ],
-            [
-              116.3429,
-              39.9601
-            ],
-            [
-              116.3429,
-              39.9619
-            ],
-            [
-              116.3411,
-              39.9619
-            ],
-            [
-              116.3411,
-              39.9601
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-022",
-      "properties": {
-        "id": "B-022",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30740.259
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.9601
-            ],
-            [
-              116.3461,
-              39.9601
-            ],
-            [
-              116.3461,
-              39.9619
-            ],
-            [
-              116.3443,
-              39.9619
-            ],
-            [
-              116.3443,
-              39.9601
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-023",
-      "properties": {
-        "id": "B-023",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30740.236
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.9601
-            ],
-            [
-              116.34930000000001,
-              39.9601
-            ],
-            [
-              116.34930000000001,
-              39.9619
-            ],
-            [
-              116.34750000000001,
-              39.9619
-            ],
-            [
-              116.34750000000001,
-              39.9601
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-024",
-      "properties": {
-        "id": "B-024",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30740.213
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.9601
-            ],
-            [
-              116.35250000000002,
-              39.9601
-            ],
-            [
-              116.35250000000002,
-              39.9619
-            ],
-            [
-              116.35070000000002,
-              39.9619
-            ],
-            [
-              116.35070000000002,
-              39.9601
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-025",
-      "properties": {
-        "id": "B-025",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30738.866
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3411,
-              39.9633
-            ],
-            [
-              116.3429,
-              39.9633
-            ],
-            [
-              116.3429,
-              39.9651
-            ],
-            [
-              116.3411,
-              39.9651
-            ],
-            [
-              116.3411,
-              39.9633
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-026",
-      "properties": {
-        "id": "B-026",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30738.843
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.9633
-            ],
-            [
-              116.3461,
-              39.9633
-            ],
-            [
-              116.3461,
-              39.9651
-            ],
-            [
-              116.3443,
-              39.9651
-            ],
-            [
-              116.3443,
-              39.9633
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-027",
-      "properties": {
-        "id": "B-027",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30738.82
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.9633
-            ],
-            [
-              116.34930000000001,
-              39.9633
-            ],
-            [
-              116.34930000000001,
-              39.9651
-            ],
-            [
-              116.34750000000001,
-              39.9651
-            ],
-            [
-              116.34750000000001,
-              39.9633
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-028",
-      "properties": {
-        "id": "B-028",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30738.797
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.9633
-            ],
-            [
-              116.35250000000002,
-              39.9633
-            ],
-            [
-              116.35250000000002,
-              39.9651
-            ],
-            [
-              116.35070000000002,
-              39.9651
-            ],
-            [
-              116.35070000000002,
-              39.9633
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-029",
-      "properties": {
-        "id": "B-029",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30737.45
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3411,
-              39.966499999999996
-            ],
-            [
-              116.3429,
-              39.966499999999996
-            ],
-            [
-              116.3429,
-              39.9683
-            ],
-            [
-              116.3411,
-              39.9683
-            ],
-            [
-              116.3411,
-              39.966499999999996
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-030",
-      "properties": {
-        "id": "B-030",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30737.427
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.966499999999996
-            ],
-            [
-              116.3461,
-              39.966499999999996
-            ],
-            [
-              116.3461,
-              39.9683
-            ],
-            [
-              116.3443,
-              39.9683
-            ],
-            [
-              116.3443,
-              39.966499999999996
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-031",
-      "properties": {
-        "id": "B-031",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30737.404
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.966499999999996
-            ],
-            [
-              116.34930000000001,
-              39.966499999999996
-            ],
-            [
-              116.34930000000001,
-              39.9683
-            ],
-            [
-              116.34750000000001,
-              39.9683
-            ],
-            [
-              116.34750000000001,
-              39.966499999999996
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-032",
-      "properties": {
-        "id": "B-032",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30737.381
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.966499999999996
-            ],
-            [
-              116.35250000000002,
-              39.966499999999996
-            ],
-            [
-              116.35250000000002,
-              39.9683
-            ],
-            [
-              116.35070000000002,
-              39.9683
-            ],
-            [
-              116.35070000000002,
-              39.966499999999996
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-033",
-      "properties": {
-        "id": "B-033",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30736.034
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3411,
-              39.969699999999996
-            ],
-            [
-              116.3429,
-              39.969699999999996
-            ],
-            [
-              116.3429,
-              39.9715
-            ],
-            [
-              116.3411,
-              39.9715
-            ],
-            [
-              116.3411,
-              39.969699999999996
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-034",
-      "properties": {
-        "id": "B-034",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30736.01
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.969699999999996
-            ],
-            [
-              116.3461,
-              39.969699999999996
-            ],
-            [
-              116.3461,
-              39.9715
-            ],
-            [
-              116.3443,
-              39.9715
-            ],
-            [
-              116.3443,
-              39.969699999999996
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-035",
-      "properties": {
-        "id": "B-035",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30735.987
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.969699999999996
-            ],
-            [
-              116.34930000000001,
-              39.969699999999996
-            ],
-            [
-              116.34930000000001,
-              39.9715
-            ],
-            [
-              116.34750000000001,
-              39.9715
-            ],
-            [
-              116.34750000000001,
-              39.969699999999996
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-036",
-      "properties": {
-        "id": "B-036",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30735.964
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.969699999999996
-            ],
-            [
-              116.35250000000002,
-              39.969699999999996
-            ],
-            [
-              116.35250000000002,
-              39.9715
-            ],
-            [
-              116.35070000000002,
-              39.9715
-            ],
-            [
-              116.35070000000002,
-              39.969699999999996
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-037",
-      "properties": {
-        "id": "B-037",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30734.617
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3411,
-              39.972899999999996
-            ],
-            [
-              116.3429,
-              39.972899999999996
-            ],
-            [
-              116.3429,
-              39.9747
-            ],
-            [
-              116.3411,
-              39.9747
-            ],
-            [
-              116.3411,
-              39.972899999999996
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-038",
-      "properties": {
-        "id": "B-038",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30734.594
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.972899999999996
-            ],
-            [
-              116.3461,
-              39.972899999999996
-            ],
-            [
-              116.3461,
-              39.9747
-            ],
-            [
-              116.3443,
-              39.9747
-            ],
-            [
-              116.3443,
-              39.972899999999996
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-039",
-      "properties": {
-        "id": "B-039",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30734.571
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.972899999999996
-            ],
-            [
-              116.34930000000001,
-              39.972899999999996
-            ],
-            [
-              116.34930000000001,
-              39.9747
-            ],
-            [
-              116.34750000000001,
-              39.9747
-            ],
-            [
-              116.34750000000001,
-              39.972899999999996
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-040",
-      "properties": {
-        "id": "B-040",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30734.548
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.972899999999996
-            ],
-            [
-              116.35250000000002,
-              39.972899999999996
-            ],
-            [
-              116.35250000000002,
-              39.9747
-            ],
-            [
-              116.35070000000002,
-              39.9747
-            ],
-            [
-              116.35070000000002,
-              39.972899999999996
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-041",
-      "properties": {
-        "id": "B-041",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30733.201
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3411,
-              39.976099999999995
-            ],
-            [
-              116.3429,
-              39.976099999999995
-            ],
-            [
-              116.3429,
-              39.9779
-            ],
-            [
-              116.3411,
-              39.9779
-            ],
-            [
-              116.3411,
-              39.976099999999995
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-042",
-      "properties": {
-        "id": "B-042",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30733.177
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.976099999999995
-            ],
-            [
-              116.3461,
-              39.976099999999995
-            ],
-            [
-              116.3461,
-              39.9779
-            ],
-            [
-              116.3443,
-              39.9779
-            ],
-            [
-              116.3443,
-              39.976099999999995
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-043",
-      "properties": {
-        "id": "B-043",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30733.154
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.976099999999995
-            ],
-            [
-              116.34930000000001,
-              39.976099999999995
-            ],
-            [
-              116.34930000000001,
-              39.9779
-            ],
-            [
-              116.34750000000001,
-              39.9779
-            ],
-            [
-              116.34750000000001,
-              39.976099999999995
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-044",
-      "properties": {
-        "id": "B-044",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30733.131
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.976099999999995
-            ],
-            [
-              116.35250000000002,
-              39.976099999999995
-            ],
-            [
-              116.35250000000002,
-              39.9779
-            ],
-            [
-              116.35070000000002,
-              39.9779
-            ],
-            [
-              116.35070000000002,
-              39.976099999999995
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-045",
-      "properties": {
-        "id": "B-045",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30731.784
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3411,
-              39.979299999999995
-            ],
-            [
-              116.3429,
-              39.979299999999995
-            ],
-            [
-              116.3429,
-              39.9811
-            ],
-            [
-              116.3411,
-              39.9811
-            ],
-            [
-              116.3411,
-              39.979299999999995
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-046",
-      "properties": {
-        "id": "B-046",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30731.761
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.979299999999995
-            ],
-            [
-              116.3461,
-              39.979299999999995
-            ],
-            [
-              116.3461,
-              39.9811
-            ],
-            [
-              116.3443,
-              39.9811
-            ],
-            [
-              116.3443,
-              39.979299999999995
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-047",
-      "properties": {
-        "id": "B-047",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30731.738
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.979299999999995
-            ],
-            [
-              116.34930000000001,
-              39.979299999999995
-            ],
-            [
-              116.34930000000001,
-              39.9811
-            ],
-            [
-              116.34750000000001,
-              39.9811
-            ],
-            [
-              116.34750000000001,
-              39.979299999999995
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-048",
-      "properties": {
-        "id": "B-048",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30731.715
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.979299999999995
-            ],
-            [
-              116.35250000000002,
-              39.979299999999995
-            ],
-            [
-              116.35250000000002,
-              39.9811
-            ],
-            [
-              116.35070000000002,
-              39.9811
-            ],
-            [
-              116.35070000000002,
-              39.979299999999995
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-049",
-      "properties": {
-        "id": "B-049",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30730.367
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3411,
-              39.982499999999995
-            ],
-            [
-              116.3429,
-              39.982499999999995
-            ],
-            [
-              116.3429,
-              39.9843
-            ],
-            [
-              116.3411,
-              39.9843
-            ],
-            [
-              116.3411,
-              39.982499999999995
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-050",
-      "properties": {
-        "id": "B-050",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30730.344
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.982499999999995
-            ],
-            [
-              116.3461,
-              39.982499999999995
-            ],
-            [
-              116.3461,
-              39.9843
-            ],
-            [
-              116.3443,
-              39.9843
-            ],
-            [
-              116.3443,
-              39.982499999999995
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-051",
-      "properties": {
-        "id": "B-051",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30730.321
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.982499999999995
-            ],
-            [
-              116.34930000000001,
-              39.982499999999995
-            ],
-            [
-              116.34930000000001,
-              39.9843
-            ],
-            [
-              116.34750000000001,
-              39.9843
-            ],
-            [
-              116.34750000000001,
-              39.982499999999995
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-052",
-      "properties": {
-        "id": "B-052",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30730.298
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.982499999999995
-            ],
-            [
-              116.35250000000002,
-              39.982499999999995
-            ],
-            [
-              116.35250000000002,
-              39.9843
-            ],
-            [
-              116.35070000000002,
-              39.9843
-            ],
-            [
-              116.35070000000002,
-              39.982499999999995
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-053",
-      "properties": {
-        "id": "B-053",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30728.95
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3411,
-              39.985699999999994
-            ],
-            [
-              116.3429,
-              39.985699999999994
-            ],
-            [
-              116.3429,
-              39.9875
-            ],
-            [
-              116.3411,
-              39.9875
-            ],
-            [
-              116.3411,
-              39.985699999999994
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-054",
-      "properties": {
-        "id": "B-054",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30728.927
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.985699999999994
-            ],
-            [
-              116.3461,
-              39.985699999999994
-            ],
-            [
-              116.3461,
-              39.9875
-            ],
-            [
-              116.3443,
-              39.9875
-            ],
-            [
-              116.3443,
-              39.985699999999994
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-055",
-      "properties": {
-        "id": "B-055",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30728.904
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.985699999999994
-            ],
-            [
-              116.34930000000001,
-              39.985699999999994
-            ],
-            [
-              116.34930000000001,
-              39.9875
-            ],
-            [
-              116.34750000000001,
-              39.9875
-            ],
-            [
-              116.34750000000001,
-              39.985699999999994
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-056",
-      "properties": {
-        "id": "B-056",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30728.881
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.985699999999994
-            ],
-            [
-              116.35250000000002,
-              39.985699999999994
-            ],
-            [
-              116.35250000000002,
-              39.9875
-            ],
-            [
-              116.35070000000002,
-              39.9875
-            ],
-            [
-              116.35070000000002,
-              39.985699999999994
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-057",
-      "properties": {
-        "id": "B-057",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30727.533
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3411,
-              39.988899999999994
-            ],
-            [
-              116.3429,
-              39.988899999999994
-            ],
-            [
-              116.3429,
-              39.9907
-            ],
-            [
-              116.3411,
-              39.9907
-            ],
-            [
-              116.3411,
-              39.988899999999994
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-058",
-      "properties": {
-        "id": "B-058",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30727.51
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.988899999999994
-            ],
-            [
-              116.3461,
-              39.988899999999994
-            ],
-            [
-              116.3461,
-              39.9907
-            ],
-            [
-              116.3443,
-              39.9907
-            ],
-            [
-              116.3443,
-              39.988899999999994
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-059",
-      "properties": {
-        "id": "B-059",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30727.487
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.988899999999994
-            ],
-            [
-              116.34930000000001,
-              39.988899999999994
-            ],
-            [
-              116.34930000000001,
-              39.9907
-            ],
-            [
-              116.34750000000001,
-              39.9907
-            ],
-            [
-              116.34750000000001,
-              39.988899999999994
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-060",
-      "properties": {
-        "id": "B-060",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30727.464
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.988899999999994
-            ],
-            [
-              116.35250000000002,
-              39.988899999999994
-            ],
-            [
-              116.35250000000002,
-              39.9907
-            ],
-            [
-              116.35070000000002,
-              39.9907
-            ],
-            [
-              116.35070000000002,
-              39.988899999999994
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-061",
-      "properties": {
-        "id": "B-061",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30726.116
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3411,
-              39.99209999999999
-            ],
-            [
-              116.3429,
-              39.99209999999999
-            ],
-            [
-              116.3429,
-              39.9939
-            ],
-            [
-              116.3411,
-              39.9939
-            ],
-            [
-              116.3411,
-              39.99209999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-062",
-      "properties": {
-        "id": "B-062",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30726.093
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.99209999999999
-            ],
-            [
-              116.3461,
-              39.99209999999999
-            ],
-            [
-              116.3461,
-              39.9939
-            ],
-            [
-              116.3443,
-              39.9939
-            ],
-            [
-              116.3443,
-              39.99209999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-063",
-      "properties": {
-        "id": "B-063",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30726.07
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.99209999999999
-            ],
-            [
-              116.34930000000001,
-              39.99209999999999
-            ],
-            [
-              116.34930000000001,
-              39.9939
-            ],
-            [
-              116.34750000000001,
-              39.9939
-            ],
-            [
-              116.34750000000001,
-              39.99209999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-064",
-      "properties": {
-        "id": "B-064",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30726.047
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.99209999999999
-            ],
-            [
-              116.35250000000002,
-              39.99209999999999
-            ],
-            [
-              116.35250000000002,
-              39.9939
-            ],
-            [
-              116.35070000000002,
-              39.9939
-            ],
-            [
-              116.35070000000002,
-              39.99209999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-065",
-      "properties": {
-        "id": "B-065",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30724.676
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.99529999999999
-            ],
-            [
-              116.3461,
-              39.99529999999999
-            ],
-            [
-              116.3461,
-              39.997099999999996
-            ],
-            [
-              116.3443,
-              39.997099999999996
-            ],
-            [
-              116.3443,
-              39.99529999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-066",
-      "properties": {
-        "id": "B-066",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30724.653
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.99529999999999
-            ],
-            [
-              116.34930000000001,
-              39.99529999999999
-            ],
-            [
-              116.34930000000001,
-              39.997099999999996
-            ],
-            [
-              116.34750000000001,
-              39.997099999999996
-            ],
-            [
-              116.34750000000001,
-              39.99529999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-067",
-      "properties": {
-        "id": "B-067",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30724.63
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.99529999999999
-            ],
-            [
-              116.35250000000002,
-              39.99529999999999
-            ],
-            [
-              116.35250000000002,
-              39.997099999999996
-            ],
-            [
-              116.35070000000002,
-              39.997099999999996
-            ],
-            [
-              116.35070000000002,
-              39.99529999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-068",
-      "properties": {
-        "id": "B-068",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30723.258
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              39.99849999999999
-            ],
-            [
-              116.3461,
-              39.99849999999999
-            ],
-            [
-              116.3461,
-              40.000299999999996
-            ],
-            [
-              116.3443,
-              40.000299999999996
-            ],
-            [
-              116.3443,
-              39.99849999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-069",
-      "properties": {
-        "id": "B-069",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30723.235
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              39.99849999999999
-            ],
-            [
-              116.34930000000001,
-              39.99849999999999
-            ],
-            [
-              116.34930000000001,
-              40.000299999999996
-            ],
-            [
-              116.34750000000001,
-              40.000299999999996
-            ],
-            [
-              116.34750000000001,
-              39.99849999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-070",
-      "properties": {
-        "id": "B-070",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30723.212
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              39.99849999999999
-            ],
-            [
-              116.35250000000002,
-              39.99849999999999
-            ],
-            [
-              116.35250000000002,
-              40.000299999999996
-            ],
-            [
-              116.35070000000002,
-              40.000299999999996
-            ],
-            [
-              116.35070000000002,
-              39.99849999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-071",
-      "properties": {
-        "id": "B-071",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30721.841
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              40.00169999999999
-            ],
-            [
-              116.3461,
-              40.00169999999999
-            ],
-            [
-              116.3461,
-              40.003499999999995
-            ],
-            [
-              116.3443,
-              40.003499999999995
-            ],
-            [
-              116.3443,
-              40.00169999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-072",
-      "properties": {
-        "id": "B-072",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30721.818
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              40.00169999999999
-            ],
-            [
-              116.34930000000001,
-              40.00169999999999
-            ],
-            [
-              116.34930000000001,
-              40.003499999999995
-            ],
-            [
-              116.34750000000001,
-              40.003499999999995
-            ],
-            [
-              116.34750000000001,
-              40.00169999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-073",
-      "properties": {
-        "id": "B-073",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30721.795
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              40.00169999999999
-            ],
-            [
-              116.35250000000002,
-              40.00169999999999
-            ],
-            [
-              116.35250000000002,
-              40.003499999999995
-            ],
-            [
-              116.35070000000002,
-              40.003499999999995
-            ],
-            [
-              116.35070000000002,
-              40.00169999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-074",
-      "properties": {
-        "id": "B-074",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30720.424
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              40.00489999999999
-            ],
-            [
-              116.3461,
-              40.00489999999999
-            ],
-            [
-              116.3461,
-              40.006699999999995
-            ],
-            [
-              116.3443,
-              40.006699999999995
-            ],
-            [
-              116.3443,
-              40.00489999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-075",
-      "properties": {
-        "id": "B-075",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30720.401
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              40.00489999999999
-            ],
-            [
-              116.34930000000001,
-              40.00489999999999
-            ],
-            [
-              116.34930000000001,
-              40.006699999999995
-            ],
-            [
-              116.34750000000001,
-              40.006699999999995
-            ],
-            [
-              116.34750000000001,
-              40.00489999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-076",
-      "properties": {
-        "id": "B-076",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30720.378
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              40.00489999999999
-            ],
-            [
-              116.35250000000002,
-              40.00489999999999
-            ],
-            [
-              116.35250000000002,
-              40.006699999999995
-            ],
-            [
-              116.35070000000002,
-              40.006699999999995
-            ],
-            [
-              116.35070000000002,
-              40.00489999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-077",
-      "properties": {
-        "id": "B-077",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30719.006
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              40.00809999999999
-            ],
-            [
-              116.3461,
-              40.00809999999999
-            ],
-            [
-              116.3461,
-              40.009899999999995
-            ],
-            [
-              116.3443,
-              40.009899999999995
-            ],
-            [
-              116.3443,
-              40.00809999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-078",
-      "properties": {
-        "id": "B-078",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30718.983
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              40.00809999999999
-            ],
-            [
-              116.34930000000001,
-              40.00809999999999
-            ],
-            [
-              116.34930000000001,
-              40.009899999999995
-            ],
-            [
-              116.34750000000001,
-              40.009899999999995
-            ],
-            [
-              116.34750000000001,
-              40.00809999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-079",
-      "properties": {
-        "id": "B-079",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30718.96
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              40.00809999999999
-            ],
-            [
-              116.35250000000002,
-              40.00809999999999
-            ],
-            [
-              116.35250000000002,
-              40.009899999999995
-            ],
-            [
-              116.35070000000002,
-              40.009899999999995
-            ],
-            [
-              116.35070000000002,
-              40.00809999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-080",
-      "properties": {
-        "id": "B-080",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30717.588
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              40.01129999999999
-            ],
-            [
-              116.3461,
-              40.01129999999999
-            ],
-            [
-              116.3461,
-              40.013099999999994
-            ],
-            [
-              116.3443,
-              40.013099999999994
-            ],
-            [
-              116.3443,
-              40.01129999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-081",
-      "properties": {
-        "id": "B-081",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30717.565
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              40.01129999999999
-            ],
-            [
-              116.34930000000001,
-              40.01129999999999
-            ],
-            [
-              116.34930000000001,
-              40.013099999999994
-            ],
-            [
-              116.34750000000001,
-              40.013099999999994
-            ],
-            [
-              116.34750000000001,
-              40.01129999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-082",
-      "properties": {
-        "id": "B-082",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30717.542
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              40.01129999999999
-            ],
-            [
-              116.35250000000002,
-              40.01129999999999
-            ],
-            [
-              116.35250000000002,
-              40.013099999999994
-            ],
-            [
-              116.35070000000002,
-              40.013099999999994
-            ],
-            [
-              116.35070000000002,
-              40.01129999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-083",
-      "properties": {
-        "id": "B-083",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30716.171
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              40.01449999999999
-            ],
-            [
-              116.3461,
-              40.01449999999999
-            ],
-            [
-              116.3461,
-              40.016299999999994
-            ],
-            [
-              116.3443,
-              40.016299999999994
-            ],
-            [
-              116.3443,
-              40.01449999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-084",
-      "properties": {
-        "id": "B-084",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30716.148
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              40.01449999999999
-            ],
-            [
-              116.34930000000001,
-              40.01449999999999
-            ],
-            [
-              116.34930000000001,
-              40.016299999999994
-            ],
-            [
-              116.34750000000001,
-              40.016299999999994
-            ],
-            [
-              116.34750000000001,
-              40.01449999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-085",
-      "properties": {
-        "id": "B-085",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30716.125
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              40.01449999999999
-            ],
-            [
-              116.35250000000002,
-              40.01449999999999
-            ],
-            [
-              116.35250000000002,
-              40.016299999999994
-            ],
-            [
-              116.35070000000002,
-              40.016299999999994
-            ],
-            [
-              116.35070000000002,
-              40.01449999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-086",
-      "properties": {
-        "id": "B-086",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30714.753
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              40.01769999999999
-            ],
-            [
-              116.3461,
-              40.01769999999999
-            ],
-            [
-              116.3461,
-              40.019499999999994
-            ],
-            [
-              116.3443,
-              40.019499999999994
-            ],
-            [
-              116.3443,
-              40.01769999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-087",
-      "properties": {
-        "id": "B-087",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30714.73
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              40.01769999999999
-            ],
-            [
-              116.34930000000001,
-              40.01769999999999
-            ],
-            [
-              116.34930000000001,
-              40.019499999999994
-            ],
-            [
-              116.34750000000001,
-              40.019499999999994
-            ],
-            [
-              116.34750000000001,
-              40.01769999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-088",
-      "properties": {
-        "id": "B-088",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30714.707
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              40.01769999999999
-            ],
-            [
-              116.35250000000002,
-              40.01769999999999
-            ],
-            [
-              116.35250000000002,
-              40.019499999999994
-            ],
-            [
-              116.35070000000002,
-              40.019499999999994
-            ],
-            [
-              116.35070000000002,
-              40.01769999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-089",
-      "properties": {
-        "id": "B-089",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30713.335
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.3443,
-              40.02089999999999
-            ],
-            [
-              116.3461,
-              40.02089999999999
-            ],
-            [
-              116.3461,
-              40.02269999999999
-            ],
-            [
-              116.3443,
-              40.02269999999999
-            ],
-            [
-              116.3443,
-              40.02089999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-090",
-      "properties": {
-        "id": "B-090",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30713.312
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.34750000000001,
-              40.02089999999999
-            ],
-            [
-              116.34930000000001,
-              40.02089999999999
-            ],
-            [
-              116.34930000000001,
-              40.02269999999999
-            ],
-            [
-              116.34750000000001,
-              40.02269999999999
-            ],
-            [
-              116.34750000000001,
-              40.02089999999999
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "B-091",
-      "properties": {
-        "id": "B-091",
-        "layer": "BUILDING",
-        "source_type": "agent_designed_concept",
-        "confidence": "low",
-        "geometry_role": "concept_proposal",
-        "area_sqm_declared": 30713.289
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              116.35070000000002,
-              40.02089999999999
-            ],
-            [
-              116.35250000000002,
-              40.02089999999999
-            ],
-            [
-              116.35250000000002,
-              40.02269999999999
-            ],
-            [
-              116.35070000000002,
-              40.02269999999999
-            ],
-            [
-              116.35070000000002,
-              40.02089999999999
-            ]
-          ]
-        ]
-      }
-    }
-  ]
+ "type": "FeatureCollection",
+ "name": "luoduo-agent-city",
+ "metadata": {
+  "crs": "EPSG:4326",
+  "area_crs": "EPSG:4548",
+  "boundary_status": "provisional_constraint"
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "id": "B-001",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-001",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-001"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3408,
+       39.9480875
+      ],
+      [
+       116.3408,
+       39.943662499999995
+      ],
+      [
+       116.3405704861111,
+       39.943662499999995
+      ],
+      [
+       116.34050749279538,
+       39.94593025936598
+      ],
+      [
+       116.3408,
+       39.9480875
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-002",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-002",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-002"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3428,
+       39.9480875
+      ],
+      [
+       116.3428,
+       39.943662499999995
+      ],
+      [
+       116.34219999999999,
+       39.943662499999995
+      ],
+      [
+       116.3428,
+       39.9480875
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-003",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-003",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-003"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3448,
+       39.9480875
+      ],
+      [
+       116.3448,
+       39.943662499999995
+      ],
+      [
+       116.3442,
+       39.943662499999995
+      ],
+      [
+       116.3448,
+       39.9480875
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-004",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-004",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-004"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3468,
+       39.9480875
+      ],
+      [
+       116.3468,
+       39.943662499999995
+      ],
+      [
+       116.3462,
+       39.943662499999995
+      ],
+      [
+       116.3468,
+       39.9480875
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-005",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-005",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-005"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3508,
+       39.9480875
+      ],
+      [
+       116.3508,
+       39.943662499999995
+      ],
+      [
+       116.3502,
+       39.943662499999995
+      ],
+      [
+       116.3508,
+       39.9480875
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-006",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-006",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-006"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3528,
+       39.9480875
+      ],
+      [
+       116.3528,
+       39.943662499999995
+      ],
+      [
+       116.3522,
+       39.943662499999995
+      ],
+      [
+       116.3528,
+       39.9480875
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-007",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-007",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-007"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35480000000001,
+       39.9480875
+      ],
+      [
+       116.35480000000001,
+       39.943662499999995
+      ],
+      [
+       116.3542,
+       39.943662499999995
+      ],
+      [
+       116.35480000000001,
+       39.9480875
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-008",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-008",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-008"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3408,
+       39.9628375
+      ],
+      [
+       116.3408,
+       39.958412499999994
+      ],
+      [
+       116.3402,
+       39.958412499999994
+      ],
+      [
+       116.3408,
+       39.9628375
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-009",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-009",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-009"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3428,
+       39.9628375
+      ],
+      [
+       116.3428,
+       39.958412499999994
+      ],
+      [
+       116.34219999999999,
+       39.958412499999994
+      ],
+      [
+       116.3428,
+       39.9628375
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-010",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-010",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-010"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3448,
+       39.9628375
+      ],
+      [
+       116.3448,
+       39.958412499999994
+      ],
+      [
+       116.3442,
+       39.958412499999994
+      ],
+      [
+       116.3448,
+       39.9628375
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-011",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-011",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-011"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3468,
+       39.9628375
+      ],
+      [
+       116.3468,
+       39.958412499999994
+      ],
+      [
+       116.3462,
+       39.958412499999994
+      ],
+      [
+       116.3468,
+       39.9628375
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-012",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-012",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-012"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3508,
+       39.9628375
+      ],
+      [
+       116.3508,
+       39.958412499999994
+      ],
+      [
+       116.3502,
+       39.958412499999994
+      ],
+      [
+       116.3508,
+       39.9628375
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-013",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-013",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-013"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3528,
+       39.9628375
+      ],
+      [
+       116.3528,
+       39.958412499999994
+      ],
+      [
+       116.3522,
+       39.958412499999994
+      ],
+      [
+       116.3528,
+       39.9628375
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-014",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-014",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-014"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.35480000000001,
+       39.9628375
+      ],
+      [
+       116.35480000000001,
+       39.958412499999994
+      ],
+      [
+       116.3542,
+       39.958412499999994
+      ],
+      [
+       116.35480000000001,
+       39.9628375
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-015",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-015",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "community_service",
+    "floors": 6,
+    "usage_zh": "概念建筑组团B-015"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3448,
+       39.9775875
+      ],
+      [
+       116.3448,
+       39.973162499999994
+      ],
+      [
+       116.3442,
+       39.973162499999994
+      ],
+      [
+       116.3448,
+       39.9775875
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-016",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-016",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "community_service",
+    "floors": 6,
+    "usage_zh": "概念建筑组团B-016"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3508,
+       39.9775875
+      ],
+      [
+       116.3508,
+       39.973162499999994
+      ],
+      [
+       116.3502,
+       39.973162499999994
+      ],
+      [
+       116.3508,
+       39.9775875
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-017",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-017",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "community_service",
+    "floors": 6,
+    "usage_zh": "概念建筑组团B-017"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3408,
+       39.98791249999999
+      ],
+      [
+       116.34053306451612,
+       39.98791249999999
+      ],
+      [
+       116.3408,
+       39.99205000000004
+      ],
+      [
+       116.3408,
+       39.98791249999999
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-018",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-018",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "community_service",
+    "floors": 6,
+    "usage_zh": "概念建筑组团B-018"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3428,
+       39.9923375
+      ],
+      [
+       116.3428,
+       39.98791249999999
+      ],
+      [
+       116.34219999999999,
+       39.98791249999999
+      ],
+      [
+       116.3428,
+       39.9923375
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-019",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-019",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-019"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3448,
+       39.9923375
+      ],
+      [
+       116.3448,
+       39.98791249999999
+      ],
+      [
+       116.3442,
+       39.98791249999999
+      ],
+      [
+       116.3448,
+       39.9923375
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-020",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-020",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "community_service",
+    "floors": 6,
+    "usage_zh": "概念建筑组团B-020"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3468,
+       39.9923375
+      ],
+      [
+       116.3468,
+       39.98791249999999
+      ],
+      [
+       116.3462,
+       39.98791249999999
+      ],
+      [
+       116.3468,
+       39.9923375
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-021",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-021",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-021"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3508,
+       39.9923375
+      ],
+      [
+       116.3508,
+       39.98791249999999
+      ],
+      [
+       116.3502,
+       39.98791249999999
+      ],
+      [
+       116.3508,
+       39.9923375
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-022",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-022",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "community_service",
+    "floors": 6,
+    "usage_zh": "概念建筑组团B-022"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3528,
+       39.9923375
+      ],
+      [
+       116.3528,
+       39.98791249999999
+      ],
+      [
+       116.3522,
+       39.98791249999999
+      ],
+      [
+       116.3528,
+       39.9923375
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-023",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-023",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "community_service",
+    "floors": 6,
+    "usage_zh": "概念建筑组团B-023"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3428,
+       40.007087500000004
+      ],
+      [
+       116.3428,
+       40.0026625
+      ],
+      [
+       116.34219999999999,
+       40.0026625
+      ],
+      [
+       116.3428,
+       40.007087500000004
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-024",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-024",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "community_service",
+    "floors": 6,
+    "usage_zh": "概念建筑组团B-024"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3448,
+       40.007087500000004
+      ],
+      [
+       116.3448,
+       40.0026625
+      ],
+      [
+       116.3442,
+       40.0026625
+      ],
+      [
+       116.3448,
+       40.007087500000004
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "B-025",
+   "properties": {
+    "source_type": "agent_generated_design",
+    "confidence": "medium",
+    "geometry_role": "design_proposal",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "LUODUO-ECOSYSTEM-AUTH",
+    "usage_note": "概念性建筑基底，非现状/规划总量。",
+    "id": "B-025",
+    "layer": "BUILDING_FOOTPRINT",
+    "building_type": "mixed_use",
+    "floors": 8,
+    "usage_zh": "概念建筑组团B-025"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       116.3528,
+       40.007087500000004
+      ],
+      [
+       116.3528,
+       40.0026625
+      ],
+      [
+       116.3522,
+       40.0026625
+      ],
+      [
+       116.3528,
+       40.007087500000004
+      ]
+     ]
+    ]
+   }
+  }
+ ]
 }

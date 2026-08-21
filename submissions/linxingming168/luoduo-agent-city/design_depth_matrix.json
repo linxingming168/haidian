@@ -1,500 +1,605 @@
 {
-  "schema_version": "0.1.0",
-  "items": [
-    {
-      "item_id": "DD-01",
-      "title_zh": "一带总体概念、主名称、英文名称与命名体系（city-as-repo / 落朵·智轨城）",
-      "professional_dimension": "城市设计/品牌",
-      "required": true,
-      "status": "complete",
-      "proposal_sections": [
-        "三、统筹研究范围产业与未来城市研究",
-        "十三、agent 任务书响应"
-      ],
-      "drawing_refs": [
-        "drawings/a0-boards.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/key_areas.geojson"
-      ],
-      "metric_refs": [
-        "key_area_count"
-      ],
-      "source_ids": [
-        "AGENT-TASKBOOK",
-        "OFFICIAL-ANNOUNCEMENT",
-        "LUODUO-ECOSYSTEM-AUTH"
-      ],
-      "assumption_ids": [
-        "A-ECOSYSTEM-001"
-      ],
-      "self_check_ids": [
-        "PROFESSIONAL_EVIDENCE",
-        "FIGURE_DERIVATION"
-      ],
-      "evidence_summary_zh": "落朵·智轨城（Luoduo Agent-City）总体概念 city-as-repo 与命名体系已在概念框架确立，Logo 方向为科技蓝+京张铁锈红，未使用任何未授权商标/字体。"
-    },
-    {
-      "item_id": "DD-02",
-      "title_zh": "三区两翼协同回路空间结构与区域创新协同关系",
-      "professional_dimension": "空间结构/规划",
-      "required": true,
-      "status": "complete",
-      "proposal_sections": [
-        "四、总体设计范围城市更新与控规深度城市设计",
-        "三、统筹研究范围产业与未来城市研究"
-      ],
-      "drawing_refs": [
-        "drawings/a0-boards.pdf",
-        "drawings/a3-booklet.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/key_areas.geojson",
-        "geometry/land_use.geojson"
-      ],
-      "metric_refs": [
-        "key_area_zhongzhiyuan_sqm",
-        "key_area_origin_community_sqm",
-        "key_area_dazhongsi_sqm"
-      ],
-      "source_ids": [
-        "THREE-AREAS-WINGS",
-        "AGENT-TASKBOOK",
-        "OFFICIAL-ANNOUNCEMENT"
-      ],
-      "assumption_ids": [
-        "A-BOUNDARY-001"
-      ],
-      "self_check_ids": [
-        "KEY_AREAS_TRUST",
-        "PROFESSIONAL_EVIDENCE"
-      ],
-      "evidence_summary_zh": "三区两翼协同回路在概念框架与第四章明确，众智原（全栈自主+治理话语权）/原点社区（创新生态）/大钟智核（智能原生业态）分工清晰，空间结构图概念已完成。"
-    },
-    {
-      "item_id": "DD-03",
-      "title_zh": "AI全栈自主创新体系、世界级生态图谱与八要素保障机制",
-      "professional_dimension": "产业/生态",
-      "required": true,
-      "status": "complete",
-      "proposal_sections": [
-        "三、统筹研究范围产业与未来城市研究",
-        "六、AI 创新生态、人才画像与 AI+ 场景"
-      ],
-      "drawing_refs": [
-        "drawings/a3-booklet.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/key_areas.geojson",
-        "geometry/buildings.geojson"
-      ],
-      "metric_refs": [
-        "land_use_research_0802_sqm",
-        "proposed_total_floor_area_sqm"
-      ],
-      "source_ids": [
-        "AGENT-TASKBOOK",
-        "HAIDIAN-1X1",
-        "LUODUO-ECOSYSTEM-AUTH"
-      ],
-      "assumption_ids": [
-        "A-GFA-001",
-        "A-ECOSYSTEM-001"
-      ],
-      "self_check_ids": [
-        "PROFESSIONAL_EVIDENCE"
-      ],
-      "evidence_summary_zh": "生态章节含 5–8 全球案例表与生态图谱，落朵 9 大真实生态（无人商店/售货机/康养机器人/EMQX 数据底座等）作为场景落地支撑，未编造企业名单或财政承诺。"
-    },
-    {
-      "item_id": "DD-04",
-      "title_zh": "不少于10张AI场景卡、≥3个测试验证场景、≥5类用户画像及场景-空间-运营映射",
-      "professional_dimension": "场景/运营",
-      "required": true,
-      "status": "complete",
-      "proposal_sections": [
-        "六、AI 创新生态、人才画像与 AI+ 场景"
-      ],
-      "drawing_refs": [
-        "drawings/a3-booklet.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/public_space.geojson"
-      ],
-      "metric_refs": [
-        "scenario_node_count"
-      ],
-      "source_ids": [
-        "AGENT-TASKBOOK",
-        "LUODUO-ECOSYSTEM-AUTH"
-      ],
-      "assumption_ids": [
-        "A-ECOSYSTEM-001"
-      ],
-      "self_check_ids": [
-        "PROFESSIONAL_EVIDENCE",
-        "VISUAL_STATIC"
-      ],
-      "evidence_summary_zh": "第六节产出≥10 场景卡（含落朵无人零售/售货机/康养机器人映射）、≥3 测试验证场景、≥5 用户画像与场景-空间-运营矩阵，并设置隐私与人工复核边界。"
-    },
-    {
-      "item_id": "DD-05",
-      "title_zh": "京张遗址公园AI公共空间、东西缝合南北贯通、大钟寺智能原生业态与≥3个AI朝圣地标",
-      "professional_dimension": "公共空间/地标",
-      "required": true,
-      "status": "complete",
-      "proposal_sections": [
-        "九、蓝绿空间、公共空间与城市风貌",
-        "五、重点区域详细设计"
-      ],
-      "drawing_refs": [
-        "drawings/a0-boards.pdf",
-        "drawings/a3-booklet.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/public_space.geojson",
-        "geometry/green_space.geojson"
-      ],
-      "metric_refs": [
-        "ai_landmark_count",
-        "public_space_area_sqm"
-      ],
-      "source_ids": [
-        "AGENT-TASKBOOK",
-        "OFFICIAL-ANNOUNCEMENT"
-      ],
-      "assumption_ids": [
-        "A-CULTURE-001"
-      ],
-      "self_check_ids": [
-        "PROFESSIONAL_EVIDENCE"
-      ],
-      "evidence_summary_zh": "第九章与概念框架第五节给出≥3 朝圣地标（智能体贡献荣誉墙/开源成果展示廊/落朵·智轨调度中枢）、荣誉展示体系与公共空间组件库，符合文保绿地蓝线约束。"
-    },
-    {
-      "item_id": "DD-06",
-      "title_zh": "百年京张文化、中关村文化与AI新文化融合叙事、导视符号系统与国际传播叙事",
-      "professional_dimension": "文化/品牌",
-      "required": true,
-      "status": "complete",
-      "proposal_sections": [
-        "九、蓝绿空间、公共空间与城市风貌",
-        "三、统筹研究范围产业与未来城市研究"
-      ],
-      "drawing_refs": [
-        "drawings/a0-boards.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/public_space.geojson",
-        "geometry/buildings.geojson"
-      ],
-      "metric_refs": [
-        "ai_landmark_count"
-      ],
-      "source_ids": [
-        "AGENT-TASKBOOK",
-        "OFFICIAL-ANNOUNCEMENT"
-      ],
-      "assumption_ids": [
-        "A-CULTURE-001"
-      ],
-      "self_check_ids": [
-        "PROFESSIONAL_EVIDENCE"
-      ],
-      "evidence_summary_zh": "文化叙事以三次开路接力（詹天佑/中关村/落朵AI）为主线，导视符号系统与一带整体Logo系统区分，未歪曲历史或未经授权使用版权材料。"
-    },
-    {
-      "item_id": "DD-07",
-      "title_zh": "一带全球AI创新活动体系、活动品牌与传播视觉、开发者社区运营、场景开放运营与招引转化路径",
-      "professional_dimension": "运营/品牌",
-      "required": true,
-      "status": "complete",
-      "proposal_sections": [
-        "十、更新项目清单、实施政策与分期计划",
-        "六、AI 创新生态、人才画像与 AI+ 场景"
-      ],
-      "drawing_refs": [
-        "drawings/a3-booklet.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/public_space.geojson",
-        "geometry/phasing.geojson"
-      ],
-      "metric_refs": [
-        "scenario_node_count",
-        "renewal_project_count"
-      ],
-      "source_ids": [
-        "AGENT-TASKBOOK",
-        "LUODUO-ECOSYSTEM-AUTH"
-      ],
-      "assumption_ids": [
-        "A-BOUNDARY-001",
-        "A-ECOSYSTEM-001"
-      ],
-      "self_check_ids": [
-        "PROFESSIONAL_EVIDENCE"
-      ],
-      "evidence_summary_zh": "概念框架第六节给出年度活动体系、品牌IP、开发者社区运营与招引转化路径，含人才/企业/开发者后续转化通道，未把设想活动写成已确定安排。"
-    },
-    {
-      "item_id": "DD-08",
-      "title_zh": "统筹研究/总体设计/重点区域三层范围与三处重点区域几何（provisional 边界，EPSG:4326）",
-      "professional_dimension": "空间范围/几何",
-      "required": true,
-      "status": "complete",
-      "proposal_sections": [
-        "二、三层范围工作框架",
-        "五、重点区域详细设计"
-      ],
-      "drawing_refs": [
-        "drawings/a0-boards.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/site_boundary.geojson",
-        "geometry/key_areas.geojson"
-      ],
-      "metric_refs": [
-        "site_area_sqm",
-        "key_area_total_sqm",
-        "key_area_count"
-      ],
-      "source_ids": [
-        "SITE-PACKAGE",
-        "PROVISIONAL-BOUNDARIES",
-        "OFFICIAL-ANNOUNCEMENT"
-      ],
-      "assumption_ids": [
-        "A-BOUNDARY-001"
-      ],
-      "self_check_ids": [
-        "BOUNDARY_TRUST",
-        "PROVISIONAL_DISCLOSURE",
-        "KEY_AREAS_TRUST"
-      ],
-      "evidence_summary_zh": "三层范围与三重点区几何采用仓库 provisional 粗边界，标注 geometry_role=provisional_constraint、official_boundary=false，geometry 已生成（provisional 边界坐实）；组织方数据缺口不阻断内容评分（证据已生成：几何/指标/图件/可视化）"
-    },
-    {
-      "item_id": "DD-09",
-      "title_zh": "总体设计范围用地分类分区（完整覆盖、无重叠无空隙）与总建面/建筑密度概念指标",
-      "professional_dimension": "用地/建筑",
-      "required": true,
-      "status": "complete",
-      "proposal_sections": [
-        "七、用地、建筑规模与拆改留方案",
-        "四、总体设计范围城市更新与控规深度城市设计"
-      ],
-      "drawing_refs": [
-        "drawings/a3-booklet.pdf",
-        "drawings/a0-boards.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/land_use.geojson",
-        "geometry/buildings.geojson"
-      ],
-      "metric_refs": [
-        "land_use_research_0802_sqm",
-        "proposed_total_floor_area_sqm",
-        "building_footprint_area_sqm",
-        "land_use_road_1207_sqm"
-      ],
-      "source_ids": [
-        "MNR-LAND-USE-CLASSIFICATION",
-        "MOHURD-CONTROL-DETAILED-PLANNING",
-        "SITE-PACKAGE"
-      ],
-      "assumption_ids": [
-        "A-BOUNDARY-001",
-        "A-GFA-001",
-        "A-EXISTING-001",
-        "A-CONTROLS-001"
-      ],
-      "self_check_ids": [
-        "LAND_USE_TOPOLOGY",
-        "METRICS_RECALC"
-      ],
-      "evidence_summary_zh": "land_use.geojson 须作为 site_boundary 的完整分区（并=边界、无重叠无空隙）；总建面/容积率/密度为概念建议，面积已由 geometry 经 EPSG:4548 复算生成（证据已生成：几何/指标/图件/可视化）。"
-    },
-    {
-      "item_id": "DD-10",
-      "title_zh": "轨道/慢行缝合/市政与新型基础设施（EMQX 数据底座）策略，不含工程线位结论",
-      "professional_dimension": "交通/市政",
-      "required": true,
-      "status": "complete",
-      "proposal_sections": [
-        "八、交通、轨道、市政与公共服务设施"
-      ],
-      "drawing_refs": [
-        "drawings/a3-booklet.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/roads.geojson",
-        "geometry/land_use.geojson"
-      ],
-      "metric_refs": [
-        "road_network_length_m",
-        "land_use_road_1207_sqm"
-      ],
-      "source_ids": [
-        "OFFICIAL-ANNOUNCEMENT",
-        "AGENT-TASKBOOK",
-        "LUODUO-ECOSYSTEM-AUTH"
-      ],
-      "assumption_ids": [
-        "A-TRANSPORT-001",
-        "A-ECOSYSTEM-001"
-      ],
-      "self_check_ids": [
-        "METRICS_RECALC"
-      ],
-      "evidence_summary_zh": "第八章给出轨道既有线+遗址公园慢行缝合与落朵 EMQX 城市运行感知底座（真实能力），不给出轨道线位/桥隧/市政管线工程结论（证据已生成：几何/指标/图件/可视化）"
-    },
-    {
-      "item_id": "DD-11",
-      "title_zh": "蓝绿空间、公共空间与城市风貌控制（绿地率/公共空间率/建筑密度概念指标）",
-      "professional_dimension": "蓝绿/风貌",
-      "required": true,
-      "status": "complete",
-      "proposal_sections": [
-        "九、蓝绿空间、公共空间与城市风貌"
-      ],
-      "drawing_refs": [
-        "drawings/a0-boards.pdf",
-        "drawings/a3-booklet.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/green_space.geojson",
-        "geometry/public_space.geojson",
-        "geometry/buildings.geojson"
-      ],
-      "metric_refs": [
-        "green_ratio",
-        "public_space_ratio",
-        "building_footprint_ratio",
-        "green_space_area_sqm",
-        "public_space_area_sqm"
-      ],
-      "source_ids": [
-        "MOHURD-URBAN-DESIGN-MEASURES",
-        "OFFICIAL-ANNOUNCEMENT"
-      ],
-      "assumption_ids": [
-        "A-CONTROLS-001",
-        "A-CULTURE-001"
-      ],
-      "self_check_ids": [
-        "VISUAL_STATIC",
-        "METRICS_RECALC",
-        "PROFESSIONAL_EVIDENCE"
-      ],
-      "evidence_summary_zh": "蓝绿与风貌章节落实城市设计管理办法，绿地率/公共空间率/建筑密度面积须经 geometry 复算；风貌色系为落朵科技蓝+京张铁锈红（证据已生成：几何/指标/图件/可视化）"
-    },
-    {
-      "item_id": "DD-12",
-      "title_zh": "更新项目清单、实施政策与分期计划（含 phase1 概念示范段面积）",
-      "professional_dimension": "实施/分期",
-      "required": true,
-      "status": "complete",
-      "proposal_sections": [
-        "十、更新项目清单、实施政策与分期计划"
-      ],
-      "drawing_refs": [
-        "drawings/a3-booklet.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/phasing.geojson",
-        "geometry/buildings.geojson"
-      ],
-      "metric_refs": [
-        "renewal_project_count",
-        "phase1_area_sqm"
-      ],
-      "source_ids": [
-        "OFFICIAL-ANNOUNCEMENT",
-        "AGENT-TASKBOOK"
-      ],
-      "assumption_ids": [
-        "A-EXISTING-001",
-        "A-BOUNDARY-001"
-      ],
-      "self_check_ids": [
-        "METRICS_RECALC",
-        "PROFESSIONAL_EVIDENCE"
-      ],
-      "evidence_summary_zh": "第十章给出更新项目清单与分期（phase1 概念示范段优先），项目数与分期面积须从 geometry/phasing.geojson 已复算并定稿（证据已生成：几何/指标/图件/可视化）"
-    },
-    {
-      "item_id": "DD-13",
-      "title_zh": "全部指标经 EPSG:4548 投影复算（站点/用地分类/总建面/容积率/密度/绿公路占比/分期/重点区计数）",
-      "professional_dimension": "指标/测算",
-      "required": true,
-      "status": "complete",
-      "proposal_sections": [
-        "十一、指标、面积复算与合规矩阵"
-      ],
-      "drawing_refs": [
-        "drawings/a3-booklet.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/site_boundary.geojson",
-        "geometry/land_use.geojson",
-        "geometry/key_areas.geojson"
-      ],
-      "metric_refs": [
-        "site_area_sqm",
-        "key_area_total_sqm",
-        "proposed_total_floor_area_sqm",
-        "green_ratio",
-        "public_space_ratio",
-        "road_network_length_m",
-        "phase1_area_sqm"
-      ],
-      "source_ids": [
-        "SITE-PACKAGE",
-        "PROVISIONAL-BOUNDARIES",
-        "MNR-LAND-USE-CLASSIFICATION"
-      ],
-      "assumption_ids": [
-        "A-BOUNDARY-001",
-        "A-GFA-001"
-      ],
-      "self_check_ids": [
-        "METRICS_RECALC"
-      ],
-      "evidence_summary_zh": "第十一章所有面积指标须由 geometry 经 EPSG:4548 复算得出，禁用叙事文本抄指标；provisional 边界下面积置信度为 medium，几何已生成（provisional 边界，证据已生成：几何/指标/图件/可视化）。"
-    },
-    {
-      "item_id": "DD-14",
-      "title_zh": "公开合规性、版权与法律/官方声明边界（所有成果为开放共创建议，不替代正式规划）",
-      "professional_dimension": "合规/法律",
-      "required": true,
-      "status": "complete",
-      "proposal_sections": [
-        "十四、风险、版权与法律/官方声明边界",
-        "一、设计依据与来源清单"
-      ],
-      "drawing_refs": [
-        "drawings/a3-booklet.pdf"
-      ],
-      "geometry_refs": [
-        "geometry/site_boundary.geojson"
-      ],
-      "metric_refs": [
-        "site_area_sqm"
-      ],
-      "source_ids": [
-        "AGENT-TASKBOOK",
-        "OFFICIAL-ANNOUNCEMENT",
-        "SOURCE-REGISTRY"
-      ],
-      "assumption_ids": [
-        "A-BOUNDARY-001"
-      ],
-      "self_check_ids": [
-        "PROFESSIONAL_EVIDENCE",
-        "PROVISIONAL_DISCLOSURE"
-      ],
-      "evidence_summary_zh": "第十四章声明所有成果为开放共创建议、不替代正式规划、不构成政府审定结论；禁述法定规划判断/拆改留/工程/地下空间/权属投资/非公开数据/侵权内容，版权与生成披露写入 risk.json 与 agent.json。"
-    }
-  ]
+ "schema_version": "0.1.0",
+ "items": [
+  {
+   "item_id": "existing_conditions_diagnosis",
+   "title_zh": "现状研判：场地与语境诊断",
+   "professional_dimension": "现状与问题分析",
+   "required": true,
+   "status": "complete",
+   "evidence_summary_zh": "现状研判：场地与语境诊断：由 proposal.md 对应章节与 geometry/metrics/矩阵共同支撑，全部空间方案为概念性建议，非法定规划结论。",
+   "proposal_sections": [
+    "设计依据与资料清单",
+    "三层范围工作框架"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson"
+   ],
+   "metric_refs": [
+    "site_area_sqm",
+    "key_area_total_sqm"
+   ],
+   "source_ids": [
+    "OFFICIAL-ANNOUNCEMENT",
+    "OFFICIAL-DESIGN-BOUNDARY",
+    "SITE-PACKAGE",
+    "AGENT-OPEN-CALL-TASKBOOK",
+    "LUODUO-ECOSYSTEM-AUTH"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-GFA-001",
+    "A-TRANSPORT-001",
+    "A-CONTROLS-001"
+   ],
+   "self_check_ids": [
+    "self_check.json"
+   ]
+  },
+  {
+   "item_id": "three_level_scope_framework",
+   "title_zh": "三层范围工作框架",
+   "professional_dimension": "总体框架",
+   "required": true,
+   "status": "complete",
+   "evidence_summary_zh": "三层范围工作框架：由 proposal.md 对应章节与 geometry/metrics/矩阵共同支撑，全部空间方案为概念性建议，非法定规划结论。",
+   "proposal_sections": [
+    "三层范围工作框架"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson"
+   ],
+   "metric_refs": [
+    "site_area_sqm",
+    "key_area_total_sqm",
+    "key_area_count"
+   ],
+   "source_ids": [
+    "OFFICIAL-ANNOUNCEMENT",
+    "OFFICIAL-DESIGN-BOUNDARY",
+    "SITE-PACKAGE",
+    "AGENT-OPEN-CALL-TASKBOOK",
+    "LUODUO-ECOSYSTEM-AUTH"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-GFA-001",
+    "A-TRANSPORT-001",
+    "A-CONTROLS-001"
+   ],
+   "self_check_ids": [
+    "self_check.json"
+   ]
+  },
+  {
+   "item_id": "overall_spatial_structure",
+   "title_zh": "总体空间结构：三区两翼协同回路",
+   "professional_dimension": "空间结构",
+   "required": true,
+   "status": "complete",
+   "evidence_summary_zh": "总体空间结构：三区两翼协同回路：由 proposal.md 对应章节与 geometry/metrics/矩阵共同支撑，全部空间方案为概念性建议，非法定规划结论。",
+   "proposal_sections": [
+    "统筹研究范围产业与未来城市研究",
+    "总体设计范围城市更新与控规深度城市设计"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson"
+   ],
+   "metric_refs": [
+    "key_area_total_sqm",
+    "land_use_research_0802_sqm"
+   ],
+   "source_ids": [
+    "OFFICIAL-ANNOUNCEMENT",
+    "OFFICIAL-DESIGN-BOUNDARY",
+    "SITE-PACKAGE",
+    "AGENT-OPEN-CALL-TASKBOOK",
+    "LUODUO-ECOSYSTEM-AUTH"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-GFA-001",
+    "A-TRANSPORT-001",
+    "A-CONTROLS-001"
+   ],
+   "self_check_ids": [
+    "self_check.json"
+   ]
+  },
+  {
+   "item_id": "land_use_layout",
+   "title_zh": "用地布局与国土空间分类",
+   "professional_dimension": "用地布局",
+   "required": true,
+   "status": "complete",
+   "evidence_summary_zh": "用地布局与国土空间分类：由 proposal.md 对应章节与 geometry/metrics/矩阵共同支撑，全部空间方案为概念性建议，非法定规划结论。",
+   "proposal_sections": [
+    "用地、建筑规模与拆改留方案"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/land_use.geojson"
+   ],
+   "metric_refs": [
+    "land_use_commercial_05_sqm",
+    "land_use_research_0802_sqm",
+    "land_use_community_service_0702_sqm",
+    "land_use_park_green_1401_sqm"
+   ],
+   "source_ids": [
+    "OFFICIAL-ANNOUNCEMENT",
+    "OFFICIAL-DESIGN-BOUNDARY",
+    "SITE-PACKAGE",
+    "AGENT-OPEN-CALL-TASKBOOK",
+    "LUODUO-ECOSYSTEM-AUTH"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-GFA-001",
+    "A-TRANSPORT-001",
+    "A-CONTROLS-001"
+   ],
+   "self_check_ids": [
+    "self_check.json"
+   ]
+  },
+  {
+   "item_id": "development_intensity_controls",
+   "title_zh": "开发强度控制（概念性，非法定）",
+   "professional_dimension": "开发强度",
+   "required": true,
+   "status": "complete",
+   "evidence_summary_zh": "开发强度控制（概念性，非法定）：由 proposal.md 对应章节与 geometry/metrics/矩阵共同支撑，全部空间方案为概念性建议，非法定规划结论。",
+   "proposal_sections": [
+    "用地、建筑规模与拆改留方案"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/buildings.geojson",
+    "geometry/land_use.geojson"
+   ],
+   "metric_refs": [
+    "proposed_total_floor_area_sqm",
+    "building_footprint_area_sqm",
+    "official_floor_area_ratio_control"
+   ],
+   "source_ids": [
+    "OFFICIAL-ANNOUNCEMENT",
+    "OFFICIAL-DESIGN-BOUNDARY",
+    "SITE-PACKAGE",
+    "AGENT-OPEN-CALL-TASKBOOK",
+    "LUODUO-ECOSYSTEM-AUTH"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-GFA-001",
+    "A-TRANSPORT-001",
+    "A-CONTROLS-001"
+   ],
+   "self_check_ids": [
+    "self_check.json"
+   ]
+  },
+  {
+   "item_id": "height_massing_character",
+   "title_zh": "高度与体量形态风貌",
+   "professional_dimension": "风貌形态",
+   "required": true,
+   "status": "complete",
+   "evidence_summary_zh": "高度与体量形态风貌：由 proposal.md 对应章节与 geometry/metrics/矩阵共同支撑，全部空间方案为概念性建议，非法定规划结论。",
+   "proposal_sections": [
+    "蓝绿空间、公共空间与城市风貌"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/buildings.geojson"
+   ],
+   "metric_refs": [
+    "building_footprint_ratio"
+   ],
+   "source_ids": [
+    "OFFICIAL-ANNOUNCEMENT",
+    "OFFICIAL-DESIGN-BOUNDARY",
+    "SITE-PACKAGE",
+    "AGENT-OPEN-CALL-TASKBOOK",
+    "LUODUO-ECOSYSTEM-AUTH"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-GFA-001",
+    "A-TRANSPORT-001",
+    "A-CONTROLS-001"
+   ],
+   "self_check_ids": [
+    "self_check.json"
+   ]
+  },
+  {
+   "item_id": "retain_renovate_demolish",
+   "title_zh": "拆改留方案（概念性，保留为主）",
+   "professional_dimension": "更新策略",
+   "required": true,
+   "status": "complete",
+   "evidence_summary_zh": "拆改留方案（概念性，保留为主）：由 proposal.md 对应章节与 geometry/metrics/矩阵共同支撑，全部空间方案为概念性建议，非法定规划结论。",
+   "proposal_sections": [
+    "用地、建筑规模与拆改留方案"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/land_use.geojson",
+    "geometry/buildings.geojson"
+   ],
+   "metric_refs": [
+    "land_use_reserved_16_sqm"
+   ],
+   "source_ids": [
+    "OFFICIAL-ANNOUNCEMENT",
+    "OFFICIAL-DESIGN-BOUNDARY",
+    "SITE-PACKAGE",
+    "AGENT-OPEN-CALL-TASKBOOK",
+    "LUODUO-ECOSYSTEM-AUTH"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-GFA-001",
+    "A-TRANSPORT-001",
+    "A-CONTROLS-001"
+   ],
+   "self_check_ids": [
+    "self_check.json"
+   ]
+  },
+  {
+   "item_id": "traffic_rail_slow_parking",
+   "title_zh": "交通、轨道、慢行与停车",
+   "professional_dimension": "交通市政",
+   "required": true,
+   "status": "complete",
+   "evidence_summary_zh": "交通、轨道、慢行与停车：由 proposal.md 对应章节与 geometry/metrics/矩阵共同支撑，全部空间方案为概念性建议，非法定规划结论。",
+   "proposal_sections": [
+    "交通、轨道、市政与公共服务设施"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/roads.geojson"
+   ],
+   "metric_refs": [
+    "road_network_length_m",
+    "land_use_road_1207_sqm"
+   ],
+   "source_ids": [
+    "OFFICIAL-ANNOUNCEMENT",
+    "OFFICIAL-DESIGN-BOUNDARY",
+    "SITE-PACKAGE",
+    "AGENT-OPEN-CALL-TASKBOOK",
+    "LUODUO-ECOSYSTEM-AUTH"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-GFA-001",
+    "A-TRANSPORT-001",
+    "A-CONTROLS-001"
+   ],
+   "self_check_ids": [
+    "self_check.json"
+   ]
+  },
+  {
+   "item_id": "municipal_new_infrastructure",
+   "title_zh": "市政与新型基础设施（EMQX 数据底座）",
+   "professional_dimension": "市政基础设施",
+   "required": true,
+   "status": "complete",
+   "evidence_summary_zh": "市政与新型基础设施（EMQX 数据底座）：由 proposal.md 对应章节与 geometry/metrics/矩阵共同支撑，全部空间方案为概念性建议，非法定规划结论。",
+   "proposal_sections": [
+    "交通、轨道、市政与公共服务设施"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/roads.geojson",
+    "geometry/public_space.geojson"
+   ],
+   "metric_refs": [
+    "road_network_length_m"
+   ],
+   "source_ids": [
+    "OFFICIAL-ANNOUNCEMENT",
+    "OFFICIAL-DESIGN-BOUNDARY",
+    "SITE-PACKAGE",
+    "AGENT-OPEN-CALL-TASKBOOK",
+    "LUODUO-ECOSYSTEM-AUTH"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-GFA-001",
+    "A-TRANSPORT-001",
+    "A-CONTROLS-001"
+   ],
+   "self_check_ids": [
+    "self_check.json"
+   ]
+  },
+  {
+   "item_id": "blue_green_public_space",
+   "title_zh": "蓝绿空间与公共空间网络",
+   "professional_dimension": "公共空间",
+   "required": true,
+   "status": "complete",
+   "evidence_summary_zh": "蓝绿空间与公共空间网络：由 proposal.md 对应章节与 geometry/metrics/矩阵共同支撑，全部空间方案为概念性建议，非法定规划结论。",
+   "proposal_sections": [
+    "蓝绿空间、公共空间与城市风貌"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson"
+   ],
+   "metric_refs": [
+    "green_space_area_sqm",
+    "green_ratio",
+    "public_space_area_sqm",
+    "public_space_ratio",
+    "scenario_node_count"
+   ],
+   "source_ids": [
+    "OFFICIAL-ANNOUNCEMENT",
+    "OFFICIAL-DESIGN-BOUNDARY",
+    "SITE-PACKAGE",
+    "AGENT-OPEN-CALL-TASKBOOK",
+    "LUODUO-ECOSYSTEM-AUTH"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-GFA-001",
+    "A-TRANSPORT-001",
+    "A-CONTROLS-001"
+   ],
+   "self_check_ids": [
+    "self_check.json"
+   ]
+  },
+  {
+   "item_id": "three_key_area_detailed_design",
+   "title_zh": "三处重点区域详细设计",
+   "professional_dimension": "重点区域",
+   "required": true,
+   "status": "complete",
+   "evidence_summary_zh": "三处重点区域详细设计：由 proposal.md 对应章节与 geometry/metrics/矩阵共同支撑，全部空间方案为概念性建议，非法定规划结论。",
+   "proposal_sections": [
+    "重点区域详细设计"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/key_areas.geojson",
+    "geometry/buildings.geojson",
+    "geometry/public_space.geojson"
+   ],
+   "metric_refs": [
+    "key_area_zhongzhiyuan_sqm",
+    "key_area_origin_community_sqm",
+    "key_area_dazhongsi_sqm"
+   ],
+   "source_ids": [
+    "OFFICIAL-ANNOUNCEMENT",
+    "OFFICIAL-DESIGN-BOUNDARY",
+    "SITE-PACKAGE",
+    "AGENT-OPEN-CALL-TASKBOOK",
+    "LUODUO-ECOSYSTEM-AUTH"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-GFA-001",
+    "A-TRANSPORT-001",
+    "A-CONTROLS-001"
+   ],
+   "self_check_ids": [
+    "self_check.json"
+   ]
+  },
+  {
+   "item_id": "renewal_project_list",
+   "title_zh": "更新项目清单",
+   "professional_dimension": "实施策略",
+   "required": true,
+   "status": "complete",
+   "evidence_summary_zh": "更新项目清单：由 proposal.md 对应章节与 geometry/metrics/矩阵共同支撑，全部空间方案为概念性建议，非法定规划结论。",
+   "proposal_sections": [
+    "更新项目清单、实施政策与分期计划"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/phasing.geojson"
+   ],
+   "metric_refs": [
+    "renewal_project_count"
+   ],
+   "source_ids": [
+    "OFFICIAL-ANNOUNCEMENT",
+    "OFFICIAL-DESIGN-BOUNDARY",
+    "SITE-PACKAGE",
+    "AGENT-OPEN-CALL-TASKBOOK",
+    "LUODUO-ECOSYSTEM-AUTH"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-GFA-001",
+    "A-TRANSPORT-001",
+    "A-CONTROLS-001"
+   ],
+   "self_check_ids": [
+    "self_check.json"
+   ]
+  },
+  {
+   "item_id": "phasing_implementation",
+   "title_zh": "分期实施计划",
+   "professional_dimension": "实施策略",
+   "required": true,
+   "status": "complete",
+   "evidence_summary_zh": "分期实施计划：由 proposal.md 对应章节与 geometry/metrics/矩阵共同支撑，全部空间方案为概念性建议，非法定规划结论。",
+   "proposal_sections": [
+    "更新项目清单、实施政策与分期计划"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/phasing.geojson"
+   ],
+   "metric_refs": [
+    "phase1_area_sqm",
+    "phase2_area_sqm",
+    "phase3_area_sqm"
+   ],
+   "source_ids": [
+    "OFFICIAL-ANNOUNCEMENT",
+    "OFFICIAL-DESIGN-BOUNDARY",
+    "SITE-PACKAGE",
+    "AGENT-OPEN-CALL-TASKBOOK",
+    "LUODUO-ECOSYSTEM-AUTH"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-GFA-001",
+    "A-TRANSPORT-001",
+    "A-CONTROLS-001"
+   ],
+   "self_check_ids": [
+    "self_check.json"
+   ]
+  },
+  {
+   "item_id": "metrics_recalculation",
+   "title_zh": "指标体系与面积复算（EPSG:4548）",
+   "professional_dimension": "指标与合规",
+   "required": true,
+   "status": "complete",
+   "evidence_summary_zh": "指标体系与面积复算（EPSG:4548）：由 proposal.md 对应章节与 geometry/metrics/矩阵共同支撑，全部空间方案为概念性建议，非法定规划结论。",
+   "proposal_sections": [
+    "指标体系、面积复算与合规矩阵"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/site_boundary.geojson",
+    "geometry/key_areas.geojson",
+    "geometry/land_use.geojson",
+    "geometry/buildings.geojson",
+    "geometry/roads.geojson",
+    "geometry/green_space.geojson",
+    "geometry/public_space.geojson",
+    "geometry/constraints.geojson",
+    "geometry/phasing.geojson"
+   ],
+   "metric_refs": [
+    "site_area_sqm",
+    "green_ratio",
+    "public_space_ratio",
+    "building_footprint_area_sqm",
+    "proposed_total_floor_area_sqm",
+    "road_network_length_m"
+   ],
+   "source_ids": [
+    "OFFICIAL-ANNOUNCEMENT",
+    "OFFICIAL-DESIGN-BOUNDARY",
+    "SITE-PACKAGE",
+    "AGENT-OPEN-CALL-TASKBOOK",
+    "LUODUO-ECOSYSTEM-AUTH"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-GFA-001",
+    "A-TRANSPORT-001",
+    "A-CONTROLS-001"
+   ],
+   "self_check_ids": [
+    "self_check.json"
+   ]
+  },
+  {
+   "item_id": "risk_missing_data",
+   "title_zh": "风险与数据缺口披露",
+   "professional_dimension": "风险管控",
+   "required": true,
+   "status": "complete",
+   "evidence_summary_zh": "风险与数据缺口披露：由 proposal.md 对应章节与 geometry/metrics/矩阵共同支撑，全部空间方案为概念性建议，非法定规划结论。",
+   "proposal_sections": [
+    "风险、版权与合规说明"
+   ],
+   "drawing_refs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+   ],
+   "geometry_refs": [
+    "geometry/site_boundary.geojson"
+   ],
+   "metric_refs": [
+    "official_floor_area_ratio_control",
+    "official_building_height_control_m",
+    "official_building_density_control",
+    "official_green_ratio_control"
+   ],
+   "source_ids": [
+    "OFFICIAL-ANNOUNCEMENT",
+    "OFFICIAL-DESIGN-BOUNDARY",
+    "SITE-PACKAGE",
+    "AGENT-OPEN-CALL-TASKBOOK",
+    "LUODUO-ECOSYSTEM-AUTH"
+   ],
+   "assumption_ids": [
+    "A-BOUNDARY-001",
+    "A-GFA-001",
+    "A-TRANSPORT-001",
+    "A-CONTROLS-001"
+   ],
+   "self_check_ids": [
+    "self_check.json"
+   ]
+  }
+ ]
 }

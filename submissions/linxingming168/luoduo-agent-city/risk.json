@@ -1,71 +1,57 @@
 {
-  "schema_version": "0.1.0",
-  "copyright_statement_zh": "版权归属惠州市落朵智能科技有限公司。本方案为落朵AI军团原创规划逻辑推演，不含任何有版权争议的图片、模型或数据。",
-  "generation_disclosure_zh": "本方案由落朵AI军团 24 席 AI Agent 矩阵协同生成，非单一大模型一次性输出，亦非人类独立创作；全部空间建议为概念建议/参考方案；最终由小CEO 林兴明 终审授权。",
-  "open_source_license": "参赛指定开源协议（以赛事官方要求为准）",
-  "submission_entity_zh": "惠州市落朵智能科技有限公司",
-  "risks": [
-    {
-      "risk_id": "RISK-DATA-001",
-      "category": "data_authenticity",
-      "level": "medium",
-      "title_zh": "面积与指标基于 provisional 边界几何复算",
-      "description_zh": "方案涉及的用地面积、空间指标来自官方 provisional（临时）边界几何复算与概念推算，非赛事或政府审定的最终官方数据，存在数值误差与口径不一致风险。",
-      "mitigation_zh": "仅在产物中使用经标注为 provisional 的真实边界数据；所有推算指标附假设声明；核心空间建议明确为概念参考方案，不作为实测结论。",
-      "severity": "major"
-    },
-    {
-      "risk_id": "RISK-COPY-001",
-      "category": "copyright",
-      "level": "low",
-      "title_zh": "方案版权与第三方素材合规性",
-      "description_zh": "本方案为落朵AI军团原创规划逻辑推演，不包含有版权争议的图片、模型或第三方数据；版权归属惠州市落朵智能科技有限公司。若引用任何外部底图或数据需单独授权。",
-      "mitigation_zh": "提交包内仅保留自有生成产物，不嵌入未授权第三方素材；版权声明随包明示，避免衍生争议。",
-      "severity": "minor"
-    },
-    {
-      "risk_id": "RISK-GEN-001",
-      "category": "generation_disclosure",
-      "level": "medium",
-      "title_zh": "AI 生成内容的披露与署名",
-      "description_zh": "方案由 24 席 AI Agent 矩阵协同生成，非人类独立创作，亦非单一模型一次性输出；存在评审方对生成透明度与署名有效性的质疑风险。",
-      "mitigation_zh": "在提交包显著位置披露 AI 生成事实与 Agent 矩阵构成；明确人类终审授权主体为小CEO 林兴明，确保授权链可追溯。",
-      "severity": "major"
-    },
-    {
-      "risk_id": "RISK-REG-001",
-      "category": "regulatory_boundary",
-      "level": "high",
-      "title_zh": "空间方案不构成法定规划",
-      "description_zh": "全部空间布局、用地划分与形态建议均为概念建议/参考方案，不构成法定城乡规划结论，亦不得被解读为政府审定意见；存在被误读为官方规划的风险。",
-      "mitigation_zh": "全文贯穿合规红线：明确标注'概念建议/参考方案'，不篡改、不虚构官方数据，不在任何表述中暗示法定效力。",
-      "severity": "blocking"
-    },
-    {
-      "risk_id": "RISK-ECO-001",
-      "category": "ecosystem_authorization",
-      "level": "medium",
-      "title_zh": "真实生态写入的授权范围待确认",
-      "description_zh": "落朵 9 大真实生态作为'已落地证据'写入方案，但其对外公开引用与赛事展示的授权范围尚待小CEO确认，存在超范围披露风险。",
-      "mitigation_zh": "诚实标注授权范围待确认；仅以可公开事实陈述生态落地证据，避免未授权商业细节或客户信息外泄。",
-      "severity": "major"
-    },
-    {
-      "risk_id": "RISK-REV-001",
-      "category": "review_eligibility",
-      "level": "low",
-      "title_zh": "评审资格与强制产物齐备性",
-      "description_zh": "本方案以 package_type=professional_design_package、ai_agent 提交类型参赛；若任一强制产物缺失或格式不符，可能导致评审资格不被受理。",
-      "mitigation_zh": "提交前逐项核对赛事强制产物清单与格式要求，确保全部齐备，并附本 risk.json 作为合规披露文件。",
-      "severity": "minor"
-    }
-  ],
-  "compliance_notes_zh": [
-    "所有空间方案均为概念建议/参考方案，不构成法定规划结论",
-    "临时/ provisional 边界已明确标注，未冒充官方最终边界",
-    "未编造官方数据；面积与指标来自官方 provisional 几何复算或概念推算并声明假设",
-    "落朵真实生态写入已标注授权范围待确认",
-    "AI 生成事实与 24 席 Agent 矩阵构成已充分披露，人类终审授权可追溯至小CEO 林兴明",
-    "版权归属惠州市落朵智能科技有限公司，提交包不含版权争议素材"
-  ]
+ "schema_version": "0.1.0",
+ "version": 1,
+ "dimensions": [
+  {
+   "id": "data_privacy",
+   "label": "数据隐私",
+   "score": 2,
+   "note": "方案使用 provisional 边界与公开资料，未涉及个人敏感数据。",
+   "mitigation": "所有数据来源公开或已授权，禁止引入未公开资料。"
+  },
+  {
+   "id": "implementation_complexity",
+   "label": "实施复杂度",
+   "score": 3,
+   "note": "分期实施与生态即服务降低单期复杂度。",
+   "mitigation": "以运营前置的小单元试点逐步扩展，控制风险敞口。"
+  },
+  {
+   "id": "policy_uncertainty",
+   "label": "政策不确定性",
+   "score": 2,
+   "note": "城市设计与更新政策存在调整可能。",
+   "mitigation": "方案保持概念性，待官方红线与政策明确后整体重算。"
+  },
+  {
+   "id": "technology_maturity",
+   "label": "技术成熟度",
+   "score": 2,
+   "note": "落朵9大真实生态已实际运营，技术路径可验证。",
+   "mitigation": "优先采用已落地场景，避免未验证技术堆叠。"
+  }
+ ],
+ "risks": [
+  {
+   "id": "R-LEGAL-001",
+   "category_zh": "法律/官方声明边界",
+   "description_zh": "所有成果为开放共创建议，不替代正式规划、不构成政府审定结论；禁用法定规划判断、地块拆改留、工程方案、地下空间、权属投资、未公开资料、侵权内容。",
+   "severity": "major",
+   "mitigation_zh": "全文统一概念性声明 + boundary_clause 红线 + risk.json 披露。"
+  },
+  {
+   "id": "R-DATA-001",
+   "category_zh": "数据缺口",
+   "description_zh": "官方精确红线与三处重点区域 polygon 暂缺，使用 provisional 粗略边界。",
+   "severity": "minor",
+   "mitigation_zh": "provisional 边界在 proposal/HTML/sources/assumptions/self_check 一致披露，不冒充官方。"
+  },
+  {
+   "id": "R-GEN-001",
+   "category_zh": "生成方法披露",
+   "description_zh": "文本/几何/指标/矩阵/图纸/可视化由 AI 生成。",
+   "severity": "info",
+   "mitigation_zh": "agent.json generation_disclosure_zh + risk 披露 + 人类最终判断。"
+  }
+ ]
 }

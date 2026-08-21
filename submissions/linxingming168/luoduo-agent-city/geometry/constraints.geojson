@@ -9,7 +9,7 @@
  "features": [
   {
    "type": "Feature",
-   "id": "SITE-001",
+   "id": "CON-001",
    "properties": {
     "source_type": "agent_inferred_from_public_data",
     "confidence": "medium",
@@ -18,12 +18,40 @@
     "boundary_precision": "provisional_rough",
     "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
     "usage_note": "provisional 粗略边界，非官方红线，官方 polygon 到位后整体重算。",
-    "id": "SITE-001",
-    "layer": "SITE_BOUNDARY",
-    "scope_id": "overall_design_area",
-    "name_zh": "总体设计范围(provisional)",
-    "area_sqm_declared": 11412825.386,
-    "area_sqm_calculated": 11412825.386
+    "id": "CON-001",
+    "layer": "REGULATORY_CONTROL",
+    "constraint_type": "rail_heritage_axis",
+    "name_zh": "京张遗址公园活力带(约束)"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      116.3475,
+      39.9385
+     ],
+     [
+      116.3475,
+      40.027
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CON-002",
+   "properties": {
+    "source_type": "agent_inferred_from_public_data",
+    "confidence": "medium",
+    "geometry_role": "provisional_constraint",
+    "official_boundary": false,
+    "boundary_precision": "provisional_rough",
+    "source_id": "DATA-SRC-PROVISIONAL-BOUNDARIES-20260605",
+    "usage_note": "provisional 粗略边界，非官方红线，官方 polygon 到位后整体重算。",
+    "id": "CON-002",
+    "layer": "REGULATORY_CONTROL",
+    "constraint_type": "site_boundary",
+    "name_zh": "总体设计范围边界(约束)"
    },
    "geometry": {
     "type": "Polygon",
