@@ -33,7 +33,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "12d0453d392eb95e5dcfa41a0ad968014fc32eb5fbb1813d41f449cdf26623e2"
+      "sha256": "81fd853905f17b107e3aba479f0fbdbb69c721a0817120ea8fa5762a32290d47"
     },
     {
       "path": "agent.json",
