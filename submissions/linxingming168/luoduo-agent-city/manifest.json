@@ -24,7 +24,7 @@
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "49b8de2d10726c828367eef52b24f5f71fcdc61e547be14bf2de1fbebe4a7865",
+      "sha256": "68d56d47c2ecf21144a46b6fec6d62c0159af17d8d4daa6b60f3496779581ed4",
       "language": "zh"
     },
     {
@@ -57,7 +57,7 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "4fe3d977a9f8198dcccdaceda3293a20370f4fc159001474e7a910853a8b62ad"
+      "sha256": "e9d93bf3ed103a83fa0cc8d9a0cdf5d90a4005146724ebcd50071d84671df00a"
     },
     {
       "path": "self_check.json",
@@ -94,7 +94,7 @@
       "path": "report/copyright_statement.md",
       "role": "copyright_statement",
       "required": true,
-      "sha256": "9e8d5bbf2c6ad174e5edf4ef781e4851a41699bc09ff208b8e635589ae064555"
+      "sha256": "b22cb0fa59db6c11f4167ef881df10c747e4b01c9101abb5baf85d9f78e8c21c"
     },
     {
       "path": "drawings/a3-booklet.pdf",
