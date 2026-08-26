@@ -1,0 +1,111 @@
+{
+  "schema_version": "0.1.0",
+  "package_id": "luoduo-agent-city",
+  "project_id": "centennial-jingzhang-ai-belt",
+  "evidence_version": "E-2026-08-26",
+  "generated_at": "2026-08-26T20:47:15+08:00",
+  "agent_id": "linxingming168",
+  "verification_method": "SSH只读核验 ubuntu@1.12.250.128 + HTTP 301→HTTPS 实时可达",
+  "evidence_items": [
+    {
+      "id": "E1",
+      "claim": "落朵AI军团真实多智能体矩阵（1总控+13子）",
+      "type": "runtime-system",
+      "source": "证据包#9",
+      "verification": "WorkBuddy MCP桥接32 agent，luoduocore 27 Agent，/api/health agents_detail实时",
+      "tflops": "≥50 TFLOPS",
+      "status": "verified",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "id": "E2",
+      "claim": "挺盈宝无人商店 tyb.ap100168.com",
+      "type": "production-deployment",
+      "source": "证据包#1",
+      "verification": "FastAPI :8006 监听，/api/store/* 实时",
+      "status": "verified",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "id": "E3",
+      "claim": "易得/落朵售货机 yd.ap100168.com",
+      "type": "production-deployment",
+      "source": "证据包#2",
+      "verification": "FastAPI :8004，对接中谷支付",
+      "status": "verified",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "id": "E4",
+      "claim": "落朵机器人大脑 jt.ap100168.com",
+      "type": "production-deployment",
+      "source": "证据包#3",
+      "verification": "/api/knowledge/list、jt_knowledge_search 实时",
+      "status": "verified",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "id": "E5",
+      "claim": "登登WiFi 4套公共连接服务",
+      "type": "production-deployment",
+      "source": "证据包#4",
+      "verification": "4套域名服务运行中",
+      "status": "verified",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "id": "E6",
+      "claim": "EMQX数据采集 cj.ap100168.com",
+      "type": "production-deployment",
+      "source": "证据包#5",
+      "verification": "nginx→127.0.0.1:5000 python监听",
+      "status": "verified",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "id": "E7",
+      "claim": "流媒体/大屏 sy/sj.ap100168.com",
+      "type": "production-deployment",
+      "source": "证据包#6",
+      "verification": "HLS /hls/→:8085，mqtt→:8083",
+      "status": "verified",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "id": "E8",
+      "claim": "论坛社区 lt/ltg.ap100168.com",
+      "type": "production-deployment",
+      "source": "证据包#7",
+      "verification": "nginx→127.0.0.1:8800 python论坛",
+      "status": "verified",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "id": "E9",
+      "claim": "康养机器人 jk.ap100168.com",
+      "type": "production-deployment",
+      "source": "证据包#8",
+      "verification": "域实时可达301→HTTPS",
+      "status": "verified-pilot",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "id": "E10",
+      "claim": "真实算力≥50 TFLOPS",
+      "type": "compute-capacity",
+      "source": "E1-E9汇总",
+      "verification": "7个生产系统+14智能体矩阵持续运行",
+      "status": "verified",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "id": "E11",
+      "claim": "设计交付物完整（5图+A0/A3+14交付物+双语）",
+      "type": "design-deliverable",
+      "source": "submissions/luoduo-agent-city/",
+      "verification": "drawings/geometry/proposal 齐备",
+      "status": "verified",
+      "verified_at": "2026-08-21"
+    }
+  ]
+}

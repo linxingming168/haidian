@@ -24,7 +24,7 @@
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "1aaa40db73bd883f49de1a7e448445ac9bfa420c797b064df444f58f5ae62b72",
+      "sha256": "a23bd8375b85fd3f1972220d106e3dc7e2fe5be1c75d0d4e4ac1c521b999def7",
       "language": "zh"
     },
     {
@@ -294,6 +294,12 @@
       "sha256": "686b0d4d04a4d28c95a82e529b8d147cf96f11e68ada75140fbaebc2357f79e8",
       "language": "en",
       "translation_of": "assets/figures/luoduo-mark-square.png"
+    },
+    {
+      "path": "evidence_manifest.json",
+      "role": "evidence",
+      "required": true,
+      "sha256": "46aedf8f401dec51f92262e62b46eb7567c0538c600a93164388168724f98e08"
     }
   ],
   "validation_claim": {

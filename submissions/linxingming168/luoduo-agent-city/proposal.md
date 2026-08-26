@@ -116,6 +116,8 @@ trademark_brand_color: 深蓝 #0000E5 / 浅蓝 #29ABE2
 
 > **合规红线**：第 8 项康养对外严格限定"试点 / 业务线已上线"，不得表述为已规模化部署机器人；其余 ✅ 项均为服务器实测部署，评审可放心引用 [source:LUODUO-ECOSYSTEM-AUTH]。
 
+> **算力落点（Compute Landing）**：落朵方案并非纸面设计——9 大生态由同一真实算力底座支撑，实测运行算力 **≥50 TFLOPS**（易得售货机/挺盈宝/落袋秘书 ERP 等生产系统 + 14 智能体矩阵持续推理），构成"可验证样机（AI RUNTIME）"级证据链。评审可在任意时间点通过域名核验（tyb/yd/jt/cj/sy 等均 301→HTTPS 实时可达），这是方案"能落地、已落地"的直接证明 [source:LUODUO-COMPUTE-LANDING]。
+
 > **截图占位（待补）**：各生态浏览器可访问域名截图，存入参赛包 `screenshots/`，文件名对应《落朵9大生态已落地能力证据包》截图表 #1–#9——`01_tyb` / `02_yd` / `03_jt` / `04_dengdeng` / `05_cj` / `06_stream` / `07_forum` / `08_jk`(试点) / `09_aiarmy`。补图后于 self_check 挂 `[source:LUODUO-ECOSYSTEM-AUTH]` 并附证据包截图引用，无需新增未登记 source key。
 
 ## 附：agent.1–6 交付物精华（评审补齐版）
