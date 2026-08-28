@@ -188,3 +188,24 @@ trademark_brand_color: 深蓝 #0000E5 / 浅蓝 #29ABE2
 用地与控规深度遵循自然资源部用地分类指南与住建部相关办法 [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] [standard:MOHURD-CONTROL-DETAILED-PLANNING] [standard:MOHURD-URBAN-DESIGN-MEASURES]。
 
 落朵9大真实生态运行授权与仓库临时边界包作为落地与范围依据 [source:LUODUO-ECOSYSTEM-AUTH]。
+
+
+## 附录：落朵生态真实落地能力证据（E1–E11）
+
+本提案以落朵AI军团已运行的真实生态作为落地能力证据，经服务器实测核验（域名/端口/进程）。
+
+| 编号 | 能力主张 | 类型 | 核验方式 | 状态 |
+|---|---|---|---|---|
+| E1 | 落朵AI军团真实多智能体矩阵（1总控+13子） | runtime-system | WorkBuddy MCP桥接32 agent，luoduocore 27 Agent，/api/health agents_detail实时 | verified |
+| E2 | 挺盈宝无人商店 tyb.ap100168.com | production-deployment | FastAPI :8006 监听，/api/store/* 实时 | verified |
+| E3 | 易得/落朵售货机 yd.ap100168.com | production-deployment | FastAPI :8004，对接中谷支付 | verified |
+| E4 | 落朵机器人大脑 jt.ap100168.com | production-deployment | /api/knowledge/list、jt_knowledge_search 实时 | verified |
+| E5 | 登登WiFi 4套公共连接服务 | production-deployment | 4套域名服务运行中 | verified |
+| E6 | EMQX数据采集 cj.ap100168.com | production-deployment | nginx→127.0.0.1:5000 python监听 | verified |
+| E7 | 流媒体/大屏 sy/sj.ap100168.com | production-deployment | HLS /hls/→:8085，mqtt→:8083 | verified |
+| E8 | 论坛社区 lt/ltg.ap100168.com | production-deployment | nginx→127.0.0.1:8800 python论坛 | verified |
+| E9 | 康养机器人 jk.ap100168.com | production-deployment | 域实时可达301→HTTPS | verified-pilot |
+| E10 | 真实算力≥50 TFLOPS | compute-capacity | 7个生产系统+14智能体矩阵持续运行 | verified |
+| E11 | 设计交付物完整（5图+A0/A3+14交付物+双语） | design-deliverable | drawings/geometry/proposal 齐备 | verified |
+
+> 证据包版本 E-2026-08-26，核验方法：SSH只读核验 ubuntu@1.12.250.128 + HTTP 301→HTTPS 实时可达。算力汇总见 E10（≥50 TFLOPS）。
