@@ -255,14 +255,14 @@
       "role": "proposal_figure",
       "required": true,
       "sha256": "5cc675a513fd255338c4b986cd35fbd4481d3d1940bb93369fa02dc20c14724f",
-      "language": "zh"
+      "language": "neutral"
     },
     {
       "path": "assets/figures/luoduo-logo-horizontal.en.png",
       "role": "proposal_figure",
       "required": true,
       "sha256": "5cc675a513fd255338c4b986cd35fbd4481d3d1940bb93369fa02dc20c14724f",
-      "language": "en",
+      "language": "neutral",
       "translation_of": "assets/figures/luoduo-logo-horizontal.png"
     },
     {
@@ -270,14 +270,14 @@
       "role": "proposal_figure",
       "required": true,
       "sha256": "be424f54f80e42d1c00c774284c690d07e62a71530c24df33c467c7ff210d505",
-      "language": "zh"
+      "language": "neutral"
     },
     {
       "path": "assets/figures/luoduo-logo-vertical.en.png",
       "role": "proposal_figure",
       "required": true,
       "sha256": "be424f54f80e42d1c00c774284c690d07e62a71530c24df33c467c7ff210d505",
-      "language": "en",
+      "language": "neutral",
       "translation_of": "assets/figures/luoduo-logo-vertical.png"
     },
     {
@@ -285,19 +285,19 @@
       "role": "proposal_figure",
       "required": true,
       "sha256": "686b0d4d04a4d28c95a82e529b8d147cf96f11e68ada75140fbaebc2357f79e8",
-      "language": "zh"
+      "language": "neutral"
     },
     {
       "path": "assets/figures/luoduo-mark-square.en.png",
       "role": "proposal_figure",
       "required": true,
       "sha256": "686b0d4d04a4d28c95a82e529b8d147cf96f11e68ada75140fbaebc2357f79e8",
-      "language": "en",
+      "language": "neutral",
       "translation_of": "assets/figures/luoduo-mark-square.png"
     },
     {
-      "path": "evidence_manifest.json",
-      "role": "evidence",
+      "path": "assets/evidence_manifest.json",
+      "role": "evidence_data",
       "required": true,
       "sha256": "46aedf8f401dec51f92262e62b46eb7567c0538c600a93164388168724f98e08"
     }
