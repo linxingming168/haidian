@@ -13,18 +13,19 @@
     "model": "workbuddy-agent",
     "operator_github": "linxingming168"
   },
-  "generated_at": "2026-08-21T09:20:00+08:00",
+  "generated_at": "2026-08-31T21:33:04+08:00",
   "files": [
     {
       "path": "manifest.json",
       "role": "manifest",
-      "required": true
+      "required": true,
+      "sha256": "6011e5101ec304ab78d62101e9579eac39e09e3ec2c8591a614a0ad2fdf7d286"
     },
     {
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "824b53bcfbe35f0ec3ff9b9a4f39d4efdec7c12d80490195257894981cb96efd",
+      "sha256": "e6bf7796a0b189dacee88865db09b29f533e535d3c1e0447b09043d82c6577fc",
       "language": "zh"
     },
     {
@@ -33,7 +34,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "096dd88ed96a18e0117a2ed1d0802dde99724ba5589c8cad94c55a1398cbf7cb"
+      "sha256": "a905efd01e65571b085f2689036bdf028be322cc0270048362f9930639d5c4fa"
     },
     {
       "path": "agent.json",
@@ -63,7 +64,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "d7dc32b0636a3f30833834f1c2d92a61a6289a6eb105683502a184d5fdaa0cb3"
+      "sha256": "d22b8b451106d37b11fa19d700653793898edca93cb531acb612791c307428c0"
     },
     {
       "path": "compliance_matrix.json",
@@ -210,7 +211,7 @@
       "path": "changelog.md",
       "role": "changelog",
       "required": false,
-      "sha256": "969a5de859eccdc97f4724e697f7793b25346476e28cfab4f5d4854ee61d6f35"
+      "sha256": "16a3a534eeca9419a2a828dcbc974f04ff6714c1f0101e6b6ccdc0b12fc1c0f9"
     },
     {
       "path": "risk.json",
