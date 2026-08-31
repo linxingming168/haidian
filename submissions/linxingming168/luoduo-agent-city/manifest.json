@@ -18,8 +18,7 @@
     {
       "path": "manifest.json",
       "role": "manifest",
-      "required": true,
-      "sha256": "6011e5101ec304ab78d62101e9579eac39e09e3ec2c8591a614a0ad2fdf7d286"
+      "required": true
     },
     {
       "path": "proposal.md",
@@ -64,7 +63,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "d22b8b451106d37b11fa19d700653793898edca93cb531acb612791c307428c0"
+      "sha256": "9775a9fd0d8b8f3ab9882025b254982eb742cb49a1be88a94eb67ddd8d435c49"
     },
     {
       "path": "compliance_matrix.json",
