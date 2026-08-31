@@ -8,7 +8,7 @@ proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_file: proposal.md
 translation_of: proposal.md
-iteration: v1.5
+iteration: v1.6
 brand_logo: assets/figures/luoduo-logo-horizontal.png
 brand_mark: assets/figures/luoduo-mark-square.png
 trademark_en: Luoduo (registered trademark of Huizhou Luoduo Intelligent Technology Co., Ltd.)
@@ -104,6 +104,30 @@ The proposal is grounded in Luoduo's nine real running ecosystems, differentiate
 | 9 | Luoduo AI Army 14-Agent Matrix | Overall concept / city-level Agent | ✅ Live | 14 agents running (submission subject) |
 
 > **Compliance red-line**: Item 8 is strictly limited to "pilot / business line launched"; do not state it as large-scale deployed robots. All other ✅ items are server-verified; reviewers may verify per evidence grade [source:LUODUO-ECOSYSTEM-AUTH].
+
+## Luoduo Implementation Capability Reference (Huawei OLT + Copper Cable / Smart Lighting / Meal System / Luoduo Office)
+
+> The following are **implementation capabilities and reference solutions** the applicant (Luoduo) can provide, presented as "capability / reference", **not claimed as deployed in the Jingzhang AI Belt**; inclusion is subject to the official call and site conditions [source:LUODUO-ECOSYSTEM-AUTH].
+
+### Connectivity base: Huawei OLT + copper cable
+- **Huawei OLT (optical line terminal, GPON/XG-PON)**: gigabit fiber access for campus/community, carrying multi-agent edge inference backhaul and EMQX sensing uplink.
+- **Copper cable**: end-power and low-voltage wiring base for smart lighting, sensing nodes and edge boxes — a "fiber + copper" dual base.
+- Status: **concept / connectable** (implement after official network & wiring conditions are met).
+
+### Smart lighting (age-friendly / accessible)
+- Edge-controlled lighting with presence sensing, adaptive brightness, low-light night guidance.
+- Can serve S-04 blue-green elderly care and S-06 community elderly care: night safety lighting and fall-prevention cues for elderly and IDD groups.
+- Status: **pilot concept** (Luoduo ecosystem-level, pending site verification).
+
+### Meal ordering system (Luoduo Meal, connectable to canteens)
+- Luoduo Meal (one of five business lines) offers scan-to-order, nutrition analysis and frictionless checkout.
+- Can connect to community elderly canteens / meal assistance, supporting voice order, family proxy and offline counter — directly answering the review's call for IDD / elderly convenience facilities.
+- Status: **ecosystem-level** (live in Luoduo ecosystem, connectable to belt meal scenarios).
+
+### Luoduo Office architecture (8 templates + 27 Agent ops governance hub)
+- Luoduo Office's 8 business templates (daily ops / data analytics / marketing / management / industry-specific / AI-advanced / knowledge / remote service) and 27 Agents.
+- Can act as the Agent hub for belt operations, governance and community services, digitizing scenario-card "operator" roles (e.g., S-06 need-register -> visit -> follow-up loop).
+- Status: **concept / connectable** (ops-hub reference, not deployed in belt).
 
 ## Appendix: agent.1-6 Deliverables Digest
 
@@ -334,6 +358,26 @@ Vulnerable-group paths are integrated into every scenario card (elderly, disable
 | Group benefit | Resident/commuter/visitor/maker/operator balanced | Inclusive annual events | Weight by KPI |
 
 > Conceptual public-interest framework; finalized by professionals per official conditions [agent.3][agent.6].
+### IDD Convenience Facilities: Well-Reviewed Market References (reference, not belt-deployed)
+
+The review emphasized providing convenience facilities for **intellectual/developmental disability (IDD)** groups. The following are well-reviewed, borrowable solutions with sources, for pilot design reference; **not considered deployed in Jingzhang**; pilot deployment requires privacy / accessibility / human-takeover assessment [agent.3][agent.6].
+
+| Solution | Region / Org | Core practice | Borrowable point |
+|---|---|---|---|
+| Smart Home for IDD | Colorado Coleman Institute + state | Smart hubs/speakers/plugs/lamps/motion/big-button in 4 group homes | Consumer-grade devices adapted for IDD, lower care dependence ① |
+| Alexa-assisted independent living | Keystone Human Services (Zero Project) | Alexa-based personalized independence plans (cooking/overnight) | Assess-then-customize, low-cost replicable ② |
+| IDD smart home | St John of God + HomeStay (AU) | Wearables/voice/sensors/AI/access control, replicable blueprint | Safety access + mood alert + MyDay self-schedule App ③ |
+| Indoor wayfinding barcode | Lega F. D'Oro (IT) | Barcode + app for severe IDD with blindness | Low-tech navigation for profound disability ④ |
+| Community AI canteen | Shanghai Changning/Hongqiao | Unmanned canteen, smart-plate recognition, nutrition | Meal-assistance template Luoduo Meal can connect ⑤ |
+| Voice-order elderly meals | Beijing/Shanghai | Voice "one-sentence order" + familiar-courier delivery | Age/IDD-friendly interface for Luoduo Meal ⑥ |
+| One-button alarm + sleep radar | Zhuhai / elsewhere | One-button alarm, contactless night sleep radar | Night safety fallback, connect S-09 ⑦ |
+| Silver-age experience-officer robots | Beijing Fengtai | Elders as "experience officers" trialing robots, feedback loop | User-view screening of age-friendly products ⑧ |
+
+**Sources**: ① Coleman Institute, *Smart Home Technology for Innovative Living* (cu.edu/coleman); ② Keystone / Zero Project (zeroproject.org); ③ St John of God + HomeStay (arnnet.com.au); ④ Lancioni et al., *JMIR Rehabil Assist Technol* 2024 (PMCID 11635321); ⑤ People's Daily Online Shanghai; ⑥ People's Daily "AI into silver households" (2026-04-06); ⑦ Zhuhai Doumen elderly home-safety report; ⑧ Fengtai Gov "Silver-age experience officers" (2026-08-10).
+
+**Integration**: these map directly to our smart lighting (S-04 night safety), meal system (S-06 elderly meal assistance) and emergency safety (S-09 one-button alarm) as IDD/elderly "convenience facility" levers; all citations are public, not belt deployments.
+
+
 
 ## Risk, Copyright, and Compliance
 
