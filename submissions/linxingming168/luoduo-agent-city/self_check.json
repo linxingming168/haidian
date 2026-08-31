@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.0",
   "package_id": "luoduo-agent-city",
-  "self_checked_at": "2026-08-09T18:40:00Z",
+  "self_checked_at": "2026-08-31T12:00:00Z",
   "tool": "self_check_submission.py",
   "checks": [
     {
