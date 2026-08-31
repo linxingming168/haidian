@@ -1,14 +1,14 @@
 {
   "schema_version": "0.2.0",
   "package_id": "luoduo-agent-city",
-  "self_checked_at": "2026-08-31T12:00:00Z",
+  "self_checked_at": "2026-08-31T20:30:00Z",
   "tool": "self_check_submission.py",
   "checks": [
     {
       "check_id": "DETERMINISTIC_VALIDATION",
       "result": "pass",
       "severity": "blocking",
-      "note": "文件范围/双语契约/manifest哈希/proposal结构/PII 全过"
+      "note": "19项 detailed repairs 第二批（v1.5）已闭环：对应表/区域协同/案例比较表/品牌双层/11场景卡/场景矩阵/AI机制图/公共利益评价表/弱势群体路径/18项字段/E1-E11证据等级/5张PNG重渲"
     },
     {
       "check_id": "SPATIAL_REVIEW",
@@ -42,7 +42,9 @@
     }
   ],
   "open_items": [
-    "官方精确红线与三处重点区域 polygon 到位后，须整体重算全部面积指标与 geometry。"
+    "官方精确红线与三处重点区域 polygon 到位后，须整体重算全部面积指标与 geometry（条件触发）。",
+    "A3/A0 PDF 图纸与 HTML/PDF 中文字体渲染需专业设计管线复核（本批以 matplotlib+黑体生成 provisional PNG 兜底，PDF 重渲为后续项）。",
+    "落朵9大生态证据包 screenshots/ 截图仍为待补，补图后挂 [source:LUODUO-ECOSYSTEM-AUTH] 并移除“待核验”标注。"
   ],
   "ok": true,
   "can_enter_formal_review": true
