@@ -75,6 +75,33 @@
       "authorization_date": "2026-08-17",
       "verification_zh": "生态运行事实经服务器实测核验（域名/端口/进程），见参赛档案《落朵9大生态已落地能力证据包_2026-08-17.md》；康养(#8)对外严格限定试点/业务线已上线。",
       "grant_terms": "证据引用权·非排他·限本次征集"
+    },
+    {
+      "source_id": "LUODUO-COMPUTE-LANDING",
+      "title_zh": "落朵真实算力底座运行核验说明",
+      "publisher": "落朵AI军团",
+      "publish_date": "2026-08-26",
+      "url": "https://luoduoai.com",
+      "license": "自有系统/已运行",
+      "source_type": "user_provided_cleared",
+      "format": "md",
+      "authorizer": "林兴明（惠州市落朵智能科技 法定代表人）",
+      "authorization_scope_zh": "授权将落朵生产系统（易得售货机/挺盈宝/落朵秘书ERP等）+ 14智能体矩阵持续推理的实测运行算力（约≥50 TFLOPS，参与者自述·样机级估算）作为本参赛方案“可验证样机(AI RUNTIME)”级证据之一，授权范围限于本次百年京张AI创新带城市设计开源征集投稿。",
+      "authorization_date": "2026-08-26",
+      "verification_zh": "核验方法：经授权只读核验生产系统进程与域名实时可达；算力为多生产系统+14智能体持续推理的参与者自述估算，非第三方基准测试，不构成精确基准声明。",
+      "reuse_license_zh": "证据引用权·非排他·限本次征集；数值为估算，引用须保留“参与者自述·样机级”限定。",
+      "limitation_zh": "非第三方独立基准测试；不承诺任意时点恒定算力；仅供样机级能力佐证。"
+    },
+    {
+      "source_id": "GLOBAL-SMART-CITY-CASES",
+      "title_zh": "全球智慧城市案例参照（方法论启发，非事实宣称）",
+      "publisher": "各案例官方公开资料",
+      "publish_date": "2026-08-26",
+      "url": "https://woven-city.com/ ; https://masdar.ae/ ; https://amsterdamsmartcity.com/ ; https://hel.fi/ ; https://xiongan.gov.cn/ ; https://zhangjiang.net/",
+      "license": "公开",
+      "source_type": "public_reference",
+      "format": "web",
+      "note_zh": "Sidewalk Toronto、Toyota Woven City、Masdar City、Songdo 松岛、Amsterdam Smart City、Helsinki HRI、雄安新区、上海张江 AI 小镇 共 8 例，仅作方法论启发与差异化比对，不作事实宣称或已落地对标；本方案未声称与任一案例存在合作或背书关系。"
     }
   ]
 }
