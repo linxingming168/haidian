@@ -1,14 +1,14 @@
 {
   "schema_version": "0.2.0",
   "package_id": "luoduo-agent-city",
-  "self_checked_at": "2026-08-31T20:30:00Z",
+  "self_checked_at": "2026-08-31T21:33:04Z",
   "tool": "self_check_submission.py",
   "checks": [
     {
       "check_id": "DETERMINISTIC_VALIDATION",
       "result": "pass",
       "severity": "blocking",
-      "note": "19项 detailed repairs 第二批（v1.5）已闭环：对应表/区域协同/案例比较表/品牌双层/11场景卡/场景矩阵/AI机制图/公共利益评价表/弱势群体路径/18项字段/E1-E11证据等级/5张PNG重渲"
+      "note": "19项 detailed repairs 第二批（v1.5）已闭环；v1.6 增补：落朵实施能力接入方案参考（华为OLT+精铜线缆/智能灯控/订餐系统/落朵办公架构）+ 智障群体便利设施市场好评方案参考（8例含来源）。均按实施能力/方案参考呈现，不宣称京张已部署。"
     },
     {
       "check_id": "SPATIAL_REVIEW",
