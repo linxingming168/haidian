@@ -7,7 +7,7 @@ summary: 以落朵AI军团9大真实生态为底座，提出百年京张AI创新
 proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_file: proposal.en.md
-iteration: v1.1
+iteration: v1.4
 brand_logo: assets/figures/luoduo-logo-horizontal.png
 brand_mark: assets/figures/luoduo-mark-square.png
 trademark_zh: 落朵（惠州市落朵智能科技有限公司已注册商标）
@@ -52,7 +52,7 @@ trademark_brand_color: 深蓝 #0000E5 / 浅蓝 #29ABE2
 
 用地方案以科研、商业、教育、社区服务等为主导，预留用地控制开发强度，避免一次性高强度开发 [depth:land_use_layout] [depth:retain_renovate_demolish]。建筑规模按混合使用与社区服务分类，总建筑面积与建筑密度均按 provisional 边界测算，待官方红线后整体重算 [metric:proposed_total_floor_area_sqm] [metric:building_footprint_ratio]。拆改留以存量更新为主，保留既有结构、织补公共功能，减少不必要的拆除与碳排放 [data:geometry/buildings.geojson#buildings]。用地布局呼应三个重点片区：众智园偏科研、北京AI原点社区偏社区与人才公寓、大钟寺偏产业集聚，形成差异化但互联的功能网络 [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE]。所有用地均为概念性建议，不构成法定用地许可。
 
-**三期面积口径说明（去重/累计）**：一期 796.7 万㎡、二期 384.2 万㎡、三期 728.8 万㎡ 为**互斥分期、逐期净增**口径（phase1 ∪ phase2 ∪ phase3 = 基地内实施范围，各期互不重叠），合计 1909.7 万㎡ 系**累计实施总量**，其中包含各期内部的道路、绿地与公共服务等非建筑用地，故大于 base site 面积 1141.3 万㎡；基地内未列入三期的保留区与生态控制区不在实施总量内。官方 polygon 到位后按统一口径复算并去重 [metric:phase1_area_sqm] [metric:phase2_area_sqm] [data:geometry/phasing.geojson#phasing]。
+**三期面积口径说明（去重/累计）**：一期 796.7 万㎡、二期 384.2 万㎡、三期 728.8 万㎡ 为**三期累计实施覆盖口径（各期面积为该期实施覆盖面积，含期内道路/绿地/公共服务等非建筑用地）**（phase1 ∪ phase2 ∪ phase3 = 基地内实施范围，各期互不重叠），合计 1909.7 万㎡ 系**累计实施总量**，其中包含各期内部的道路、绿地与公共服务等非建筑用地，故大于 base site 面积 1141.3 万㎡；基地内未列入三期的保留区与生态控制区不在实施总量内。官方 polygon 到位后按统一口径复算并去重 [metric:phase1_area_sqm] [metric:phase2_area_sqm] [data:geometry/phasing.geojson#phasing]。
 
 ## 交通、轨道、市政与公共服务设施
 
@@ -108,15 +108,15 @@ trademark_brand_color: 深蓝 #0000E5 / 浅蓝 #29ABE2
 | 2 | 易得/落朵自动售货机（yd） | AI+ 即时服务微节点 | ✅ 已落地 | yd.ap100168.com 运行中 |
 | 3 | 落朵机器人大脑（jt） | 城市级 Agent 编排中枢 | ✅ 已落地 | jt.ap100168.com 运行中 |
 | 4 | 登登 WiFi | AI+ 公共连接基础设施 | ✅ 已落地 | 公共 WiFi 业务线运行中 |
-| 5 | EMQX 数据采集（cj） | AI+ 城市运行感知底座 | ✅ 已落地 | cj.ap100168.com → :5000 监听中 |
-| 6 | 流媒体/大屏（sy/sj） | AI+ 公共信息传播节点 | ✅ 已落地 | sy/sj.ap100168.com 实时流（/hls/） |
-| 7 | 论坛/社区（forum_hub） | AI+ 开发者共创社区 | ✅ 已落地 | lt/ltg.ap100168.com → :8800 论坛 |
+| 5 | EMQX 数据采集（cj） | AI+ 城市运行感知底座 | ✅ 已落地 | cj.ap100168.com 服务运行中 |
+| 6 | 流媒体/大屏（sy/sj） | AI+ 公共信息传播节点 | ✅ 已落地 | sy/sj.ap100168.com 实时流媒体服务 |
+| 7 | 论坛/社区（forum_hub） | AI+ 开发者共创社区 | ✅ 已落地 | lt/ltg.ap100168.com 论坛运行中 |
 | 8 | 康养机器人 | AI+ 康养陪伴社区 | ⚠️ 试点 | jk.ap100168.com 域实名，业务线已上线 |
 | 9 | 落朵 AI 军团 14 智能体矩阵 | 总体概念 / 城市级 Agent | ✅ 已落地 | 14 智能体运行中（本提案参赛主体） |
 
-> **合规红线**：第 8 项康养对外严格限定"试点 / 业务线已上线"，不得表述为已规模化部署机器人；其余 ✅ 项均为服务器实测部署，评审可放心引用 [source:LUODUO-ECOSYSTEM-AUTH]。
+> **合规红线**：第 8 项康养对外严格限定"试点 / 业务线已上线"，不得表述为已规模化部署机器人；其余 ✅ 项均为服务器实测部署，评审可按证据等级核验 [source:LUODUO-ECOSYSTEM-AUTH]。
 
-> **算力落点（Compute Landing）**：落朵方案并非纸面设计——9 大生态由同一真实算力底座支撑，实测运行算力 **≥50 TFLOPS**（易得售货机/挺盈宝/落袋秘书 ERP 等生产系统 + 14 智能体矩阵持续推理），构成"可验证样机（AI RUNTIME）"级证据链。评审可在任意时间点通过域名核验（tyb/yd/jt/cj/sy 等均 301→HTTPS 实时可达），这是方案"能落地、已落地"的直接证明 [source:LUODUO-COMPUTE-LANDING]。
+> **算力落点（Compute Landing）**：落朵方案并非纸面设计——9 大生态由同一真实算力底座支撑，实测运行算力 **约 ≥50 TFLOPS**（易得售货机/挺盈宝/落朵秘书 ERP 等生产系统 + 14 智能体矩阵持续推理；参与者自述·样机级估算，核验方法与范围见 sources.json 登记 [source:LUODUO-COMPUTE-LANDING]），构成"可验证样机（AI RUNTIME）"级证据链之一。评审可在任意时间点通过域名核验（tyb/yd/jt/cj/sy 等均实时可达），这是方案"能落地、已落地"的可核验证据之一 [source:LUODUO-COMPUTE-LANDING]。
 
 > **截图占位（待补）**：各生态浏览器可访问域名截图，存入参赛包 `screenshots/`，文件名对应《落朵9大生态已落地能力证据包》截图表 #1–#9——`01_tyb` / `02_yd` / `03_jt` / `04_dengdeng` / `05_cj` / `06_stream` / `07_forum` / `08_jk`(试点) / `09_aiarmy`。补图后于 self_check 挂 `[source:LUODUO-ECOSYSTEM-AUTH]` 并附证据包截图引用，无需新增未登记 source key。
 
@@ -134,7 +134,7 @@ trademark_brand_color: 深蓝 #0000E5 / 浅蓝 #29ABE2
 
 ### 二、全球案例与生态图谱（agent.2）
 
-**8 个全球案例参照**（方法论启发，非事实宣称）：Sidewalk Toronto（数据治理反思）、Toyota Woven City（生活实验室）、Masdar City（零碳）、Songdo 松岛（IOC 中枢）、Amsterdam Smart City（公私协作）、Helsinki HRI（开放数据）、雄安新区（数字孪生）、上海张江 AI 小镇（AI 全栈集聚）[agent.2]。
+**8 个全球案例参照**（方法论启发，非事实宣称，来源与许可见 sources.json [source:GLOBAL-SMART-CITY-CASES]）：Sidewalk Toronto（数据治理反思）、Toyota Woven City（生活实验室）、Masdar City（零碳）、Songdo 松岛（IOC 中枢）、Amsterdam Smart City（公私协作）、Helsinki HRI（开放数据）、雄安新区（数字孪生）、上海张江 AI 小镇（AI 全栈集聚）[agent.2]。
 
 **9 大生态 × 14 Agent 协同图谱**：以 SkyDuo 总控（jt 城市操作系统）为中枢，编排无人零售/文旅/康养/教育/政务/社区/物流/能源/数据 9 大生态；选取 14 席 Agent 构建映射，其余 10 席作预备支撑 [agent.2] [source:LUODUO-ECOSYSTEM-AUTH]。
 
@@ -192,20 +192,20 @@ trademark_brand_color: 深蓝 #0000E5 / 浅蓝 #29ABE2
 
 ## 附录：落朵生态真实落地能力证据（E1–E11）
 
-本提案以落朵AI军团已运行的真实生态作为落地能力证据，经服务器实测核验（域名/端口/进程）。
+本提案以落朵AI军团已运行的真实生态作为落地能力证据，经服务器实测核验（域名实时可达）。
 
 | 编号 | 能力主张 | 类型 | 核验方式 | 状态 |
 |---|---|---|---|---|
 | E1 | 落朵AI军团真实多智能体矩阵（1总控+13子） | runtime-system | WorkBuddy MCP桥接32 agent，luoduocore 27 Agent，/api/health agents_detail实时 | verified |
-| E2 | 挺盈宝无人商店 tyb.ap100168.com | production-deployment | FastAPI :8006 监听，/api/store/* 实时 | verified |
-| E3 | 易得/落朵售货机 yd.ap100168.com | production-deployment | FastAPI :8004，对接中谷支付 | verified |
+| E2 | 挺盈宝无人商店 tyb.ap100168.com | production-deployment | 生产部署，API 实时响应 | verified |
+| E3 | 易得/落朵售货机 yd.ap100168.com | production-deployment | 生产部署，对接中谷支付 | verified |
 | E4 | 落朵机器人大脑 jt.ap100168.com | production-deployment | /api/knowledge/list、jt_knowledge_search 实时 | verified |
 | E5 | 登登WiFi 4套公共连接服务 | production-deployment | 4套域名服务运行中 | verified |
-| E6 | EMQX数据采集 cj.ap100168.com | production-deployment | nginx→127.0.0.1:5000 python监听 | verified |
+| E6 | EMQX数据采集 cj.ap100168.com | production-deployment | 生产部署，服务实时可达 | verified |
 | E7 | 流媒体/大屏 sy/sj.ap100168.com | production-deployment | HLS /hls/→:8085，mqtt→:8083 | verified |
-| E8 | 论坛社区 lt/ltg.ap100168.com | production-deployment | nginx→127.0.0.1:8800 python论坛 | verified |
+| E8 | 论坛社区 lt/ltg.ap100168.com | production-deployment | 生产部署，论坛实时可达 | verified |
 | E9 | 康养机器人 jk.ap100168.com | production-deployment | 域实时可达301→HTTPS | verified-pilot |
 | E10 | 真实算力≥50 TFLOPS | compute-capacity | 7个生产系统+14智能体矩阵持续运行 | verified |
 | E11 | 设计交付物完整（5图+A0/A3+14交付物+双语） | design-deliverable | drawings/geometry/proposal 齐备 | verified |
 
-> 证据包版本 E-2026-08-26，核验方法：SSH只读核验 ubuntu@1.12.250.128 + HTTP 301→HTTPS 实时可达。算力汇总见 E10（≥50 TFLOPS）。
+> 证据包版本 E-2026-08-31（修订），核验方法：经授权只读核验 + 域名实时可达（连接凭据与内网拓扑已脱敏，不暴露攻击面）。算力汇总见 E10（≥50 TFLOPS，参与者自述·样机级估算）。
