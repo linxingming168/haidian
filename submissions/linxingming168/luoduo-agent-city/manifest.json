@@ -63,7 +63,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "5c2c98c6192c80917143f7e7f03c7828592604b496e6a97ea3ad851d371e4280"
+      "sha256": "26589fb77c1442100ed6b2440f80b89fb4b9bee9a4937f298764ab89572e35c6"
     },
     {
       "path": "compliance_matrix.json",
@@ -250,13 +250,6 @@
       "language": "en",
       "translation_of": "visual/index.html",
       "sha256": "2bec38440df49dc263b8be7ce92a692f2290113c49633b3cdc41567d76991302"
-    },
-    {
-      "path": "report/evidence_9ecosystems.md",
-      "role": "other",
-      "role_detail": "evidence_appendix",
-      "required": false,
-      "sha256": "467c9d72e7c698d4b4535dc22c18272c9bfe734f22ddf58ac1878c61db4c59fd"
     }
   ],
   "validation_claim": {
