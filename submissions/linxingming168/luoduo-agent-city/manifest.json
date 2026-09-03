@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "package_id": "luoduo-agent-city",
   "project_id": "centennial-jingzhang-ai-belt",
   "site_package_version": "0.1.0",
@@ -24,7 +24,7 @@
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "d6453ccd2ac463fea0e52676f5dc0d76042fcceb00c11c383ec5e6c0add50df7",
+      "sha256": "868e54906e467fd9c10c11990a65d3f55dd45122b644a22fe9f81747a7ee236b",
       "language": "zh"
     },
     {
@@ -214,9 +214,10 @@
     },
     {
       "path": "risk.json",
-      "role": "risk_radar",
+      "role": "other",
       "required": false,
-      "sha256": "d14b271ca887d9536b3de0f726a29169ca48b14e1725086b7d5d1ff2f642f9f0"
+      "sha256": "d14b271ca887d9536b3de0f726a29169ca48b14e1725086b7d5d1ff2f642f9f0",
+      "role_detail": "risk_radar"
     },
     {
       "path": "report/proposal.en.html",
@@ -249,12 +250,19 @@
       "language": "en",
       "translation_of": "visual/index.html",
       "sha256": "2bec38440df49dc263b8be7ce92a692f2290113c49633b3cdc41567d76991302"
+    },
+    {
+      "path": "report/evidence_9ecosystems.md",
+      "role": "other",
+      "role_detail": "evidence_appendix",
+      "required": false,
+      "sha256": "467c9d72e7c698d4b4535dc22c18272c9bfe734f22ddf58ac1878c61db4c59fd"
     }
   ],
   "validation_claim": {
     "self_checked": true,
     "known_blockers": [],
     "data_confidence": "medium",
-    "self_check_summary": "four gates PASS (deterministic / spatial / visual / professional); bilingual contract satisfied; ready for formal review."
+    "readiness_contract": "persisted-self-check-v1"
   }
 }
